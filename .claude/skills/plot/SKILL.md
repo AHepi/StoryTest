@@ -39,7 +39,7 @@ This file holds the method. The modules hold detail; open one only when its row 
 | using an image or object that keeps coming back | `references/symbols.md` | how a symbol gathers meaning, and how it ties to theme |
 | testing one plot choice (a reveal's timing, a turn's cause), or whether it does any work | Building step 8 below; `.claude/skills/hard-to-vary/SKILL.md`, section 5 of its `references/by-domain.md` | remove, move, swap, flip, two routes |
 
-When a small case matches a specific row, open that row's module; the quick version is for a small case no row names. In this skill the quick version also carries light first checks for three common rows (a sag, a twist that fails, a flat ending); they are the start of those rows' modules, not a substitute for them. In this skill the quick version also carries light first checks for three common rows (a sag, a twist that fails, a flat ending); they are the start of those rows' modules, not a substitute for them.
+When a small case matches a specific row, open that row's module; the quick version is for a small case no row names. In this skill the quick version also carries light first checks for three common rows (a sag, a twist that fails, a flat ending); they are the start of those rows' modules, not a substitute for them.
 
 Exposition is split three ways. When a fact comes out is this skill's (`references/reveals-and-withholding.md`, section 5). How a line of talk carries it is `dialogue`'s (`.claude/skills/dialogue/references/what-dialogue-does.md`, section 7). How much of the world is shown is `story-world`'s (`.claude/skills/story-world/references/diagnosing-a-world.md`, section 6).
 
