@@ -33,13 +33,13 @@ Riding on these defaults lets an Action story spend its attention budget (Implie
 
 ## 4. Guarantees, and which to break
 
-A guarantee is an unspoken protection the audience trusts the genre to honour (Anticipation principle 5); while they trust it, some part of them relaxes. Action's protect people: the hero comes through alive, so does the team's inner circle, and the hero's side wins the final battle. Truby does not discuss guarantees directly; the list is the workshop's, drawn from his examples.
+A guarantee is an unspoken protection the audience trusts the genre to honour (Anticipation principle 5); while they trust it, some part of them relaxes. Action's protect people the audience cares about: the hero comes through alive, so does the team's inner circle, and the hero's side wins the final battle (an expected ending kept as a guarantee because the audience relaxes into it for them). Truby does not discuss guarantees directly; the list is the workshop's, drawn from his examples.
 
 Trusted, these leave the audience asking *how* the hero wins rather than *whether* anyone they care about is at risk (Anticipation, Part 2, section 1), and, in the workshop's extension from the Gap theory's settlement, what the win will cost.
 
 **Case.** In *Seven Samurai* the defenders win, but most of the samurai die, and Truby puts much of the film's power down to that. *Mad Max: Fury Road* orders its deaths upward, from minor members of the team to the tyrant's lieutenants to the tyrant: early losses on the hero's side make later threats believable, and each death matters more than the one before.
 
-**Point.** The guarantees Truby's examples break: the team survives (it does not); the hero survives (a noble self-sacrifice for the group, Truby's *beau geste*). Two moves that look like breaks are twists on a promise instead (section 11): the win that costs the hero their goodness, and the sports story where the hero loses the match and wins inwardly. Truby's first route to lifting the genre, showing loss, is Anticipation principle 5 at work: break one convincingly and keep the rest. The workshop adds, from the Anticipation theory's advice to break a guarantee early: a loss in the middle, not only in the final battle, makes every later threat real.
+**Point.** The guarantees Truby's examples break: the team survives (it does not); the hero survives (a noble self-sacrifice for the group, Truby's *beau geste*). Two moves that look like breaks are twists on a promise instead (section 11), overturning an expectation (a clean win, a win on the scoreboard) rather than a guarantee: the win that costs the hero their goodness, and the sports story where the hero loses the match and wins inwardly. Truby's first route to lifting the genre, showing loss, is Anticipation principle 5 at work: break one convincingly and keep the rest. The workshop adds, from the Anticipation theory's advice to break a guarantee early: a loss in the middle, not only in the final battle, makes every later threat real.
 
 ## 5. Hero and opponent
 

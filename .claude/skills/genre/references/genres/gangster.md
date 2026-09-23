@@ -41,7 +41,7 @@ A *guarantee* is a protection the audience assumes the genre gives without being
 | The family at the table is safe | *The Godfather*: Carlo, a brother-in-law, sets up Sonny's killing; a bomb meant for Michael kills his wife | Lost refuge: no family scene is safe again |
 
 - **Which one to break.** The one worth most (the workshop's reading) is the safety of the family: the family table is the only refuge a gangster story has. Break it once, early and convincingly, and every later wedding, christening and dinner carries threat. Test by removal: restore it (the brother-in-law stays loyal) and ask whether the later family scenes lose their tension. If they do not, the break was doing no work.
-- **The price is a promise, not a guarantee.** "He is punished at the end, by a bullet or the law" looks like a guarantee but protects nobody: it is the usual form of the price promised in section 2. By the cheated-or-unsafe test (`.claude/skills/genre/references/how-genres-work.md`, section 2), a hero who keeps everything with no price shown leaves the audience cheated, not unsafe. Changing the price's form is a twist (section 11); dropping it breaks the promise.
+- **The price is a promise, not a guarantee.** "He is punished at the end, by a bullet or the law" looks like a guarantee but protects nobody: it is the usual form of the price promised in section 2, an expectation about how that promise is kept. By the cheated-or-unsafe test (`.claude/skills/genre/references/how-genres-work.md`, section 2), a hero who keeps everything with no price shown leaves the audience cheated, not unsafe. Changing the price's form is a twist (section 11); dropping it breaks the promise.
 
 ## 5. Hero and opponent
 
