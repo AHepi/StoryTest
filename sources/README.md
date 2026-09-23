@@ -37,10 +37,12 @@ The `dialogue` and `genre` skills have no owner theory of their own yet. They ar
 
 | Work | Edition read | Supplied | Feeds | Overlap check |
 |---|---|---|---|---|
-| Lajos Egri, *The Art of Dramatic Writing: Its Basis in the Creative Interpretation of Human Motives* | Touchstone ebook of the 1960 revised edition (© 1942, 1946, 1960) | 23 Sep 2026, with the Bond theory, "for more detail on developing characters in general" | `character`; also `plot` (premise, conflict) and `dialogue` | *pending* |
-| John Truby, *The Anatomy of Story: 22 Steps to Becoming a Master Storyteller* | ebook, 2011 (first published 2007) | 23 Sep 2026, with the request to finish the job | `plot`, `character`, `story-world`, `dialogue` | *pending* |
-| John Truby, *The Anatomy of Genres: How Story Forms Explain the Way the World Works* | Picador ebook, 2022 (ISBN 9780374722814) | 23 Sep 2026, with the request to finish the job | `genre`; also `story-world` | *pending* |
-| Robert McKee, *Dialogue: The Art of Verbal Action for Page, Stage, and Screen* | Grand Central ebook, 2016 (ISBN 9781455591923) | 23 Sep 2026, with the request to finish the job | `dialogue`; also `character` (voice) | *pending* |
+| Lajos Egri, *The Art of Dramatic Writing: Its Basis in the Creative Interpretation of Human Motives* | Touchstone ebook of the 1960 revised edition (© 1942, 1946, 1960) | 23 Sep 2026, with the Bond theory, "for more detail on developing characters in general" | `character`; also `plot` (premise, conflict), `dialogue` and `story-world` | 0 runs of 8+ words across all skills, 23 Sep 2026 |
+| John Truby, *The Anatomy of Story: 22 Steps to Becoming a Master Storyteller* | ebook, 2011 (first published 2007) | 23 Sep 2026, with the request to finish the job | `plot`, `character`, `story-world`, `dialogue`; also `genre` | 0 runs of 8+ words apart from one film title (*Once Upon a Time in the West*), 23 Sep 2026 |
+| John Truby, *The Anatomy of Genres: How Story Forms Explain the Way the World Works* | Picador ebook, 2022 (ISBN 9780374722814) | 23 Sep 2026, with the request to finish the job | `genre` | 0 runs of 8+ words apart from one film title (*Once Upon a Time in the West*), 23 Sep 2026 |
+| Robert McKee, *Dialogue: The Art of Verbal Action for Page, Stage, and Screen* | Grand Central ebook, 2016 (ISBN 9781455591923) | 23 Sep 2026, with the request to finish the job | `dialogue`; also `plot` and `character` | 0 runs of 8+ words across all skills, 23 Sep 2026 |
+
+Beyond the script, each skill was read against the books by a second reader for close paraphrase (a passage following the author's sentence order, or a list in the author's order). Those passages were rewritten before each skill was committed.
 
 Where a book disagrees with an owner theory, the skill follows the theory and records the book's view as a rival, with the change that would tell the two apart. The book never quietly corrects the theory.
 
