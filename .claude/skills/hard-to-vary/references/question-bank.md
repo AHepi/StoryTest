@@ -1,0 +1,179 @@
+# Question bank
+
+This file gives the wording for each test, what a good answer and a warning answer sound like, follow-ups for the common dodges, and how to run the tests on your own explanations.
+
+Contents: 1 Before you ask anything. 2 Opening questions. 3 The eleven tests. 4 Where the parts came from. 5 Dodges and follow-ups. 6 Questioning yourself. 7 When to stop. 8 Traps.
+
+---
+
+## 1. Before you ask anything
+
+- **Say it back first.** "Let me check I have it. You're saying A, which leads to B, and that's why C. Is that a fair version?" Nothing else is worth asking until they say yes. If you can make their case stronger than they did, do so, and test that.
+- **Use their words for the parts.** Renaming a part is a small change to the explanation, and you have not earned that yet.
+- **One part, one change, one question.** Stacked questions get stacked stories.
+- **Ask for changes, not for reasons.** "Why do you think so?" asks for a story. "What happens if we take that out?" asks for a test.
+- **Ask what we would *see*.** Keep every question tied to something that could be looked at.
+- **Be a fellow mechanic.** "Let's find which bolts are loose" gets tests. "Prove it" gets a defence.
+
+---
+
+## 2. Opening questions
+
+These freeze the question and set out the jobs, parts and change list.
+
+| To find out | Ask |
+|---|---|
+| Whether there is anything to explain | "Compared with what? How do we know it happened at all?" |
+| What is being explained | "What exactly are we explaining? If I had to point at it, what would I point at?" |
+| The contrast | "Why this and not what? What was the other thing that could have happened?" |
+| The range | "Where and when is this meant to hold? Where would you *not* expect it to?" |
+| The kind of question | "Are we asking what produced it, what we can tell from what we saw, why it couldn't happen, why there's none of it, what it counts as under a rule, or whether it did what it was for?" |
+| The jobs | "What are all the things this has to account for? Let's list them." |
+| Where each job came from | "Which of these did you ask for, which are fixed and not up for test, and which have I just added?" |
+| The parts | "What are the moving parts of your explanation? Which ones are doing the work?" |
+| The change list | "What could we change about the situation, and your explanation would tell us what happens next?" |
+| What is left out | "What kinds of change are you *not* making any claim about? Did you decide that before or after looking?" |
+
+---
+
+## 3. The eleven tests
+
+### Remove
+- **Ask:** "If we take this part out completely, which of the jobs stops getting done?"
+- **Then:** "And if we take out this one *and* that one together?"
+- **Good answer:** names a job that fails, and you can see why.
+- **Warning answer:** "It'd still work, but it's less complete." Then that part is idle, or is one of two routes. Find out which by removing groups.
+
+### Swap
+- **Ask:** "Give me a different version of this detail that would work just as well."
+- **If they can:** "Then what made you pick yours?" If nothing did, the part is loose.
+- **If they cannot:** "What stops you?" The thing that stops them is what holds the part in place. Write it down.
+- **If the swap works:** "What do your version and the swapped version have in common?" That shared thing may be the part that is really held. Rename the part to it.
+- **Useful swaps to offer:** the opposite; a nearby number; a different agent doing the same deed; the same agent with a different motive; earlier or later; bigger or smaller.
+
+### Flip the outcome
+- **Ask:** "Keeping the stated starting conditions, non-outcome evidence and change-list position the same, suppose the opposite had happened. What would you have said then?"
+- **Good answer:** "Then I'd be wrong," or "then this named input, condition or part would have had to be different, and we could check that it wasn't."
+- **Warning answer:** a second story, just as smooth, from the same stated conditions. An explanation that covers every outcome merely by changing its story is held in place by none.
+- **Not for a derived conclusion.** A theorem, or a disjunction that follows from a count, covers every outcome because it is derived. Ask instead which condition, dropped or weakened, breaks it: the proofs tests in `by-domain.md`.
+
+### Poke
+- **Ask, for each part:** "Name one thing we could change that your explanation says *would* alter the result. Now one it says would *not*."
+- **Good answer:** both halves, and each could in principle be tried.
+- **Warning answer:** only changes nobody could ever make, or no "would not" half at all. If no admissible separating pair exists, the distinction is only a label at this grain. If the pair is merely unknown or unavailable, mark the part *unknown* and name the missing test.
+- **Too far apart.** A "would not" change far from the disputed line proves nothing: one can be found for any label. Ask for the pair next to the line.
+- **Watch the part too:** "When we change only how it is read or reported, does the part itself move?" If it does, it is a measurement of the thing. Ask them to keep hold of the same part through both changes.
+
+### Reverse
+- **Ask:** "What direction does the claim actually assert? If it is one-way production, what happens when we intervene on the supposed cause, and what happens when we intervene on the effect? If feedback is claimed, what response pattern should interventions in each direction produce?"
+- **Good answer:** the intervention pattern matches the direction claimed. For a one-way production claim, changing the cause moves the effect while changing the effect does not by itself move the cause. For a feedback claim, both directions may respond, but in the specific way the feedback account predicts.
+- **Warning answer:** the direction changes after the result is known, or an identification calculation is presented as production. It is fine to answer "what can we tell from what we see?"; it is not thereby an answer to "what produces it?" Say which question is being answered.
+
+### Hunt the answer in the starting points
+- **Ask:** "Which of your starting points could I believe *without* already believing the conclusion?"
+- **And:** "Is there anything here that's just the conclusion under another name?" Listen for "by nature", "tends to", "is the kind of thing that", "has a knack for".
+- **Warning answer:** every starting point leans on the conclusion.
+
+### Add a job
+- **Ask:** "If you're right, what *else* does this explanation already commit itself to? Somewhere we haven't looked yet."
+- **Then:** "Does your explanation cover that as it stands, or does it need adjusting?"
+- **Guardrail:** an arbitrary new requirement changes the question. Record that as a new question instead of counting it as this test.
+- **And always:** "Which rival versions does that new job rule out?" If none, it held nothing new in place.
+- **Watch for repeats.** "Is that a new kind of check, or the same check again?"
+
+### Build the best rival
+- **Ask:** "What's the strongest different explanation someone could give? Let's build it properly."
+- **Then:** "What could we change that would make the two give different answers?"
+- **If nothing can:** "Then as far as this question goes, they're the same explanation. Do we accept that, or do we need a finer question?" If finer, record it as a new question.
+
+### Pull
+- **Ask, for pairs of parts:** "If we made this one stronger, would that one get weaker?"
+- **Then:** "Which gives way, and where is the line? What would show us the line is in the wrong place?"
+- **Good answer:** names the pair, the line, and a sign that would show the line is wrong.
+- **Warning answer:** "They're all fine." Each part passing alone says nothing about the joints.
+
+### Check the patches
+- **Ask:** "Has this explanation ever been caught out? What was changed afterwards?"
+- **Then:** "Does the part that was added do any other job? Did the claim get narrower? Was that said out loud?"
+- **Warning answer:** a part added only to absorb the failure, or a range that shrank quietly.
+- **For a narrowed range:** "Swap the new limit for a neighbouring one. What breaks?" and "Which part of your explanation says why things differ outside the limit?" If the limit only says what you are asking about, it is free.
+- **For a catch-all** ("other", a bin, a fallback): "What would we measure to see whether this is swallowing a job? What reading would worry you?" No gauge, no catch-all.
+
+### Look inside
+- **Ask:** "Does this explain how it *works*, or only what comes *out*?"
+- **Then:** "Could something built quite differently inside give the same results? What change would show which one we have?"
+- **Warning answer:** every test offered looks only at outputs.
+
+---
+
+## 4. Where the parts came from
+
+- "Was this detail put here because a test forced it, because thinking about the thing itself forced it, or because someone said so?"
+- For anything fitted to past cases: "What kinds of change has it never met? What would a different rule that fits the same past say about those?"
+- After a surprise: "Can re-tuning what we have ever fix this, or is a part missing?"
+
+---
+
+## 5. Dodges and follow-ups
+
+| They say | Ask next |
+|---|---|
+| "It fits everything we've seen." | "Would it have fitted the opposite too?" then "What has it not met yet?" |
+| "It's worked every time." | "Were those different kinds of test, or the same one repeated?" |
+| "The experts agree." | "What holds it in place for them? What would they swap, if they could?" |
+| "It's the simplest." | "What was the extra part in the other version doing? Does that job still get done?" |
+| "That one's an exception." | "Was the exception on the list before it turned up, or added after? Is this now a new claim?" then "What tells the exception apart from the cases where you still use the rule? If nothing does, every other use of the rule has just got looser." |
+| "It's complicated. Lots of factors." | "Take them one at a time. Which, if removed alone, changes the result? Which only in a group?" |
+| "It was just luck." | "What pattern would luck *not* produce? Do we see it?" |
+| "It's the culture / the algorithm / the market." | "What would be different, and where would we see it, if it weren't?" |
+| "You can't test that." | "Then what *can* we change that bears on it? If nothing, that part is a label for now." |
+| "I meant something narrower." | "Fine. Let's write that down as the claim now, and note that it changed." |
+| "But it's obviously true." | "It may be. What holds it in place?" |
+| A new part appears mid-answer | "What else does that part have to account for?" |
+
+---
+
+## 6. Questioning yourself
+
+Before giving an explanation of your own where it matters, run the quick version silently, then be open about the result.
+
+1. **What am I explaining, and what would show me wrong?** If nothing would, say less.
+2. **Swap my most vivid detail.** If the explanation works as well without it, it is colour. Either cut it or mark it as a guess.
+3. **Flip the outcome.** If I would have sounded just as sure explaining the opposite, I have a story, not an explanation.
+4. **Where did each job come from?** If I wrote the jobs and then the parts that do them, the fit proves nothing. Mark my own jobs as added.
+5. **Where did each part come from?** Something I worked out from the thing itself, a pattern I am matching from many past cases, or something I am just asserting? Fluent pattern-matching is the fitted kind: reliable where such cases are common, unheld elsewhere.
+6. **Mark it.** In the answer, separate what is held in place (and by what) from what is loose ("any of several would fit here") and what is unknown ("this would settle it").
+
+Do this quietly. The reader needs the marked-up answer, not a tour of the method.
+
+---
+
+## 7. When to stop
+
+Stop when every part that is in scope has one of six status marks:
+
+- **Held** - and you can say by which job or change.
+- **Held if** - it is held only by a job that is itself in doubt, often one you added, or only by a part marked loose, idle or unknown. Name it and what would settle it.
+- **Two routes** - either of two parts does the job. Name both.
+- **Loose** - and you can say what could replace it.
+- **Idle** - it can be removed with no loss.
+- **Unknown** - and you can name the test that would settle it.
+
+Then record three separate fields for every part:
+
+- **Scope** - *in test*, or *owner-fixed/outside the test*. An owner-fixed part gets *status: not assessed* until it is brought into scope.
+- **Dependency** - *none named*, or *borrowed from* another explanation. Name that explanation; borrowing says where the support lies, not what this test found about the part.
+- **Provenance** - *fitted*, *built* or *asserted*.
+
+If an in-scope part will not take any of the six status marks, the question is probably not frozen yet, or the settling test has not been identified. Go back to the opening questions.
+
+---
+
+## 8. Traps
+
+- Asking "why?" five times in a row. It breeds stories. Ask for changes.
+- Offering only silly swaps. A swap must be a near neighbour that a fair person might really have proposed, and it must leave the thing under test the same; a swap that changes what is being explained tests nothing.
+- Accepting "it would be less complete" as a job. Make them name the job.
+- Forgetting the "would not" half of a poke. An explanation that says everything matters is as loose as one that says nothing does.
+- Running the tests on a weak version of the explanation. Say it back, strengthen it, then test.
+- Showing your self-check to the reader instead of its result.
