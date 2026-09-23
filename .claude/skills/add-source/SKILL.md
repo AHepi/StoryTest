@@ -21,6 +21,7 @@ The owner sends the Bond theory with Egri's *The Art of Dramatic Writing* attach
 | taking in any source | nothing else: this file | the whole procedure |
 | turning an ebook into text to read | `scripts/book_to_text.py` | one plain-text file from an .epub, .azw3 or .mobi |
 | checking that nothing was copied | `scripts/overlap_check.py` | every run of 8+ words a file shares with the book |
+| checking every skill's map after wiring in | `scripts/check_maps.py` | every module missing from a map, every file path that does not exist, every description over the length limit |
 | deciding which skill a source feeds | `sources/README.md`, then the skill's own map | the register, and each skill's "Where to look" table |
 
 ```mermaid
@@ -35,7 +36,8 @@ flowchart TD
   O --> W["Wire into the skill it feeds; update its map"]
   R --> W
   V --> W
-  W --> M["One commit per source"]
+  W --> CM["check_maps.py: zero problems"]
+  CM --> M["One commit per source"]
 ```
 
 **Keeping the map true.** When a script or step is added, add a row to the table and a node to the graph in the same edit.
@@ -75,13 +77,14 @@ If unsure whose words they are, ask. Do not guess.
 2. **Make a local copy to read.** Put the file in `sources/raw/`. For an ebook: `python3 .claude/skills/add-source/scripts/book_to_text.py <book> sources/raw/<author-short-title>.txt`. Run `git status` and confirm nothing under `sources/raw/` is listed.
 3. **Read it in chunks** of roughly 10,000 to 20,000 words, split at chapter breaks. For each chunk write working notes, in your own words, in a scratch folder outside the repository: each idea, the author's reason for it (or "asserted" or "drawn from examples"), how a writer would use it, and how it stands to each owner theory (agrees, extends, conflicts, no link). Notes are working material and are not committed.
 4. **Write the ideas into the skills** they serve, from the notes, not from the book. Put book material in reference modules named for what they help with (`references/building-a-cast.md`), not for the book. Start each module with a line naming its sources. Keep what does work for the skill; a skill is not a summary of the book, and it should never be able to stand in for reading it.
-5. **Check for copying.** Run `python3 .claude/skills/add-source/scripts/overlap_check.py sources/raw/<file>.txt .claude/skills sources foundations`. Every span it reports must be rewritten, except the author's own short term names (four words or fewer), titles of works, and names of people and characters. Run it again until the only spans left are those. Then also read a few modules against the book by eye for close paraphrase, which the script cannot see.
+5. **Check for copying.** Run `python3 .claude/skills/add-source/scripts/overlap_check.py sources/raw/<file>.txt .claude/skills sources foundations`. Every span it reports must be rewritten, except the author's own short term names (four words or fewer), titles of works, and names of people and characters. Run it again until the only spans left are those. Then read the modules against the book by eye for close paraphrase, which the script cannot see: a passage that follows the author's sentence order, or a list in the author's order and wording. Have someone other than the writer do this. When the first craft skills were built, most first drafts that the script passed at zero still had such passages, and a second reader found them.
 6. **Record the result** in the register: "0 runs of 8+ words (titles and term names only), <date>".
 
 **Step 5 - Wire it in.**
 1. In each skill it feeds, add a row to the "Where to look, and when" table and a node to the graph for any new module.
 2. Say in the skill how the new material stands to the owner theory it serves: fills in, extends, or rival.
-3. Commit one source per commit. The message says in one line what the source claims and which skill it feeds, and, for a copyrighted work, that it is registered and distilled, not stored.
+3. Run `python3 .claude/skills/add-source/scripts/check_maps.py` and fix every problem it lists until it reports zero.
+4. Commit one source per commit. The message says in one line what the source claims and which skill it feeds, and, for a copyrighted work, that it is registered and distilled, not stored.
 
 ## Traps
 
