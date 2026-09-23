@@ -109,7 +109,7 @@ These freeze the question and set out the jobs, parts and change list.
 ## 4. Where the parts came from
 
 - "Was this detail put here because a test forced it, because thinking about the thing itself forced it, or because someone said so?"
-- For anything fitted to past cases: "What kinds of change has it never met? What would a different rule that fits the same past say about those?"
+- For anything fitted to past cases: "What kinds of change has it never met? Could the same tuning have produced a different rule that fits the same past and says something different about those? If so, those are open. If not, what fixes them there?"
 - After a surprise: "Can re-tuning what we have ever fix this, or is a part missing?"
 
 ---
@@ -141,7 +141,7 @@ Before giving an explanation of your own where it matters, run the quick version
 2. **Swap my most vivid detail.** If the explanation works as well without it, it is colour. Either cut it or mark it as a guess.
 3. **Flip the outcome.** If I would have sounded just as sure explaining the opposite, I have a story, not an explanation.
 4. **Where did each job come from?** If I wrote the jobs and then the parts that do them, the fit proves nothing. Mark my own jobs as added.
-5. **Where did each part come from?** Something I worked out from the thing itself, a pattern I am matching from many past cases, or something I am just asserting? Fluent pattern-matching is the fitted kind: reliable where such cases are common, unheld elsewhere.
+5. **Where did each part come from?** Something I worked out from the thing itself, a pattern I am matching from many past cases, or something I am just asserting? Fluent pattern-matching is the fitted kind: reliable where such cases are common; elsewhere, held only where I can name what fixes it.
 6. **Mark it.** In the answer, separate what is held in place (and by what) from what is loose ("any of several would fit here") and what is unknown ("this would settle it").
 
 Do this quietly. The reader needs the marked-up answer, not a tour of the method.

@@ -106,7 +106,7 @@ Read `references/the-idea-in-depth.md` before a first full run in a conversation
 - **Look inside.** Matching the results is not matching the workings. Two machines can give the same outputs by different routes. To test an explanation of the workings, use changes that reach inside.
 
 **Step 6 - Ask where each part came from.**
-- *Fitted:* tuned on past cases. It is held in place only on the kinds of change it has met. Ask what it has never met.
+- *Fitted:* tuned on past cases. Its past holds it in place only on the kinds of change it has met. On a change it never met, it is open if another version, one the same tuning could have produced, fits the same past and differs there. If no such version exists, something else fixes it there (the pool it was tuned from, a law, a stated limit): name it. Ask what it has never met.
 - *Built:* worked out with the thing itself in view, and criticised. It says something definite about unmet changes, so it can be caught out.
 - *Asserted:* someone simply said so.
 

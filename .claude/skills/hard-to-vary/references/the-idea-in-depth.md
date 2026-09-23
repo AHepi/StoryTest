@@ -117,7 +117,7 @@ The same goes for telling a cause from something that merely goes along with it.
 
 **Point.** Every part, and every match-up, got there in one of three ways.
 
-- **Fitted.** Tuned by trial and survival on past cases. It is held in place exactly where it was tested. Everywhere else, other versions that would have survived just as well say something different. "It has always worked" tells you about the cases it met and nothing about the ones it did not.
+- **Fitted.** Tuned by trial and survival on past cases, from a pool of versions the tuning could have produced. Its past holds it in place where it was tested. At a change it never met, it is open wherever another version from the same pool would have survived the same past and says something different there. Where the pool holds no such version, or a law or a stated limit settles the answer, it is fixed there though never tested; then the pool or the limit is doing the holding, and should be named. "It has always worked" tells you about the cases it met and nothing about the ones it did not.
 - **Built.** Worked out with the thing itself in view, put up as a guess, and criticised. It commits to what happens under changes nobody has tried yet, so it can be caught out there. That exposure is what makes it hard to vary.
 - **Asserted.** Someone wrote it down. It holds nothing until it is tested.
 

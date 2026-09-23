@@ -4,7 +4,7 @@ This file matches the plain words used in this skill to the terms of the source 
 
 ## Where the sources are
 
-- **The source theory:** "Claude Fable Semantics - a structural class of explanatory creativity, with selected and constructed correspondence". Supplied by the user as the file `10_Claude_Fable_Semantics_-_standalone_theory.md`. It is a frozen source: this skill reads from it and does not change it. Part numbers below refer to that file.
+- **The source theory:** "Claude Fable Semantics - a structural class of explanatory creativity, with selected and constructed correspondence", revision 1 (file 11). In this repository it is `foundations/claude-fable-semantics.md`, from the repository root. It is a frozen source: this skill reads from it and does not change it. Part numbers below refer to that file. The skill was first written against file 10; revision 1 changes one claim, Derivation 3, and the rows that cite it now follow revision 1.
 - **The original idea:** "hard to vary" as the mark of a good explanation comes from David Deutsch, *The Beginning of Infinity* (2011), and his 2009 talk on explaining explanation. The seasons example is his. It is retold here in fresh words.
 
 ## Plain word to source term
@@ -39,7 +39,8 @@ This file matches the plain words used in this skill to the terms of the source 
 | fitted | selected provenance | Part IV | Produced by blind trial and survival on a history of cases. |
 | built | constructed provenance | Part IV, Part X | Produced by guessing with the target in view, and criticism. |
 | asserted | declared provenance | Part IV | Simply written down by the person making the model. |
-| held only where it was tested | Derivation 3 | Part XVI | A fitted match-up is undetermined on changes it never met. |
+| held by its past only where it was tested; open elsewhere only if a rival from the same pool also survived | Derivation 3 (revision 1) | Part XVI; Part IV | Survival on the cases met says nothing about a change it never met. There its value is open only if the pool holds another version that survived the same cases and differs there; otherwise the pool, or another stated constraint, fixes it. |
+| the pool a fitted part came from | population (𝒯) | Part IV, Part XII | The versions the same tuning could have produced. It is part of the claim: what the past leaves open is what the pool leaves open. |
 | being caught out; surprise | violation; surprise; Derivation 4 | Part IV, Part XVI | A failure on a change outside the history it was fitted on. |
 | re-tune, or build a new part | selection response; construction response | Part IV, Derivation 10 | Learning versus creating. |
 | working backwards from the result | identification presented as production | Part V, Part VII | Right numbers, wrong direction. |
@@ -57,7 +58,7 @@ This file matches the plain words used in this skill to the terms of the source 
 | missing evidence stays missing | receipts | Part IX | Absence of a counter-case is not evidence for. |
 | near enough, and how error grows | approximate transport (T2) | Part VIII | Without a bound on growth, nothing follows about the long run. |
 | same outputs, different insides | Derivation 9 | Part XVI | What comes out does not settle how it works. |
-| where a job came from: given, fixed, added | provenance of a contract (declared, selected, constructed) | Part III | The skill's three job tags are its own. File 10 gives provenance (declared, selected, constructed) to the contract as a whole, not to each job, and *fixed* is not a provenance: it says a job is not up for test. A job the tester wrote is the tester's addition. |
+| where a job came from: given, fixed, added | provenance of a contract (declared, selected, constructed) | Part III | The skill's three job tags are its own. The source gives provenance (declared, selected, constructed) to the contract as a whole, not to each job, and *fixed* is not a provenance: it says a job is not up for test. A job the tester wrote is the tester's addition. |
 | held if | Pres(F) depends on the job set F | Part VI | Which versions survive depends on which jobs are on the list. A part held only by a doubtful job is held relative to that job. |
 | scope: owner-fixed/outside the test | frozen contract / stated exclusion | Part III | Skill reporting field. It records that the owner explicitly excluded the part from this assessment; it is not a finding that the part is held. |
 | dependency: borrowed from another explanation | support lies in another account | Part V–VI | Skill reporting field. It records where this part's support is being deferred; it is separate from status and from fitted/built/asserted provenance. |
