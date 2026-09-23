@@ -6,7 +6,7 @@ A story workshop: a set of Claude Code skills that help build and test stories. 
 
 ## Where things stand
 
-*Updated 23 September 2026, entry 24.*
+*Updated 23 September 2026, entry 25.*
 
 - **Done:** the foundation and the hard-to-vary skill; your four theories, stored and frozen; the source register, with all four books registered and checked for copying; the intake skill (`add-source`) with its three scripts; the five craft skills (`story-world`, `plot`, `character`, `dialogue`, `genre`), each written from your theories and the books, reviewed three ways and fixed; a guide to the repository (`README.md`) and rules for future agents (`CLAUDE.md`).
 - **Tested:** four small story problems were run through the skills, fixed, and run again (entries 20 and 23).
@@ -83,6 +83,7 @@ Entries 1 to 7 are from the previous session. Its own copy of this file was not 
 22. **Fixes, and the questions file.** The four shared gaps were fixed with matching wording in all five skills, along with the consistency problems. A checking agent then found about a dozen remaining problems, and I fixed those by hand. Two of them misread your theories: the reason given for keeping world-only scenes stretched the Gap theory, and the villain's ladder of care had been turned round wrongly. Wrote `22 Questions - meanings only you can settle.md`: eight main questions and a few smaller ones, each with options, the skills' current reading and my recommendation.
 23. **Trials run again.** The same four problems were run on the fixed skills, checking each earlier stall. 31 of 38 were resolved, 5 partly resolved, and 2 not: this file's stale "next step", fixed now; and the dialogue skill's worked example, which resembles one test scene by coincidence of the test and was left alone. The reruns found about fifteen smaller new problems, most introduced by the fixes themselves (for example, "Side with" used in two senses a paragraph apart).
 24. **Last small pass** on those fifteen, one fixer per skill. It also defines a "small case" (one scene, one character, one choice or one named symptom), and adds to every reply which choices are free and which are held in place. This pass was checked by the copying and map scripts, but the four trials were not run a third time.
+25. **A slip of mine, fixed.** While checking entry 24, I misread a cut-off search result, thought a sentence was missing from the plot skill, and added it a second time. Caught on the next read and removed in its own commit.
 
 ## Next step
 
