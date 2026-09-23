@@ -1,0 +1,8 @@
+# Local drop zone for source files that must never be committed
+# (copyrighted books, raw exports). Craft skills hold own-words
+# distillations instead; see sources/README.md.
+sources/raw/
+
+# OS and editor clutter
+.DS_Store
+*.swp
