@@ -6,11 +6,11 @@ A story workshop: a set of Claude Code skills that help build and test stories. 
 
 ## Where things stand
 
-*Updated 23 September 2026, entry 19.*
+*Updated 23 September 2026, entry 24.*
 
 - **Done:** the foundation and the hard-to-vary skill; your four theories, stored and frozen; the source register, with all four books registered and checked for copying; the intake skill (`add-source`) with its three scripts; the five craft skills (`story-world`, `plot`, `character`, `dialogue`, `genre`), each written from your theories and the books, reviewed three ways and fixed; a guide to the repository (`README.md`) and rules for future agents (`CLAUDE.md`).
-- **Under way:** a final check across all five skills for mismatched terms, and four trial runs on small story problems.
-- **Waiting on you:** a short list of questions only you can settle (see the next step).
+- **Tested:** four small story problems were run through the skills, fixed, and run again (entries 20 and 23).
+- **Waiting on you:** questions only you can settle, in `22 Questions - meanings only you can settle.md`. The skills work without the answers; each open point carries a clearly labelled stopgap reading until you decide.
 
 ## How the pieces fit
 
@@ -78,7 +78,12 @@ Entries 1 to 7 are from the previous session. Its own copy of this file was not 
 17. **Map checker written and tested.** `check_maps.py` checks that every module is in its skill's map table and diagram, that every file path a skill mentions exists, and that descriptions fit Claude Code's length limit. Tested on a copy with a planted orphan module and a misspelt link: both caught. On the real repository it reports zero problems.
 18. **One rule for promises and guarantees.** The genre profiles had drawn the line between a promise (what a genre owes, from your Gap theory) and a guarantee (a protection the audience relaxes into, from your Anticipation theory) in different places. The rule is now settled in one file, `how-genres-work.md`, and a final pass is applying it to all twelve profiles.
 19. **Register completed.** Copying check for all four books: 0 runs of 8+ words anywhere in the repository, apart from book and film titles.
+20. **Final check and four trial runs.** One agent read all five skills together: no broken links, but one blocking contradiction (the plot skill would cut a scene that shows the world at its own business, which the Implied World theory values) and about twenty mismatched terms and hand-offs. Four agents then ran small story problems through the skills: a flat villain, a generic Horror-Western, stiff dialogue, and a thriller whose middle sags. The right skill was chosen every time and every pointer worked. The skills improved the answers moderately, not dramatically. Example: for the flat villain, the character skill stopped the agent from agreeing with the writer's own fix (give him scenes alone), because time in a villain's head can make readers side with him. The trials also found four gaps shared by all five skills: no fallback when the writer gives only a pitch, too heavy a hand-off to hard-to-vary, unclear routing for small cases, and no set shape for the reply.
+21. **Promise and guarantee pass finished** (begun in entry 18): all twelve genre profiles now draw the line the same way.
+22. **Fixes, and the questions file.** The four shared gaps were fixed with matching wording in all five skills, along with the consistency problems. A checking agent then found about a dozen remaining problems, and I fixed those by hand. Two of them misread your theories: the reason given for keeping world-only scenes stretched the Gap theory, and the villain's ladder of care had been turned round wrongly. Wrote `22 Questions - meanings only you can settle.md`: eight main questions and a few smaller ones, each with options, the skills' current reading and my recommendation.
+23. **Trials run again.** The same four problems were run on the fixed skills, checking each earlier stall. 31 of 38 were resolved, 5 partly resolved, and 2 not: this file's stale "next step", fixed now; and the dialogue skill's worked example, which resembles one test scene by coincidence of the test and was left alone. The reruns found about fifteen smaller new problems, most introduced by the fixes themselves (for example, "Side with" used in two senses a paragraph apart).
+24. **Last small pass** on those fifteen, one fixer per skill. It also defines a "small case" (one scene, one character, one choice or one named symptom), and adds to every reply which choices are free and which are held in place. This pass was checked by the copying and map scripts, but the four trials were not run a third time.
 
 ## Next step
 
-Finish the reading, then write the five craft skills from the notes.
+Bring the workshop one real problem from a story of your own: a pitch, a scene, or a character who isn't working. That is the test the four trial runs could only imitate.

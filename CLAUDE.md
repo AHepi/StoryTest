@@ -2,7 +2,7 @@
 
 This is a story workshop: Claude Code skills in `.claude/skills/` built on the owner's theories in `sources/`. `README.md` has the map.
 
-- **Starting or continuing work:** read `StoryTest - project story.md` first. It has the goal, where things stand and a numbered log. Add a new numbered entry for every piece of work, failures included; never rewrite old entries.
+- **Starting or continuing work:** read `StoryTest - project story.md` first. It has the goal, where things stand and a numbered log. Add a new numbered entry for every piece of work, failures included; never rewrite old entries. Then read `22 Questions - meanings only you can settle.md` for points the owner has not yet decided; until they do, keep each skill's labelled stopgap reading.
 - **Frozen files:** `foundations/claude-fable-semantics.md` and every owner theory in `sources/` (all files there except `README.md`). Never edit them, not even typos. A revision is a new file (see the `add-source` skill).
 - **New material of any kind** (a theory, a revision, a book, an article) goes through the `add-source` skill.
 - **Copyright:** nothing from a copyrighted book is committed. Local copies live in `sources/raw/`, which git ignores; check `git status` before each commit. Before committing anything drawn from a book, run `python3 .claude/skills/add-source/scripts/overlap_check.py sources/raw/<book>.txt .claude/skills sources foundations` and rewrite every reported run except titles, names and the author's short term names. Record the result in `sources/README.md`.
