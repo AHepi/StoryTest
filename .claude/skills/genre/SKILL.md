@@ -13,7 +13,7 @@ Before a story starts, its audience already expects a kind of story: what the wo
 - **Anticipation** (`sources/anticipation-theory.md`): genres carry unspoken guarantees (the star survives, the child is safe); break one early and every threat becomes real; break one convincingly, not all. Care is the first term of the suspense equation.
 - **Bond** (`sources/bond-theory.md`): which of the ten levers carry a genre's hero, which it lets run low, and the rule that turning one down means turning another up.
 
-Before a first full run in a conversation, read these passages in full, once: Implied World, Part 2 sections 1 and 2; Gap, principles 2, 5 and 7 and Part 2 sections 4 and 6; Anticipation, principles 1, 5 and 6 and Part 2 sections 1, 5 and 6; Bond, the ten levers and principle 4. For Horror or Fantasy, add Anticipation principles 3 and 8 (Part 2 sections 3 and 8) and Implied World Part 2 section 3. For a small case, or when another skill hands you one question, read only the theory passages cited in the module you open. The modules add detail from Truby's *The Anatomy of Genres* (the main book for this skill) and a few points from his *The Anatomy of Story*, in the workshop's own words. Where a book disagrees with a theory, the skill follows the theory and records the book's view as a rival.
+Before a first full run in a conversation, read these passages in full, once: Implied World, Part 2 sections 1 and 2; Gap, principles 2, 5 and 7 and Part 2 sections 4 and 6; Anticipation, principles 1, 5 and 6 and Part 2 sections 1, 5 and 6; Bond, the ten levers and principle 4. For Horror or Fantasy, add Anticipation principles 3 and 8 (Part 2 sections 3 and 8) and Implied World Part 2 section 3. A small case is one scene, one character, one choice or one named symptom. For a small case, or when another skill hands you one question, read only the theory passages cited in the sections you use. The modules add detail from Truby's *The Anatomy of Genres* (the main book for this skill) and a few points from his *The Anatomy of Story*, in the workshop's own words. Where a book disagrees with a theory, the skill follows the theory and records the book's view as a rival.
 
 **Words used in one sense only.** From the Implied World, Gap and Anticipation theories, with Truby for the fourth part, the workshop defines a **genre** as a shared baseline, a set of promises, a set of guarantees and a characteristic question about how to live, which the audience brings before the story starts.
 - The **baseline** is the Implied World theory's: what the audience assumes by default, the real world plus the habits of the genre. The genre's share of it is its **defaults**. A **departure** is any way the story's world differs from the baseline.
@@ -105,6 +105,7 @@ flowchart TD
   P --> L{"a named blend?"}
   L -->|yes: which leads, where the questions collide| HW
   L -->|no, or lead settled| W{"Which part is off?"}
+  HW -->|diagnosing: lead settled| W
   W -->|baseline: generic| SW["story-world skill: a departure of its own"]
   W -->|promise, guarantee, beat or question| R
   W -->|two genres pulling apart| HW
@@ -169,7 +170,7 @@ Read the passages named under **Built on** before a first full run in a conversa
 
 ### Reply
 
-The last step in both modes. Reply in this order, in proportion to the case: what is wrong or missing, ranked, each with its reason and where it shows; what works and should be protected; the fix for the top one or two, concrete to this draft; what you assumed or are unsure of; one next step. For a rewrite, show it, then say what changed and why.
+The last step in both modes. Reply in this order, in proportion to the case: what is wrong or missing, ranked, each with its reason and where it shows; what works and should be protected; which choices are free (they could be otherwise, and the writer should say so or replace them) and which are held; the fix for the top one or two, concrete to this draft; what you assumed or are unsure of; one next step. For a rewrite, show it, then say what changed and why.
 
 ## The quick version
 

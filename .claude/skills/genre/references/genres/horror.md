@@ -1,6 +1,6 @@
 # Horror
 
-*Sources: Truby, The Anatomy of Genres, chapter 2, in the workshop's own words; framed by the owner theories (Anticipation theory throughout, above all the fear ladder and principles 1, 3, 4, 5, 6, 7 and 8; Implied World principles 1, 3 and 8; Gap theory principles 2, 5 and 7; Bond theory's levers and principles 2, 5 and 6).*
+*Sources: Truby, The Anatomy of Genres, chapter 2, in the workshop's own words; framed by the owner theories (Anticipation theory throughout, above all the fear ladder and principles 1, 3, 4, 5, 6, 7 and 8; Implied World principles 1, 3, 4 and 8; Gap theory principles 2, 5 and 7; Bond theory's levers and principles 2, 5 and 6).*
 
 Contents: 1 In one line. 2 The promise. 3 The baseline. 4 Guarantees, and which to break. 5 Hero and opponent. 6 The beats, as jobs. 7 The genre's question. 8 Where the care comes from. 9 Suspense and knowledge. 10 Subgenres and mixes. 11 Twisting it. 12 Examples. 13 Rivals and doubts.
 
@@ -24,7 +24,7 @@ The *baseline* (Implied World theory) is what the audience assumes by default: t
 
 **The real world weighs more here than in most genres** (the workshop's reading). Horror usually spends on one departure, the monster and its rules, and lets the real world carry the rest. That is what makes residue possible (the threat could exist where the audience lives), and also what the genre must beat, because the audience believes in doctors, police and phones. The doubter, Truby's *rational skeptic*, is the tool *(built)*: an ally who puts the audience's objection more strongly than the audience would, offers a sensible explanation, and is overruled by events, so the audience's doubt is spent for it. A related pattern *(fitted, from four examples)*: open somewhere remote and folk-tale old, where the baseline already allows strangeness, then carry the threat home, where it becomes a lost refuge.
 
-**Generic Horror rides on these defaults.** If the house could be swapped for any spooky house and the doubter for any doubter, the draft is using the baseline's furniture. The fix is a departure of its own (hand its building to `story-world`: `.claude/skills/story-world/SKILL.md`, Building steps 2, 4 and 6) and a house held in place by something only this story has: this hero's flaw, or business of its own.
+**Generic Horror rides on these defaults.** If the house could be swapped for any spooky house and the doubter for any doubter, the draft is using the baseline's furniture. The fix is a departure of its own (hand its building to `story-world`: `.claude/skills/story-world/SKILL.md`, Building steps 2, 4 and 6) and a house held in place by something only this story has: this hero's flaw, or business of its own. A town or house that exists only for the hero, with nothing going on in it that does not turn on her, is a different fault: not a missing departure but a world with no business of its own (Implied World principle 4, indifference). Hand that to `.claude/skills/story-world/SKILL.md`, Building step 7, and `.claude/skills/story-world/references/diagnosing-a-world.md`, section 5.
 
 ## 4. Guarantees, and which to break
 
