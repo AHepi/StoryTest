@@ -55,7 +55,7 @@ Genres come with symbol sets the audience reads at once: the Western's hat, badg
 
 ## 7. Rivals
 
-**Every element given a job, or some left free.** Truby tends to file every element under the theme; in his reading of *The Lord of the Rings*, even Tom Bombadil stands for self-mastery. The owner theories hold Bombadil up as a wonder, powerful because the book never explains him or makes him anyone's goal, and they value detail that serves no purpose. The test: cut his chapters, as the 2001 film did. Truby's filing predicts a lost thematic strand (self-mastery set against the Ring's craving); the owner theories predict a world that feels smaller, with no loss of theme. Ask readers of both versions what went missing. (Adding a passage that explains him would not tell the two apart: Truby too holds that a symbol spelled out goes flat, and the Gap theory calls explaining a wonder deflation.) The two can live together if the symbol web is a small, deliberate set and everything else stays free.
+**Every element given a job, or some left free.** Truby files even Tom Bombadil under the theme (self-mastery); the owner theories hold him up as a wonder, and value detail that serves no purpose. The symbol-level test: cut his chapters, as the 2001 film did, and ask readers of both versions what went missing. Truby's filing predicts a lost thematic strand; the owner theories predict a world that feels smaller, with no loss of theme. (Explaining him would not tell the two apart: both views expect a symbol spelled out to go flat.) The two can live together if the symbol web is a small, deliberate set and everything else stays free. General form: `.claude/skills/story-world/references/world-materials.md`, section 9.
 
 ## 8. Traps
 

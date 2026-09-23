@@ -1,6 +1,6 @@
 # Scenes
 
-*Sources: the Gap theory (the plot term: order, selection and emphasis; principles 1 Nested inference and 4 Scheduling; the five gaps), the Anticipation theory (care built before the threat; knowledge positions, the time term, the ratchet), the Implied World theory (attention budget; indifference and surplus; the guide for a world with many departures) and the Bond theory (care cannot be ordered; a small inner circle); Truby, The Anatomy of Story (scene weave and scene list, ordering by development, placing scenes side by side, crosscutting, interleaving slow and fast strands, subplots and many-strand weaves; scene construction: the scene as a small story, its design questions, the key line placed last, open and covert tactics, entering late, subtext as a choice, opening and closing scenes), McKee, Dialogue (scene intention, value change and turning points, beats named by action, repeated tactics, background desires, nonevents), and Egri, The Art of Dramatic Writing (every scene a whole play in small, attack and counterattack, kinds of resistance, entrances and exits, exposition through conflict, the strongest fact last); in the workshop's own words.*
+*Sources: the Gap theory (the plot term: order, selection and emphasis; principles 1 Nested inference, 3 Pressure and 4 Scheduling; the five gaps), the Anticipation theory (care built before the threat; knowledge positions, the time term, the ratchet), the Implied World theory (attention budget; indifference and surplus; the guide for a world with many departures) and the Bond theory (care cannot be ordered; a small inner circle); Truby, The Anatomy of Story (scene weave and scene list, ordering by development, placing scenes side by side, crosscutting, interleaving slow and fast strands, subplots and many-strand weaves; scene construction: the scene as a small story, its design questions, the key line placed last, open and covert tactics, entering late, subtext as a choice, opening and closing scenes), McKee, Dialogue (scene intention, value change and turning points, beats named by action, repeated tactics, background desires, nonevents), and Egri, The Art of Dramatic Writing (every scene a whole play in small, attack and counterattack, kinds of resistance, entrances and exits, exposition through conflict, the strongest fact last); in the workshop's own words.*
 
 Contents: 1 What a scene must change. 2 Building one scene. 3 Beats. 4 Getting in and out. 5 Opening and closing scenes. 6 The scene list. 7 Weaving strands. 8 Rivals. 9 Traps.
 
@@ -20,7 +20,9 @@ A **scene** is one action in one place and stretch of time (Truby's definition).
 | Perspective | exposes the teller's slant, or the distance between what is said and what happened |
 | Departure | lets the audience learn a departure (a way the world differs from the baseline), shown under pressure, not in a lecture (Gap principle 3) |
 
-If none of them moves, the scene is what McKee calls a *nonevent*: cut it, merge it, or give it a turn. McKee gives two ways to turn a scene (his *turning point*; this skill says *turn*) *(built)*: an action, or a revelation (a secret told, a fact found out). Actions mostly move the breach; revelations mostly move withholding and knowledge. A scene can also carry the world's own business, which is not a gap: it feeds the audience's rebuilding of the world (Gap principle 1) and works through the Implied World theory's indifference and surplus. How to keep it is under Rivals.
+If none of them moves, the scene is what McKee calls a *nonevent*: cut it, merge it, or give it a turn. McKee gives two ways to turn a scene (his *turning point*; this skill says *turn*) *(built)*: an action, or a revelation (a secret told, a fact found out). Actions mostly move the breach; revelations mostly move withholding and knowledge.
+
+**The world's own business.** A scene that shows the world going about business of its own, with nothing to do with the hero (a strike, a market day, a festival), is not a nonevent, in the workshop's reading. Where the business shows a departure, it changes the departure gap. Where it is baseline business (a market day in a realist town; *Alien*'s crew grumbling about bonus shares), it changes no gap, but it does the Implied World theory's work: a world with business of its own, and detail that serves no plot, is what makes a world feel real (principles 4 and 5). It is the one kind of scene the workshop lets stay without changing a gap. The attention budget (Implied World principle 2) limits how long it may run, and it does most when it also does a plot job, as *Alien*'s opening does (section 8). Whether a whole scene of world business with no other job may stay is a question put to the owner; the workshop's present reading is that it may, if it is short and shows the world under some pressure (Gap principle 3).
 
 ## 2. Building one scene
 
@@ -39,12 +41,12 @@ Truby treats a scene as a small, complete story that must also push the whole st
 
 ## 3. Beats
 
-McKee's *beat* is one action and the reaction it draws *(built)*. Name each with a pair of "-ing" words: accusing and mocking; pleading and refusing. The names are the tool:
+McKee's *beat* is one action and the reaction it draws *(built)*. Name each with a pair of "-ing" words: accusing and mocking; pleading and refusing. For a scene carried by talk, the beat table and its tests are in `.claude/skills/dialogue/references/line-and-scene-design.md`, section 2. The names are the tool:
 - **Find the stall.** One tactic repeated in fresh words is one beat, however many speeches it fills. A scene is stuck until someone changes tactic, and a character pressing the same tactic speech after speech is the commonest sign of a dead scene. Fix the beats before touching the words.
 - **Make the reply strike back** (Egri *(built)*). A charge that is accepted, dodged or merely rebuked kills the exchange. A counter-charge, best of all one that turns the accusation on the accuser, lifts it.
 - **Vary the resistance** (Egri *(fitted from one scene, with a clear mechanism)*). Attack and counterattack alone tire an audience. A cold refusal to explain, a silence, a concession made for hidden reasons (Nora agreeing with Helmer because she has already decided to leave) let the audience watch resistance gather that the attacker cannot see.
 - **Put the strongest fact last** (Egri *(built)*). A speech or scene that opens with its bombshell can only fall away. Move it to the end and give the listener a reaction to each step before it.
-- **Climb, with releases.** Egri and McKee want each beat to top the last *(asserted)*; the Anticipation theory adds partial releases and a pattern broken before it is learned. An unaware character's light remark can ease the room and raise the stakes at once, as when, in *Shadow of a Doubt*, the killer's sister cheerfully brings the talk back to her women's club and a widow she means him to meet.
+- **Climb, with releases.** Egri and McKee want each beat to top the last *(asserted)*; the Anticipation theory rivals that with partial releases and a pattern broken before it is learned (`suspense-and-fear.md`, section 11). An unaware character's light remark can ease the room and raise the stakes at once, as when, in *Shadow of a Doubt*, the killer's sister cheerfully brings the talk back to her women's club and a widow she means him to meet.
 
 ## 4. Getting in and out
 
@@ -89,18 +91,18 @@ Truby's counts are a sanity check only *(asserted)*: forty to seventy scenes in 
 
 ## 8. Rivals
 
-**Must every scene serve the hero?** Truby: cut any scene that neither advances nor sets up the hero's development *(built, but narrow: it forgets scenes that serve the opponent, the world or suspense)*. The Implied World theory: a world feels real when it has business of its own, and details that serve no purpose make a world. The test: *Alien* opens with the crew grumbling about their bonus shares before anything alien appears. Truby's filter would trim or cut it; the owner theory says it tells us this future has employers, contracts and resentment, and the Company's agenda later turns out to be the plot. Cut it in one version: Truby's view predicts a faster start and no loss; the owner theory predicts the betrayal lands lighter and the ship feels like a set. The workshop's line: count world work as a job. It is not a gap; it feeds the audience's rebuilding of the world (Gap principle 1) and works through indifference and surplus (section 1). World business is best carried in passing inside scenes that also do a plot job, as *Alien*'s opening does; a scene that does neither is cut.
+**Must every scene serve the hero?** Truby: cut any scene that neither advances nor sets up the hero's development *(built, but narrow: it forgets scenes that serve the opponent, the world or suspense)*; the Implied World theory: a world with business of its own feels real. The scene-level test: cut *Alien*'s opening, the crew grumbling about their bonus shares before anything alien appears. Truby's view predicts a faster start and no loss; the owner theory predicts the Company's betrayal lands lighter and the ship feels like a set. The workshop's rule is in section 1. General form: `.claude/skills/story-world/references/world-from-story.md`, section 11.
 
 **Every beat tops the last, or a ratchet.** See `suspense-and-fear.md`, section 11.
 
 ## 9. Traps
 
-- **A scene that changes no gap.** It spends attention and buys nothing.
+- **A scene that changes no gap.** It spends attention and buys nothing. The exception is a short scene of the world at its own business, which does the Implied World theory's work instead (section 1; the workshop's reading, pending the owner).
 - **A blank driver or resistance on the card.** No want, no scene; no resistance, no conflict.
 - **Rewriting the words when the beats are wrong.** Fix the actions underneath first.
 - **The same tactic in new words.** One beat, repeated.
 - **A slow strand grouped in one block.** Interleave it.
 - **A crosscut with no job.** It neither stretches time nor compares.
 - **Entrances and exits for the author's convenience.**
-- **Cutting the world's texture as padding.** Keep it inside scenes that work.
+- **Cutting the world's own business as padding.** Keep it short, and let it ride inside scenes that do a plot job where it can (section 1).
 - **Characters announcing what they feel.** Move the feeling under an action; the line-level fix is in `dialogue`.

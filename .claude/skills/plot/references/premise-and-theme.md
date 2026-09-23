@@ -101,7 +101,7 @@ Deciding who learns, and when, is a knowledge-position choice for the ending. So
 
 ## 8. The settlement
 
-The Gap theory's fifth question tests every ending: what has changed from the opening normal, and what did it cost? Check four things: which mysteries closed (each one the story pressed), which wonders stay open (and were never pressed), how the normal differs, and the price. Then the books' checks:
+The Gap theory's fifth question tests every ending: what has changed from the opening normal, and what did it cost? Check four things: which mysteries closed (each one the story pressed), which wonders stay open (and were never pressed), how the normal differs, and the cost. Then the books' checks:
 - **The end comes from the characters' own acts:** `structure-and-conflict.md`, section 7.
 - **Three false endings** (Truby's *premature*, *arbitrary* and *closed* endings *(built for the first two, asserted for the third)*), read in Gap terms. Premature: the question that drove the story settles while pages remain, so what follows coasts or starts a second story. Arbitrary: the events stop without bringing the pressed gaps to a settlement. Closed: the settlement shuts the wonders along with the mysteries. A want that goes on past the last page, a fragile equilibrium or an unfinished insight can stay open, provided the story never pressed it as a question (it is a wonder). Whether the goal was won, and every other mystery the story pressed, must close. What the ending means is still how those gaps settle.
 - **The ending should change the opening** *(asserted)*. Reread the first scene after writing the last. If nothing in it now reads differently, plant something the ending will recast.
@@ -113,7 +113,7 @@ The Gap theory's fifth question tests every ending: what has changed from the op
 
 **Is theme always moral?** Truby: theme is the writer's view of right action, argued through what characters do to each other. The owner theories: theme answers whatever question the world poses, which need not be about how to treat people (*Children of Men* asks about hope). The test: add a Truby-style final choice between two goods to a story whose world asks a non-moral question. Truby's view predicts the theme sharpens whatever the choice is about; the owner theories predict it sharpens only if the choice answers the world's question, and splits the meaning if it answers something else.
 
-**Must every line serve the claim?** Egri: every line and move must further the proof, because a play is life's essence, not a copy of it. The Implied World theory: details that serve no purpose are what make a world feel real. The test: strip a draft of every detail that serves no claim. Egri predicts a tighter story; the owner theory predicts a world that feels like set dressing. The workshop's line: every scene's action serves the question or the world, and texture rides inside it in passing (`scenes.md`, section 8).
+**Must every line serve the claim?** Egri: every line and move must further the proof; the Implied World theory: details that serve no purpose make a world feel real. The claim-level test: strip a draft of every detail that serves no claim. Egri predicts a tighter story; the owner theory predicts a world that feels like set dressing. The workshop's line: a scene earns its place by what it changes, and the world's own business counts (`scenes.md`, section 1); texture rides in passing. General form: `.claude/skills/story-world/references/world-materials.md`, section 9.
 
 ## 10. Traps
 

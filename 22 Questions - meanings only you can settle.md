@@ -10,11 +10,11 @@ For each question: what came up, the options, and my recommendation. Answer any 
 
 **Options.**
 - (a) No. The world's business rides along inside scenes that also do plot work.
-- (b) Yes, if it is short, because showing the world changes the departure gap (the audience learns what the world is like).
+- (b) Yes, if it is short and shows the world under some pressure. It then does a real job: if the business shows a departure, it changes the departure gap; if it is ordinary business, it does the Implied World theory's work of indifference and surplus.
 - (c) Yes, and length is governed only by the attention budget.
 
 **Now.** The skills use (b), marked as the workshop's reading.
-**My recommendation.** (b). It keeps both theories whole: the scene is doing a job, the departure gap's job, and the attention budget keeps it short.
+**My recommendation.** (b). It keeps both theories whole: the scene is doing a job your theories name, and the attention budget keeps it short.
 
 ## 2. What does "gap" mean?
 
@@ -37,16 +37,16 @@ For each question: what came up, the options, and my recommendation. Answer any 
 - (b) Partly. For a human threat, show their present case; keep their origin and full nature hidden.
 - (c) Fully, as for monsters.
 
-**Now.** Both readings are in the skills, marked as the workshop's.
+**Now.** (b), in both the plot and character skills, marked as a stopgap until you decide.
 **My recommendation.** (b). It fits the theory's reason (explained origins drain fear) and the Bond theory's point that a villain must be a person, not a function.
 
 ## 4. "Price": attention or stakes?
 
-The Implied World theory uses "price" for the attention a departure costs the audience. The Gap theory uses it for what the world makes things cost the characters. **Options:** (a) price = attention, "cost" = stakes; (b) price = stakes, "attention cost" for the other; (c) both, always qualified. **Now:** (c). **My recommendation:** (a), since the Implied World theory introduces it first and defines it most exactly.
+The Implied World theory uses "price" for the attention a departure costs the audience. The Gap theory uses it for what the world makes things cost the characters. **Options:** (a) price = attention, "cost" = stakes; (b) price = stakes, "attention cost" for the other; (c) both, always qualified. **Now:** (a). The skills say *price* for attention and *cost* for stakes. **My recommendation:** keep (a), since the Implied World theory introduces the word first and defines it most exactly.
 
 ## 5. "Wonder": a feeling or a promise?
 
-The Gap theory's table says the departure gap produces "wonder" (a feeling). Its principle 5 says a "wonder" is an open question the story promises to leave open. **Options:** (a) keep "wonder" for the open question, and call the feeling "strangeness" or "enchantment"; (b) allow both, always qualified. **Now:** mixed. **My recommendation:** (a).
+The Gap theory's table says the departure gap produces "wonder" (a feeling). Its principle 5 says a "wonder" is an open question the story promises to leave open. **Options:** (a) keep "wonder" for the open question, and call the feeling "strangeness" or "enchantment"; (b) allow both, always qualified. **Now:** (a). The skills say *strangeness* for the feeling. **My recommendation:** keep (a).
 
 ## 6. "Dread": one rung, or three things?
 
@@ -67,4 +67,7 @@ The Bond theory says Holmes is low on warmth, but warmth isn't one of the ten le
 - **Agency.** Does a character who speaks little but steers every exchange count as "acting rather than reacting"? Marked untested.
 - **Residue.** Can a fantastic threat (a monster) meet "could exist in the audience's own world" through what it stands for (grief in *The Babadook*)? Marked as the workshop's reading.
 - **Late guarantee breaks.** Your principle 5 is about early breaks, for fear. The genre skill adds that a guarantee broken at the very end gives the ending weight or grief (*Casablanca*). Keep it?
+- **A villain's ladder of care, turned round.** For an opponent the audience should oppose, the character skill reads the upper rungs backwards, from your principle 6 and the Joffrey case: Side with becomes wanting him stopped, Worry becomes fearing he will get what he wants, Miss becomes wanting his end and the payoff when it comes. Marked as the workshop's reading. Right?
+- **Tone.** Who owns "too bleak" or "too flippant" in a story of one genre? The genre skill now takes it as tone that breaks what the genre promises, and hands the tone of single lines to the dialogue skill. Confirm, or reassign.
+- **"Expected mystery."** A new term in the genre skill: the open question a genre leads the audience to expect the story to press ("who did it?"), kept apart from the genre's outlook question. Keep the name?
 - **Two older disagreements in hard-to-vary** (found by the previous session, log entry 5). The hard-to-vary skill says where a part came from can make it hard to vary, and that a dependence must rest on a single part. Revision 1 of your foundation disagrees on both. They were left unchanged for you.
