@@ -53,6 +53,8 @@ flowchart LR
 | `.claude/skills/genre/` | What a genre promises and how to meet or twist it; one file per genre | Same |
 | `StoryTest - project story.md` | The project's goal, state, word list and numbered log | Added to, never rewritten |
 
+**Not in this repository:** `story-critique`, a separate skill in the owner's own Claude account for full critiques of a whole work. The craft skills name it as the lead for whole-work critiques when it is available, and consult each other for focused questions. Without it, the craft skills still work; a whole-work critique then runs through them one area at a time.
+
 ## The rules
 
 - **The owner's theories come first.** A craft book adds detail. Where it disagrees with a theory, the skill follows the theory and records the book's view as a rival.
