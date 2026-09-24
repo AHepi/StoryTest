@@ -6,7 +6,7 @@ A story workshop: a set of Claude Code skills that help build and test stories. 
 
 ## Where things stand
 
-*Updated 23 September 2026, entry 25.*
+*Updated 24 September 2026, entry 26.*
 
 - **Done:** the foundation and the hard-to-vary skill; your four theories, stored and frozen; the source register, with all four books registered and checked for copying; the intake skill (`add-source`) with its three scripts; the five craft skills (`story-world`, `plot`, `character`, `dialogue`, `genre`), each written from your theories and the books, reviewed three ways and fixed; a guide to the repository (`README.md`) and rules for future agents (`CLAUDE.md`).
 - **Tested:** four small story problems were run through the skills, fixed, and run again (entries 20 and 23).
@@ -84,7 +84,8 @@ Entries 1 to 7 are from the previous session. Its own copy of this file was not 
 23. **Trials run again.** The same four problems were run on the fixed skills, checking each earlier stall. 31 of 38 were resolved, 5 partly resolved, and 2 not: this file's stale "next step", fixed now; and the dialogue skill's worked example, which resembles one test scene by coincidence of the test and was left alone. The reruns found about fifteen smaller new problems, most introduced by the fixes themselves (for example, "Side with" used in two senses a paragraph apart).
 24. **Last small pass** on those fifteen, one fixer per skill. It also defines a "small case" (one scene, one character, one choice or one named symptom), and adds to every reply which choices are free and which are held in place. This pass was checked by the copying and map scripts, but the four trials were not run a third time.
 25. **A slip of mine, fixed.** While checking entry 24, I misread a cut-off search result, thought a sentence was missing from the plot skill, and added it a second time. Caught on the next read and removed in its own commit.
+26. **First real test: *The Catch*, two versions.** You supplied two versions of your screenplay (an undated one and "Final4", dated 22 September). Your `story-critique` skill led, and four agents each applied one craft skill (plot, character, story-world with genre, dialogue) to both. All five checks agreed separately: the two versions share a strong spine, and almost everywhere they differ, the undated one does the job better, because Final4 cuts set-ups whose payoffs it keeps (the needle, the germ dishes, the wristband, the cage's return height). Final4's gains are recorded for carrying over (the paper letter, the napkin ring). The test also exposed five gaps in the workshop: no check-up mode without a complaint, no way to compare two drafts, nothing on whose eyes the camera takes in a mirror world, nothing on meaning written only in action lines, and heavy reading. Write-up: `26 Test - The Catch - two versions.md`. Your scripts were not added to the repository. (My first try at adding this entry failed on a mismatched capital letter; fixed in the next commit.)
 
 ## Next step
 
-Bring the workshop one real problem from a story of your own: a pitch, a scene, or a character who isn't working. That is the test the four trial runs could only imitate.
+Tell me which version of *The Catch* is the later one, and what its cuts were for, so the notes in file 26 can be checked against what you meant.
