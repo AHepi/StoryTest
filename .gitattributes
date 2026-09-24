@@ -1,0 +1,11 @@
+# Git is told never to change the line endings of the frozen files (the owner's
+# theories and the foundation), so their fingerprints are the same on every
+# machine, Windows included. See .claude/skills/error-correction/frozen-files.txt.
+sources/** -text
+foundations/** -text
+# The gate's hooks and the workshop's scripts keep Unix line endings on every
+# machine: a copy that turns them into Windows line endings (Git for Windows
+# can) could not run the hooks, and every commit would stop.
+.githooks/** text eol=lf
+.claude/hooks/** text eol=lf
+.claude/skills/*/scripts/** text eol=lf

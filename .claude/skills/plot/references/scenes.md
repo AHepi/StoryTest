@@ -15,14 +15,14 @@ A **scene** is one action in one place and stretch of time (Truby's definition).
 | Gap | The scene... |
 |---|---|
 | Breach | moves the story on: a value's charge changes (McKee's *value*, a pair such as hope and despair: `structure-and-conflict.md`, section 6); the want, the odds or the cost changes |
-| Withholding | opens a question, answers one, or makes a promise (a set-up to be paid off) |
+| Withholding | opens a question, answers one, or makes a promise (a set-up to be paid off; calling a set-up a promise is the workshop's stretch of the Gap theory's term, owner question Q7) |
 | Knowledge | shifts who knows what: audience ahead, level or behind |
 | Perspective | exposes the teller's slant, or the distance between what is said and what happened |
 | Departure | lets the audience learn a departure (a way the world differs from the baseline), shown under pressure, not in a lecture (Gap principle 3) |
 
 If none of them moves, the scene is what McKee calls a *nonevent*: cut it, merge it, or give it a turn. McKee gives two ways to turn a scene (his *turning point*; this skill says *turn*) *(built)*: an action, or a revelation (a secret told, a fact found out). Actions mostly move the breach; revelations mostly move withholding and knowledge.
 
-**The world's own business.** A scene that shows the world going about business of its own, with nothing to do with the hero (a strike, a market day, a festival), is not a nonevent, in the workshop's reading. Where the business shows a departure, it changes the departure gap. Where it is baseline business (a market day in a realist town; *Alien*'s crew grumbling about bonus shares), it changes no gap, but it does the Implied World theory's work: a world with business of its own, and detail that serves no plot, is what makes a world feel real (principles 4 and 5). It is the one kind of scene the workshop lets stay without changing a gap. The attention budget (Implied World principle 2) limits how long it may run, and it does most when it also does a plot job, as *Alien*'s opening does (section 8). Whether a whole scene of world business with no other job may stay is a question put to the owner; the workshop's present reading is that it may, if it is short and shows the world under some pressure (Gap principle 3).
+**The world's own business.** A scene that shows the world going about business of its own, with nothing to do with the hero (a strike, a market day, a festival), is not a nonevent, in the workshop's reading. Where the business shows a departure, it changes the departure gap. Where it is baseline business (a market day in a realist town; *Alien*'s crew grumbling about bonus shares), it changes no gap, but it does the Implied World theory's work: a world with business of its own, and detail that serves no plot, is what makes a world feel real (principles 4 and 5). It is the one kind of scene the workshop lets stay without changing a gap. The attention budget (Implied World principle 2) limits how long it may run, and it does most when it also does a plot job, as *Alien*'s opening does (section 8). Whether a whole scene of world business with no other job may stay is a question put to the owner (Q1); the workshop's present reading is that it may, if it is short and shows the world under some pressure (Gap principle 3).
 
 ## 2. Building one scene
 

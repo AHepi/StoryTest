@@ -37,10 +37,16 @@ The `dialogue` and `genre` skills have no owner theory of their own yet. They ar
 
 | Work | Edition read | Supplied | Feeds | Overlap check |
 |---|---|---|---|---|
-| Lajos Egri, *The Art of Dramatic Writing: Its Basis in the Creative Interpretation of Human Motives* | Touchstone ebook of the 1960 revised edition (© 1942, 1946, 1960) | 23 Sep 2026, with the Bond theory, "for more detail on developing characters in general" | `character`; also `plot` (premise, conflict), `dialogue` and `story-world` | 0 runs of 8+ words across all skills, 23 Sep 2026 |
-| John Truby, *The Anatomy of Story: 22 Steps to Becoming a Master Storyteller* | ebook, 2011 (first published 2007) | 23 Sep 2026, with the request to finish the job | `plot`, `character`, `story-world`, `dialogue`; also `genre` | 0 runs of 8+ words apart from one film title (*Once Upon a Time in the West*), 23 Sep 2026 |
-| John Truby, *The Anatomy of Genres: How Story Forms Explain the Way the World Works* | Picador ebook, 2022 (ISBN 9780374722814) | 23 Sep 2026, with the request to finish the job | `genre` | 0 runs of 8+ words apart from one film title (*Once Upon a Time in the West*), 23 Sep 2026 |
-| Robert McKee, *Dialogue: The Art of Verbal Action for Page, Stage, and Screen* | Grand Central ebook, 2016 (ISBN 9781455591923) | 23 Sep 2026, with the request to finish the job | `dialogue`; also `plot` and `character` | 0 runs of 8+ words across all skills, 23 Sep 2026 |
+| Lajos Egri, *The Art of Dramatic Writing: Its Basis in the Creative Interpretation of Human Motives* | Touchstone ebook of the 1960 revised edition (© 1942, 1946, 1960) | 23 Sep 2026, with the Bond theory, "for more detail on developing characters in general" | `character`; also `plot` (premise, conflict), `dialogue` and `story-world` | 0 runs of 8+ words across all skills, 23 Sep 2026; rerun on the whole repository, 0, 24 Sep 2026 (log entry 33) |
+| John Truby, *The Anatomy of Story: 22 Steps to Becoming a Master Storyteller* | ebook, 2011 (first published 2007) | 23 Sep 2026, with the request to finish the job | `plot`, `character`, `story-world`, `dialogue`; also `genre` | 0 runs of 8+ words apart from one film title (*Once Upon a Time in the West*), 23 Sep 2026; rerun on the whole repository, 0, 24 Sep 2026 (log entry 33) |
+| John Truby, *The Anatomy of Genres: How Story Forms Explain the Way the World Works* | Picador ebook, 2022 (ISBN 9780374722814) | 23 Sep 2026, with the request to finish the job | `genre` | 0 runs of 8+ words apart from one film title (*Once Upon a Time in the West*), 23 Sep 2026; rerun on the whole repository, 0, 24 Sep 2026 (log entry 33) |
+| Robert McKee, *Dialogue: The Art of Verbal Action for Page, Stage, and Screen* | Grand Central ebook, 2016 (ISBN 9781455591923) | 23 Sep 2026, with the request to finish the job | `dialogue`; also `plot` and `character` | 0 runs of 8+ words across all skills, 23 Sep 2026; rerun on the whole repository, 0, 24 Sep 2026 (log entry 33) |
+
+## Other titles the copying check allows
+
+A title named in the skills that is not a registered work, but that the books also name, so the copying check would otherwise report it. Each line: the title, what it is, and where the workshop names it. The allowed list (`.claude/skills/add-source/scripts/overlap-allowed.txt`) may hold only the authors and titles in the table above and the titles here.
+
+- *Once Upon a Time in the West* (a film, 1968): named in the genre skill's Western profile, and in Truby's two books.
 
 Beyond the script, each skill was read against the books by a second reader for close paraphrase (a passage following the author's sentence order, or a list in the author's order). Those passages were rewritten before each skill was committed.
 

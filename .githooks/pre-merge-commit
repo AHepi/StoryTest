@@ -1,0 +1,12 @@
+#!/bin/sh
+# The workshop's commit gate for a merge. Git runs this by itself before it
+# makes a merge commit (a merge that needs no conflicts resolved); a merge
+# with conflicts is finished with git commit, which runs pre-commit. It runs
+# exactly the same gate. Git runs no gate hook at all for a fast-forward,
+# a rebase (even one finished with --continue after a conflict), or a
+# revert or cherry-pick that goes through without a conflict (one finished
+# with git commit or --continue runs pre-commit): the next commit through
+# the gate judges what those bring in
+# against the last commit it approved, with the limits listed in the
+# error-correction skill, references/checks-and-cases.md, section 2.
+exec "$(git rev-parse --show-toplevel)/.githooks/pre-commit"

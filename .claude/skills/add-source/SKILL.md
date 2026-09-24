@@ -21,7 +21,9 @@ The owner sends the Bond theory with Egri's *The Art of Dramatic Writing* attach
 | taking in any source | nothing else: this file | the whole procedure |
 | turning an ebook into text to read | `scripts/book_to_text.py` | one plain-text file from an .epub, .azw3 or .mobi |
 | checking that nothing was copied | `scripts/overlap_check.py` | every run of 8+ words a file shares with the book |
-| checking every skill's map after wiring in | `scripts/check_maps.py` | every module missing from a map, every file path that does not exist, every description over the length limit |
+| checking every skill's map after wiring in | `scripts/check_maps.py` | every module missing from a map, every path or section pointer that lands nowhere, every description over the length limit |
+| checking everything before a commit | the error-correction skill's `scripts/run_all_checks.py` (the commit gate runs it too) | frozen files, maps, records, copying, all in one summary |
+| writing a rule or a rival from a book, or a brief for writing agents | the error-correction skill's `references/writing-rules-and-rivals.md` and `references/reviews-and-briefs.md` | the rule card, the rival form, and the brief check |
 | deciding which skill a source feeds | `sources/README.md`, then the skill's own map | the register, and each skill's "Where to look" table |
 
 ```mermaid
@@ -36,8 +38,9 @@ flowchart TD
   O --> W["Wire into the skill it feeds; update its map"]
   R --> W
   V --> W
-  W --> CM["check_maps.py: zero problems"]
-  CM --> M["One commit per source"]
+  D -.->|each rule and rival| RC["rule card and rival form"]
+  W --> CM["run_all_checks.py: nothing failed"]
+  CM --> M["One commit per source, with its review receipt"]
 ```
 
 **Keeping the map true.** When a script or step is added, add a row to the table and a node to the graph in the same edit.
@@ -63,28 +66,33 @@ If unsure whose words they are, ask. Do not guess.
 2. First line: `# <The theory's name>`.
 3. Then one italic note saying: who supplied it and when; what it builds on, if the owner said; that it is a frozen source reproduced as supplied; exactly what was added (the heading and this note) and what, if anything, was left out and why (a closing offer such as "want me to test it on a film?" is not part of the theory and is left out, and the note says so); and that craft skills derive from it and do not change it, and a revised version is added as a new revision, not edited in place.
 4. A line `---`, then the text exactly as supplied. Keep its headings, tables and emphasis.
-5. Add a row to "The owner's theories" in `sources/README.md`.
-6. Go to Step 5.
+5. Compare what you stored with what was supplied, before anything else happens to it. This is the only moment a slip in copying can be caught: the upload is gone after the session. There are two routes, and the log entry says which was used.
+   - **Supplied as a file:** the stored text below the note must match the file line for line (`diff <(tail -n +<first line of the text> sources/<plain-name>.md) <supplied file>`). Show the owner the result in one line ("only the heading and note were added; these lines were left out: ...").
+   - **Pasted into a message** (as all four theories so far were): there is no file to compare with, and comparing your stored copy with your own reading of the message checks nothing. Show the owner the stored text's first and last lines and anything left out, and ask them to confirm it is complete. Say in the log that a pasted theory cannot be checked by machine, only by the owner.
+6. Fingerprint it: `python3 .claude/skills/error-correction/scripts/check_frozen_files.py --add sources/<plain-name>.md`. (A fingerprint is a short code worked out from the file's exact contents; change one character and the code changes.) From now on the edit hook (a small program Claude Code runs before every file edit) refuses changes to it, and the commit gate (the checks git runs before every commit) stops any commit that changes it. The fingerprint line is a change to the frozen list, so it needs a full review, never a light receipt.
+7. Add a row to "The owner's theories" in `sources/README.md`.
+8. Go to Step 5.
 
 **Step 3 - Add a revision of an owner theory.**
-1. Never edit the old file. Add `sources/<plain-name>-revision-<n>.md`, stored as in Step 2, with the note also saying which file it revises.
-2. List every sentence in the workshop that restates a claim the revision changes (search the skills for the claim's key words, not just the theory's name).
-3. Bring each into line with the smallest edit that carries the change, and point any source reference at the new file. Where the old and new versions disagree about something the revision does not mention, leave it and tell the owner.
+1. Never edit the old file. Add `sources/<plain-name>-revision-<n>.md`, stored, compared and fingerprinted as in Step 2, with the note also saying which file it revises.
+2. Every passage in the workshop that rests on a claim the revision changes loses its licence (it may not be relied on) until it is rechecked. Find them by the principle's name and number and by the claim's key words, not just the theory's name; the error-correction skill's `references/owner-answers-and-revisions.md`, section 3, has the steps.
+3. Recheck each and bring it into line, and point any source reference at the new file. Each change goes through the commit gate with its review receipt. Where the old and new versions disagree about something the revision does not mention, leave it and put it to the owner as a question.
 4. Update the register. Go to Step 5.
 
 **Step 4 - Take in someone else's work.**
-1. **Register it** in "Registered works" in `sources/README.md`: author, full title, the edition actually read, an identifier if there is one, when and why it was supplied (in the owner's words where possible), and which skills it will feed. Overlap check: *pending*.
+1. **Register it** in "Registered works" in `sources/README.md`: author, full title, the edition actually read, an identifier if there is one, when and why it was supplied (in the owner's words where possible), and which skills it will feed. Overlap check: *pending*. If the title or the author's name will be named in the skills and the copying check would report it (a title of 8 words or more, or one the book repeats), add it to the allowed list, `.claude/skills/add-source/scripts/overlap-allowed.txt`, in a commit of its own with a full review, after the commit that adds the register row. The list may hold only whole authors and titles that the register named in the last approved commit, so a new title is copy-checked with the old list first; and the commit gate reads the list from the last approved commit, so it must be in before the modules that name the title.
 2. **Make a local copy to read.** Put the file in `sources/raw/`. For an ebook: `python3 .claude/skills/add-source/scripts/book_to_text.py <book> sources/raw/<author-short-title>.txt`. Run `git status` and confirm nothing under `sources/raw/` is listed.
 3. **Read it in chunks** of roughly 10,000 to 20,000 words, split at chapter breaks. For each chunk write working notes, in your own words, in a scratch folder outside the repository: each idea, the author's reason for it (or "asserted" or "drawn from examples"), how a writer would use it, and how it stands to each owner theory (agrees, extends, conflicts, no link). Notes are working material and are not committed.
-4. **Write the ideas into the skills** they serve, from the notes, not from the book. Put book material in reference modules named for what they help with (`references/building-a-cast.md`), not for the book. Start each module with a line naming its sources. Keep what does work for the skill; a skill is not a summary of the book, and it should never be able to stand in for reading it.
-5. **Check for copying.** Run `python3 .claude/skills/add-source/scripts/overlap_check.py sources/raw/<file>.txt .claude/skills sources foundations`. Every span it reports must be rewritten, except the author's own short term names (four words or fewer), titles of works, and names of people and characters. Run it again until the only spans left are those. Then read the modules against the book by eye for close paraphrase, which the script cannot see: a passage that follows the author's sentence order, or a list in the author's order and wording. Have someone other than the writer do this. When the first craft skills were built, most first drafts that the script passed at zero still had such passages, and a second reader found them.
+4. **Write the ideas into the skills** they serve, from the notes, not from the book. Put book material in reference modules named for what they help with (for example the character skill's `references/building-a-cast.md`), not for the book. Start each module with a line naming its sources. Keep what does work for the skill; a skill is not a summary of the book, and it should never be able to stand in for reading it. Put every rule through the rule card and every disagreement with an owner theory through the rival form (the error-correction skill's `references/writing-rules-and-rivals.md`): what the rule rests on (the theory; the book, with fitted, built or asserted; or the workshop's reading, labelled, with its question number if it has one); what a writer would do differently without it; which of its numbers and examples are loose; and whether the owner theory's own cases survive it. If other agents write the modules, their brief is checked by the `theory-checker` agent before it goes out (the error-correction skill's `references/reviews-and-briefs.md`, section 5).
+5. **Check for copying.** Run `python3 .claude/skills/add-source/scripts/overlap_check.py sources/raw/<file>.txt .` from the repository folder (it reads every file with a text ending, `.md`, `.txt`, `.py` and the others it lists, as the commit gate does). Every span it reports must be rewritten, except the author's own short term names (four words or fewer), titles of works, and names of people and characters. Run it again until the only spans left are those. Then read the modules against the book by eye for close paraphrase, which the script cannot see: a passage that follows the author's sentence order, or a list in the author's order and wording. Have someone other than the writer do this: the `copy-checker` agent does it where the book text is present. When the first craft skills were built, most first drafts that the script passed at zero still had such passages, and a second reader found them.
 6. **Record the result** in the register: "0 runs of 8+ words (titles and term names only), <date>".
 
 **Step 5 - Wire it in.**
 1. In each skill it feeds, add a row to the "Where to look, and when" table and a node to the graph for any new module.
 2. Say in the skill how the new material stands to the owner theory it serves: fills in, extends, or rival.
-3. Run `python3 .claude/skills/add-source/scripts/check_maps.py` and fix every problem it lists until it reports zero.
-4. Commit one source per commit. The message says in one line what the source claims and which skill it feeds, and, for a copyrighted work, that it is registered and distilled, not stored.
+3. Run `python3 .claude/skills/error-correction/scripts/run_all_checks.py` and put right every problem it lists until nothing fails.
+4. Get the change reviewed by an agent that did not write it (`theory-checker`, and `use-tester` for a change to a procedure), and write its review receipt, with the reviewer's report pasted in: the commit gate asks for it. A review receipt is the kept record of that review, named by the change's fingerprint; the steps are in the error-correction skill's `references/reviews-and-briefs.md`, section 2.
+5. Commit one source per commit. The message says in one line what the source claims and which skill it feeds, and, for a copyrighted work, that it is registered and distilled, not stored.
 
 ## Traps
 

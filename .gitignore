@@ -6,3 +6,6 @@ sources/raw/
 # OS and editor clutter
 .DS_Store
 *.swp
+
+# Python leaves these behind when one script loads another
+__pycache__/
