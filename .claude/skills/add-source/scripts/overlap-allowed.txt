@@ -1,0 +1,20 @@
+# Titles of works and names of authors that the copying check allows.
+# One per line. Lines starting with # are notes. Each line must be an
+# author or a title named in sources/README.md (the Registered works
+# table, or "Other titles the copying check allows");
+# overlap_check.py --check-allowed-list refuses anything else, so a phrase
+# from a book's text can never be allowed here. Say who allowed a line and
+# when, in a note line above it. A change to this list always needs a full
+# review, never a light receipt, and goes in its own commit.
+#
+# Allowed by the lead agent, 24 September 2026 (entry 27), from the
+# spans the check has reported since entry 19: book titles as registered
+# in sources/README.md, and one film title used in the Western profile.
+lajos egri
+the art of dramatic writing its basis in the creative interpretation of human motives
+john truby
+the anatomy of story 22 steps to becoming a master storyteller
+the anatomy of genres how story forms explain the way the world works
+robert mckee
+dialogue the art of verbal action for page stage and screen
+once upon a time in the west

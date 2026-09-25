@@ -1,0 +1,27 @@
+#!/bin/sh
+# The workshop's gate stamp. Git runs this by itself as it writes each
+# commit's message. If the commit gate (pre-commit or pre-merge-commit) has
+# just passed exactly the contents about to be committed, this adds one line
+# to the message: "Workshop-gate: approved <tree>", where <tree> is git's
+# name for those exact contents. The gate then treats this commit as the
+# last approved commit, the one it compares later commits with, and the
+# recheck (recheck_commits.py) treats it and everything before it as
+# settled. A commit made with the gate skipped or switched off gets no
+# stamp, because the gate left no record for it, unless a gate run in the
+# last two minutes passed exactly the same contents and made no commit (then
+# the stamp is still true of those contents). This script never stops a
+# commit: if anything goes wrong, the commit simply carries no stamp, and
+# the next commit through the gate judges it.
+message_file="$1"
+passed_file=$(git rev-parse --git-path workshop-gate-passed 2>/dev/null) || exit 0
+[ -f "$passed_file" ] || exit 0
+# a record older than two minutes was left by a gate run whose commit never happened; it approves nothing now
+if [ -z "$(find "$passed_file" -mmin -2 2>/dev/null)" ]; then rm -f "$passed_file"; exit 0; fi
+approved=$(cat "$passed_file")
+rm -f "$passed_file"
+tree=$(git write-tree 2>/dev/null) || exit 0
+[ -n "$approved" ] && [ "$approved" = "$tree" ] || exit 0
+# a message with no line break at its end (git merge -m gives one) would glue the stamp to its last line
+[ -s "$message_file" ] && [ -n "$(tail -c 1 "$message_file")" ] && echo >> "$message_file"
+git interpret-trailers --in-place --if-exists replace --trailer "Workshop-gate: approved $tree" "$message_file" 2>/dev/null
+exit 0

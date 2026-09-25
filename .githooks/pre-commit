@@ -1,0 +1,37 @@
+#!/bin/sh
+# The workshop's commit gate. Git runs this by itself before every commit
+# once the repository copy has "git config core.hooksPath .githooks" (the
+# session-start hook sets it; README says how to set it by hand).
+#
+# It runs the gate script as it was in the last commit, never the copy on
+# disk, so the gate cannot be loosened in the same commit it checks. On the
+# commit that first brings the gate in there is no earlier version, so the
+# staged one is used, and the gate says so. If python3 is missing, the
+# checks cannot run, so the commit is stopped rather than let through.
+if ! command -v python3 >/dev/null 2>&1; then
+  echo "COMMIT STOPPED: python3 is missing, so the workshop's checks could not run. Install python3, then commit again." >&2
+  exit 1
+fi
+gate_script=".claude/skills/error-correction/scripts/check_commit.py"
+gate_copy=$(mktemp)
+if git show "HEAD:$gate_script" > "$gate_copy" 2>/dev/null; then
+  checks_from=HEAD
+elif git show ":$gate_script" > "$gate_copy" 2>/dev/null; then
+  checks_from=staged
+else
+  rm -f "$gate_copy"
+  echo "COMMIT STOPPED: the commit gate's script ($gate_script) is in neither the last commit nor the staged files." >&2
+  exit 1
+fi
+# The gate script writes "passed" or "stopped" to this file as it finishes. A
+# script that breaks (a typo, an error it did not expect) exits as a stop
+# does, but writes nothing, so a missing result means it could not run.
+gate_result=$(mktemp)
+WORKSHOP_GATE_RESULT="$gate_result" python3 "$gate_copy" --checks-from "$checks_from"
+status=$?
+result=$(cat "$gate_result" 2>/dev/null)
+rm -f "$gate_copy" "$gate_result"
+if [ $status -ne 0 ] && [ "$result" != "stopped" ]; then
+  echo "COMMIT STOPPED: the commit gate's own script could not run (exit $status); it broke before it finished, so nothing was checked. If the gate script itself is wrong, see the error-correction skill, references/checks-and-cases.md, section 2 (a wrong gate script is the owner's to correct)." >&2
+fi
+exit $status

@@ -1,0 +1,15 @@
+# Frozen files: the owner's theories and the foundation. Never edited, not even a typo.
+# A changed version is added as a new file through the add-source skill, and gets its own line here.
+#
+# Each line: fingerprint, path, and the commit that first added the file.
+# A fingerprint (SHA-256) is a short code worked out from a file's exact contents;
+# change one character and the code changes. check_frozen_files.py compares each
+# file with its line here. To add a new frozen file: check_frozen_files.py --add <path>
+#
+# The five lines below were written on 24 September 2026 (entry 27). Each file was
+# first checked against the version in the commit that added it: all five matched.
+054d7652277335cca0511e9c26e7b833ac909e0b8b355b780936f40f6840570a  foundations/claude-fable-semantics.md  added bd94b6d
+7f5af9750b641b11a0b4c6d961eda043b782eba6dc3273510a03eb1b9b66185d  sources/implied-world-theory.md  added a391508
+d1349314c45edefbad6fbf5aff01e64d3519c21929818a63a779838aaa7b8626  sources/gap-theory-of-narrative.md  added 1d2ed3c
+abf63a3a2933c6f1a6bc9d1367e9a2a3592007b7eb214e21135bf24b0ff01950  sources/anticipation-theory.md  added f48aea1
+95f5da8c3c203f5d841e3aef75e6d8b7282de359f096808ab2275031139ca19b  sources/bond-theory.md  added e4fda05
