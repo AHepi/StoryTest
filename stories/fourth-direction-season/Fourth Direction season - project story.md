@@ -101,6 +101,7 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
       - a walk-through that found where the stage files stall.
     - The builder is now fixing each finding, or recording why not. A reviewer will then take one narrow look at the answers before anything is committed or pushed.
     - Correction to entry 9: I wrote that I asked which book you meant. I didn't ask; you told me without being asked.
+    - Correction to entry 10: I wrote that one writer's run "broke partway and restarted by itself". I checked afterwards and the records don't show that. All they show is that the third pitch took about an hour longer than the other two. The reason is unknown.
 
 ## Next step
 
