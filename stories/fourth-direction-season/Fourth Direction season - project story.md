@@ -112,6 +112,15 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - Committed through your commit gate: every check passed, and the receipt was complete.
     - Your planted-fault test still shows 4 of 214 failing. The same four failed before this work began, since your workshop's entry 34.
 
+15. **Why the third pitch was late, found** (no file).
+    - Entry 10's correction said the reason was unknown. It is now known: this machine has four processors, and the tool that runs the helper agents runs at most two at once on a machine that size.
+    - So the third pitch writer waited its turn, and so do the third critic in each round. Nothing broke.
+16. **The rebuild of *Seconds* with every law: version 1 written** (the file will be copied here with its critiques and logs when the round finishes).
+    - The plan is about 110 KB. Its first round of three critics is running:
+      - one checks every law, item by item;
+      - one checks craft;
+      - one checks the message and originality.
+
 ## Next step
 
 When the rebuilt *Seconds* plan has been through both rounds of criticism, I'll check it myself against your rules and the list of laws. Then the ten episodes get written, each drafted, critiqued and revised, with every change logged.
