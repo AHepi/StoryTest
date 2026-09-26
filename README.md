@@ -2,6 +2,31 @@
 
 A set of Claude Code skills for building and testing stories. They are grounded in four theories of narrative written by the repository owner, sharpened by a test for whether a choice is doing real work ("hard to vary"), and filled in with ideas from four craft books, used in the workshop's own words. The workshop also corrects its own errors as it goes: **error correction is the process, and hard to vary is the metric** it uses to judge each step.
 
+Making a whole story runs through nine numbered **stages** (`stages/`), laid out after the paper *Interpretable Context Methodology* (Van Clief and McDermott, registered in `sources/README.md`): one agent works through the stages in order, each stage's `CONTEXT.md` says exactly which files it reads, what it does and what it writes, and after every stage the run stops so the writer can read and edit what it made. `CONTEXT.md` at the top routes every request, to a stage or to a skill.
+
+## Making a story, stage by stage
+
+A worked example. A writer asks for a thriller about a lock-keeper who finds a body in the canal.
+1. **Stage 01** says the request back, writes a brief, and has three rival premises written apart and read by critics who wrote none of them. The writer chooses one, and edits the premise file before anything else runs.
+2. **Stages 02 to 05** build the cast, the world and its symbols, the plot and the scene list, each reading the earlier stages' files and the craft skills its contract names, and each stopping for the writer. Every part of every file carries a short marker naming the step and the reference that produced it.
+3. **Stage 08** runs critics on the plan, each hunting one kind of problem; **stage 09** answers every finding in a revision log and writes the next version, keeping every earlier one. A finding whose marker points at a stage's own contract goes to the `error-correction` skill, so the stage improves as well as the story.
+4. **Stages 06 and 07** draft the scenes as action, then write the talk; stages 08 and 09 run again on the draft.
+5. If the writer keeps making the same kind of edit to one stage's output, run after run, the edit record (`stages/owner-edits.md`) shows it, and a change to that stage's contract is proposed.
+
+| Stage | Its one job |
+|---|---|
+| `stages/01-brief-and-premise/` | the brief, rival premises, the choice |
+| `stages/02-characters/` | the cast, the hero's change, the moral argument, the care plan |
+| `stages/03-world-and-symbols/` | the world grown from the story, and its symbols |
+| `stages/04-plot/` | structure, reveals, the teller, the genre's beats |
+| `stages/05-scene-weave/` | the ordered list of scenes or episodes: the plan |
+| `stages/06-scenes/` | each scene drafted as action |
+| `stages/07-dialogue/` | the talk |
+| `stages/08-critique/` | independent critics, one kind of problem each |
+| `stages/09-revision/` | every finding answered, the next version, the log |
+
+The rules all stages share are in `stages/how-stages-work.md`.
+
 ## How the pieces fit
 
 A worked example first. Suppose a writer asks: *"My villain feels flat. Why?"*
@@ -51,6 +76,9 @@ flowchart LR
 
 | Place | What it holds | Changes? |
 |---|---|---|
+| `CONTEXT.md` | Where each request goes: to a stage, or to a skill | Changed through the error-correction skill, like a skill (see question S15) |
+| `stages/` | The nine stages for making a story: each with its contract (`CONTEXT.md`), its `references/` (craft from the books that the skills lack, in the workshop's own words) and its `output/` (each project's work, one folder per project); the rules they share (`how-stages-work.md`); the record of the writer's edits (`owner-edits.md`) | Contracts, references and the shared rules: through the error-correction skill, like a skill (see question S15). Outputs: each run's own; never overwritten |
+| `_config/` | The writer's standing preferences (`writer.md`) and the questions that set them (`questionnaire.md`) | Changed by the writer at any time |
 | `foundations/claude-fable-semantics.md` | The owner's formal theory of explanation | Frozen |
 | `sources/*.md` (apart from `README.md`) | The owner's four theories of narrative | Frozen; revisions are added as new files |
 | `sources/README.md` | The register of every source, including the books | Updated as sources arrive |
