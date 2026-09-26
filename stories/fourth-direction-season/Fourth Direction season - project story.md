@@ -61,6 +61,14 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
    - Your craft skills were added as guidance.
    - Three pitches in three kinds of story are being written, then reviewed independently, merged, and criticised twice.
 
+9. **A separate job started: the workshop reorganised like the paper you sent** (no file in this folder; it lives on its own branch).
+   - You said: "Set one more agent to branch and update the repo so that it functions more like this paper. And fill it with details from this book."
+   - The paper is "Interpretable Context Methodology: Folder Structure as Agent Architecture". It describes running AI work through numbered stage folders, each with a plain file saying what that stage reads, does and writes, and a pause after each stage so a person can check and edit.
+   - One agent is working alone on a new branch, `claude/icm-story-workspace`. The branch starts from your newest workshop branch.
+   - The three books (McKee's *Dialogue*, Truby's *The Anatomy of Story* and *The Anatomy of Genres*) are in a folder git never commits. Only the agent's own wording goes in.
+   - Your workshop's rule is that nobody reviews their own work. So anything needing review will wait for an independent reviewer before it is committed and pushed.
+   - This makes four agents at once while the three story writers are busy. I took "one more agent" to mean you allowed that.
+
 ## Next step
 
 When the second attempt's plan is finished and its logs are written, I'll check it against your six rules myself. Then the ten episodes get written, each one drafted, critiqued and revised, with every change logged.
