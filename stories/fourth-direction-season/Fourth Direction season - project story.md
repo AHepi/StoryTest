@@ -17,7 +17,7 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
   1. A writer is rebuilding *Seconds* into a full season plan, with a table showing where each law does its work.
   2. Critics will then go over it twice, each round revised and logged.
 - **Not started yet:** the episodes themselves.
-- **Separate job, on its own branch:** the workshop reorganised to work like the paper you sent. It is built, passed by three independent reviewers "after changes", and being fixed. Nothing is committed to that branch or pushed yet, apart from one small entry that registers the paper as a source.
+- **Separate job, finished:** the workshop reorganised to work like the paper you sent. It is reviewed, committed through your commit gate, and pushed to its own branch, with its own draft pull request: https://github.com/AHepi/StoryTest/pull/3.
 
 ## How the pieces fit
 
@@ -102,6 +102,15 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - The builder is now fixing each finding, or recording why not. A reviewer will then take one narrow look at the answers before anything is committed or pushed.
     - Correction to entry 9: I wrote that I asked which book you meant. I didn't ask; you told me without being asked.
     - Correction to entry 10: I wrote that one writer's run "broke partway and restarted by itself". I checked afterwards and the records don't show that. All they show is that the third pitch took about an hour longer than the other two. The reason is unknown.
+
+14. **The workshop job finished and pushed** (no file in this folder; branch `claude/icm-story-workspace`, draft pull request 3).
+    - The builder answered all 80 first-round findings.
+    - A fourth reviewer, new to the job, checked every must-fix answer and a third of the rest. Every answer was true. It found three more must-fixes. One was a knock-on from my own mistake: the workshop's entry had copied my wrong claim that I'd asked which book you meant.
+    - After those were fixed, a final look at only the changed lines passed it. Two small points are recorded as open, as your workshop's rules require after two rounds.
+    - The reviewers' reports are kept word for word in the workshop's reviews folder, apart from short book quotations they used as evidence. Those were replaced with a marker, because your copying check refuses any committed book text.
+    - A record of every instruction I gave each agent is kept too.
+    - Committed through your commit gate: every check passed, and the receipt was complete.
+    - Your planted-fault test still shows 4 of 214 failing. The same four failed before this work began, since your workshop's entry 34.
 
 ## Next step
 
