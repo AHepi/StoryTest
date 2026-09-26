@@ -68,6 +68,7 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
    - The three books (McKee's *Dialogue*, Truby's *The Anatomy of Story* and *The Anatomy of Genres*) are in a folder git never commits. Only the agent's own wording goes in.
    - Your workshop's rule is that nobody reviews their own work. So anything needing review will wait for an independent reviewer before it is committed and pushed.
    - This makes four agents at once while the three story writers are busy. I took "one more agent" to mean you allowed that.
+   - Settled afterwards: I asked which book "this book" meant. You said: "These books". So it means all three, which is how the agent was already briefed. The agent was told, so its own log can quote your answer.
 
 ## Next step
 
