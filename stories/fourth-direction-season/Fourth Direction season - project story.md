@@ -11,11 +11,13 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
 ## Where things stand
 
 - **The first attempt, Caraway, is dropped.** You said it was too close to *The Catch*, presented religion in a stock way, referred to the theory of explanation, named ideas outright and was a dystopia. Its files are kept as history (01 to 06). Why it was dropped is in 07.
-- **The second attempt is under way.** A new brief (08) went to three writers, each starting from a different kind of story. The same run then:
-  1. has three independent reviewers check the pitches;
-  2. merges the best into a season plan;
-  3. puts the plan through two rounds of criticism, logging every change.
+- **The second attempt produced three pitches and three independent reviews** (08 to 11).
+- **You chose the first pitch, *Seconds*,** an Essex family of thieves who step through walls. You asked for every invented law of *The Fourth Direction* to be true in it (12).
+- **Under way now:**
+  1. A writer is rebuilding *Seconds* into a full season plan, with a table showing where each law does its work.
+  2. Critics will then go over it twice, each round revised and logged.
 - **Not started yet:** the episodes themselves.
+- **Separate job, on its own branch:** the workshop reorganised to work like the paper you sent. It is built, passed by three independent reviewers "after changes", and being fixed. Nothing is committed to that branch or pushed yet, apart from one small entry that registers the paper as a source.
 
 ## How the pieces fit
 
@@ -23,11 +25,11 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
 |---|---|---|
 | The brief (01, then 08) | Tells the writers what you asked, your rules, and what to avoid | Everything below starts from it |
 | Pitches (02, and the new ones) | Rival versions of the whole season, written separately | The judge picks one and borrows from the others |
-| Pitch reviews (new) | Independent checks of the pitches: originality, your rules, use of *The Fourth Direction* | The judge's decision |
+| Pitch reviews (11) | Independent checks of the pitches: originality, your rules, use of *The Fourth Direction* | The judge's decision |
 | Judgement and season plan (03, and the new ones) | The master document every episode writer follows | The critics |
 | Critiques (04, 06, and the new ones) | Separate critics, each hunting one kind of problem | The reviser |
 | Revision logs (05, and the new ones) | Every finding: accepted or rejected, why, and exactly what changed | The next version of the plan, and you |
-| Your feedback (07) | The biggest revision: why an attempt was dropped and what changed | The next brief |
+| Your feedback (07, 12) | The biggest revisions: why an attempt was dropped, which pitch you chose, and what else you asked for | The next brief or rebuild |
 | Episodes (to come) | Each drafted, critiqued and revised, with its own log | The season |
 
 ## Words used here
@@ -70,6 +72,36 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
    - This makes four agents at once while the three story writers are busy. I took "one more agent" to mean you allowed that.
    - Settled afterwards: I asked which book "this book" meant. You said: "These books". So it means all three, which is how the agent was already briefed. The agent was told, so its own log can quote your answer.
 
+10. **Three new pitches written** (file 10).
+    - ***Seconds***: an Essex family of thieves who step through walls and boast they always come back unturned. The lead kind of story is crime.
+    - ***Honest Weight***: a 1911 prairie town whose wonder-wheat grew beside a stone that fell from nowhere. It is a coming-of-age story.
+    - ***Slack Water***: a present-day Highland loch town that cures turned people at slack tide. It is a detective story.
+    - One writer's run broke partway and restarted by itself, so the third pitch arrived about an hour after the other two.
+11. **Three independent pitch reviews** (file 11).
+    - *Seconds* was judged the most original and the strongest on the message, and the closest to ready.
+    - *Honest Weight* had the richest material but leaned towards Caraway and ended where Caraway ended.
+    - *Slack Water* was judged not original enough: under it sat Caraway's mechanism and ending.
+12. **Your feedback 2: *Seconds* chosen, and every invented law in** (file 12).
+    - You said: "First is best. Now I want to see what happens if you incorporate ALL of the fake laws of physics from "the fourth direction" attachment. Sorry, changed my mind".
+    - A judge was merging the three pitches when this arrived. It was stopped before writing anything, so there is no file for it.
+    - I read "all the fake laws" in the widest sense, so no reading is missed:
+      - all seven laws, clause by clause;
+      - the four things the page marks as made up;
+      - its seven theorems;
+      - its smaller consequences;
+      - its plot examples wherever they fit.
+    - Two of these the pitch had deliberately left untrue: that life next door is mirror-handed, and that moving there cures a turned person. Both are now true.
+    - A turned body's germs being mirror-life must now appear too, used in a way unlike *The Catch*'s dishes and Caraway's mould.
+    - A writer is rebuilding *Seconds* into a season plan with a table showing where each law does its work, then two rounds of criticism, all logged.
+13. **The workshop job: built, reviewed, being fixed** (no file in this folder).
+    - The agent built nine numbered stages, from brief and premise to revision. Each has a plain file saying what it reads, does, writes and checks, plus reference notes from the three books in the workshop's own words. Your copying check found one 8-word run, which was rewritten, then none.
+    - Following your workshop's rule, three reviewers who did not build it checked it: the theory-checker, the copy-checker and the use-tester. All three said "passed after changes":
+      - 24 findings on how your theories are read;
+      - passages that follow the books' order too closely;
+      - a walk-through that found where the stage files stall.
+    - The builder is now fixing each finding, or recording why not. A reviewer will then take one narrow look at the answers before anything is committed or pushed.
+    - Correction to entry 9: I wrote that I asked which book you meant. I didn't ask; you told me without being asked.
+
 ## Next step
 
-When the second attempt's plan is finished and its logs are written, I'll check it against your six rules myself. Then the ten episodes get written, each one drafted, critiqued and revised, with every change logged.
+When the rebuilt *Seconds* plan has been through both rounds of criticism, I'll check it myself against your rules and the list of laws. Then the ten episodes get written, each drafted, critiqued and revised, with every change logged.
