@@ -364,6 +364,16 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
       - *Tess and Kieran.* She finally tells her son which week she meant when she was fourteen.
     - **Next:** after GLM's fixes, one confirmation review with the same critics, MiMo and Fable, then the audience test.
 
+45. **Round 6's fixes made by GLM: the last revision round** (files 45).
+    - **I checked every change word by word.** All 9 fixes were made. Every episode's layout is unchanged, and no notes leaked.
+    - **Two changes went slightly past my wording, both needed by the fixes:**
+      - Tess's clinic crossing is re-timed, so a route that is now one wall in and one wall out adds up (about 1.7 seconds in, then back the way she came).
+      - Rosie now pockets the recruiter's card in episode 8, which the epilogue's "brought with her from Whitechapel" requires.
+    - **Two new moments, for example:**
+      - Terry steps on the little bridge for the first time, and Kieran tears off his ticket: 70.6.
+      - Tess tells Kieran at last which week she meant: "The week your grandad went. Nan stood me on that plate and everybody clapped, and I was hungry."
+    - **Now: the confirmation review**, with the same three GLM critics, MiMo's critique and advice, and Fable's single review of this version. I raised the program's limit from six rounds to seven for this review only.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.

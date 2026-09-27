@@ -103,7 +103,7 @@ def ask_mimo(label, prompt, output_name):
             time.sleep(wait)
     raise RuntimeError(f"[{label}] gave up after 12 attempts")
 
-MAX_ROUNDS = 6
+MAX_ROUNDS = 7  # round 7 is the confirmation review after the last revision (round 6)
 SEVERITY = """HOW TO MARK EACH FINDING:
 SUBSTANTIVE means a careful viewer would notice it and it weakens the season: a plot hole or broken logic; a contradiction between scenes or episodes; a breach of the owner's rules or the plan's physics (an echo of The Catch, a banned word or named idea on screen, a secret new rule, a twist revealed early or unplanted); a character acting without cause or against who they are; a scene with no job; pacing that sags; confusion that does not serve the story; a theme stated instead of shown.
 QUIBBLE means it could go either way, or only an audience test could settle it: word choice or placement, sentence rhythm, the exact minute or day of an event when nothing depends on it, small matters of taste."""
