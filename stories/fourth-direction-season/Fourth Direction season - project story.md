@@ -317,6 +317,16 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - **One tiny change I did not order,** left as harmless: "chin on her fists" became "chin on fists" in episode 6.
     - **Now:** Fable is reviewing the season after round 3, once, and GLM's round-4 critics are reading it.
 
+40. **Round 4: Fable's review, four critiques, MiMo's advice and my ruling** (files 40).
+    - **MiMo's advice confirmed none.** For the first time, it found no substantive problem among the critics' findings. It showed that the most serious ones rest on misreadings; for example, the episode 8 calendar does close, day by day.
+    - **Fable's single review of the season after round 3:** "a finished, unusually well-built season that keeps every one of the owner's rules", with 4 substantive findings. I checked all four and upheld them:
+      - About half a million pounds in Terry's name that nobody mentions while the family starves. The audit has now frozen it, in one line.
+      - Peg's plan to hop the painting "till it turns". It ignored the family's own rule from episode 1, and one exchange now makes that blindness their stated belief.
+      - Danny's six earlier nights, left unexplained by my own "Seventh night" fix. Two sentences now say he stepped in each night and found nothing.
+      - Ray's glow lighting the whole room. That broke the law of sight, and two phrases are cut.
+    - **A slip of mine, corrected:** my round-1 line "I never felt a thing" for Rosie contradicted episode 1, where she feels "a pull in her gut". It now reads "A pull in my gut, that's all it ever was."
+    - **The trend:** fixes per round on *Seconds* have gone 18, 9, 11, 4. MiMo's confirmed findings have gone 11, 9, 6, 0.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
