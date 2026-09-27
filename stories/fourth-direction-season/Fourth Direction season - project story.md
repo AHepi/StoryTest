@@ -287,6 +287,19 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - I then checked that episode 7's scene and act layout matches round 1 exactly, and that every remaining change is one I ordered. GLM's version is kept as a backup.
     - **Now:** Fable is reviewing the season after round 2, once, and GLM's round-3 critics are reading it.
 
+38. **Round 3: Fable's review, four critiques, MiMo's advice and my ruling** (files 38).
+    - **Fable's single review of the season after round 2:** "finished and it works", with 6 substantive findings, each a line or a phrase, and 16 quibbles.
+    - **MiMo's advice:** 6 real problems.
+    - **My ruling: fix 11.** I upheld 5 of MiMo's 6 and all 6 of Fable's. Examples:
+      - A line explaining why Rosie's emergency tab still works in the sea. It is needed because my own round-1 fix planted "Water counts", so a careful viewer will ask.
+      - "Seventh night" in Danny's whisper, so his ambush is a vigil, not luck.
+      - A reason for the Register's visit: Rosie walked off their ward, and this house is her next of kin.
+      - Danny at last owning his "Yes" to Liam: "And I said yes. Write that first."
+      - Joe timing only "what he could" of Rosie's 9.4-second crossing, since his own weight gives him 8.2 seconds.
+    - **Settled on my rule** (a point that keeps coming back and costs a line gets settled): three of these were left as quibbles in round 1 — the investigators, the stakeout and Danny's yes.
+    - **One thing I changed in Fable's advice:** it had Rosie read a sign to learn whether she came back turned. Your plan bans that as an echo of *The Catch*, since in this show the turned simply know. My ruling has her just say "Still me."
+    - **The trend:** fixes per round on *Seconds* have gone 18, 9, 11. Round 3 rose because Fable found six new small gaps and I settled three recurring ones. Every fix is now a single line or phrase.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
