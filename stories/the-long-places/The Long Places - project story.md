@@ -270,6 +270,22 @@ As with the other story, every stage and every revision is kept.
     - **Where I overruled Fable:** it said a keeper's letter in chapter XI contradicts Melek, "forty years" against "sixty". The book's own text answers it. Melek was chosen for the keepership sixty years ago and kept the niche for forty winters; she says both in the same chapter.
     - **The trend:** fixes per round have gone 11, 8, 4, 5. The last two rounds are all single sentences, and Fable now calls the book nearly done.
 
+30. **Round 4's fixes made** (files 30). I checked all nine changes word by word. They were made as ordered, but the planner rightly flagged three slips in my own round-4 wording:
+    - I had Priska "not average" two figures in September, though chapter XI says she learned that later, from Márton.
+    - I used Márton's times (three hours thirty-seven) where Priska's give three hours forty.
+    - I wrote "None of mine deployed" for Márton, though Yusuf used Márton's heat gun.
+
+    All three are corrected in round 5.
+
+31. **Round 5: reviews and my ruling** (files 31).
+    - **Fable's review of the round-4 version:** "a near-finished, genuinely successful novella that keeps every one of the owner's rules", with 2 substantive problems and 10 quibbles. The checker confirmed 2 more.
+    - **My ruling: fix 4, and correct my own 3 slips.**
+      - *Emre's confession.* He says he answered his sister in the dark with the room's name, but she remembers only humming. The book had already planted the answer: the lullaby "paused where the words would be", and she "never once let herself wonder what the words were". Now the name was in the pause, and a contradiction becomes a payoff.
+      - *The drowned chapel.* The page about it gets one plain sentence, because the ending's cost rests on it: someone rowed a lamp out to a drowned church every summer night for six years, unpaid, then stopped, and the place went quiet.
+      - *Melek's rain rule.* The drilling now starts two days after the first rain, not the morning after, which Melek's own rule forbids. The fix is one phrase.
+      - *The handprint.* At the climax she now presses her hand *over* the old print, not beside it, so the wall shows one print, as it always has. My round-4 fix had caused this.
+    - **The trend:** fixes per round have gone 11, 8, 4, 5, 4, and all are now phrases or single sentences. Round 6 is the last round under the cap I set in entry 20.
+
 ## Next step
 
 After each round's review, rule on the findings myself, then have the fixes I order made. When I rule that only quibbles remain, run MiMo's audience test on the final book, add every round's critiques (MiMo's included), verification, plan and logs here with the final book and the audience analysis, and tell you how many rounds it took.
