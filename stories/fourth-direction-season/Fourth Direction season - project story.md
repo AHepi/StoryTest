@@ -327,6 +327,12 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - **A slip of mine, corrected:** my round-1 line "I never felt a thing" for Rosie contradicted episode 1, where she feels "a pull in her gut". It now reads "A pull in my gut, that's all it ever was."
     - **The trend:** fixes per round on *Seconds* have gone 18, 9, 11, 4. MiMo's confirmed findings have gone 11, 9, 6, 0.
 
+41. **Round 4's fixes made by GLM** (files 41).
+    - GLM revised the five episodes my ruling touched.
+    - **I checked every change word by word.** All 4 fixes and both corrections were made as ordered. Every episode's act and scene layout is unchanged, and no notes leaked in: the program change from round 3 held.
+    - **GLM introduced one typo I did not order:** "in his own hand" became "in his's own hand" in episode 8. I corrected it myself.
+    - **Now:** Fable is reviewing the season after round 4, once, and GLM's round-5 critics are reading it.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
