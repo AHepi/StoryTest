@@ -347,6 +347,23 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - **The trend:** fixes per round on *Seconds* have gone 18, 9, 11, 4, 8. Fable keeps finding finer points, but every fix is now a line.
     - **Round 6 is the last revision under the cap.** After it comes one confirmation round, as with *The Long Places*.
 
+43. **Round 5's fixes made by GLM** (files 43).
+    - **I checked every change word by word.** All 8 fixes were made.
+    - **One difference from what I ordered, accepted:** I had asked for Mick to give Peg the Army's date inside the evening scene. GLM instead added a short new scene (5A) at the lorry hatch that Tuesday morning. That is the better place, since the hatch is shut in the evening.
+    - **One slip GLM introduced, corrected by me:** "a man at a next desk" is back to "a man at the next desk".
+    - **The new photograph:** Rosie and Liam's mother is now a young woman laughing on a beach, in a frame beside Frank's. Peg says one line: "Their mother's been in Grays churchyard since Liam was four."
+
+44. **Round 6, the last revision round: Fable's review, four critiques, MiMo's advice and my ruling** (files 44).
+    - **Fable's single review of the season after round 5:** "a complete, coherent season that keeps every one of the owner's rules and is very nearly finished", with just 2 substantive findings. Its earlier *Seconds* reviews had 7, 6, 4 and 5.
+    - **MiMo's advice:** 8 real problems, mostly small continuity slips.
+    - **My ruling: fix 9**, each a line or a phrase. For example:
+      - *Tess at the clinic.* She now starts from the sunken area below the pavement, so her crossing fits the rule that the way back takes as long as the way in.
+      - *The safer option at Mayfair.* It becomes "twice, four and four", which the route allows, instead of "twice, under three", which could not reach the shelf.
+      - *A mis-assigned line.* Rosie was saying Peg's "You went in the Deep".
+      - *Terry's ticket.* He steps on the little bridge for the first time, so his framed "70.6" is actually printed.
+      - *Tess and Kieran.* She finally tells her son which week she meant when she was fourteen.
+    - **Next:** after GLM's fixes, one confirmation review with the same critics, MiMo and Fable, then the audience test.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
