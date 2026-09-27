@@ -276,3 +276,9 @@ The lamp count and Márton's belt-lamp story (VII–VIII) look intended as part 
 - **Word counts:** my own search finds "fork" or "forks" 29 times and "weather" 44 times. The reader said 22 and 45; the gap is in how the words were counted. The point stands: both words are heavily repeated.
 - **The breathing times:** confirmed as 18 (chapter I), 20, 19, 20, 20, and 18 again (chapter XIV). The same sentence returns word for word at the start and the end, which supports the reader's view that the change is meant.
 - **Not checked by me:** the reader's judgements on the villain, pacing and the mystery rules, and its other slips (the fan log in VI, Márton's 27 or 28 years, the forty-first page in XIV). Those rest on its full reading.
+
+---
+
+## Correction, added later by the orchestrator
+
+My spot-check above called chapter XIV's "went on being a Friday" a slip, saying 4 September 2025 was a Thursday. That was wrong. Chapter XIV happens a year after the dig: Nilay is forty-five there, against forty-four in chapter I, and it is "twenty-seven years" since 1999. That makes it 2026, and 4 September 2026 was a Friday. Claude's revision planner caught this. The chapter II slip (Sunday for Saturday, 1999) stands.

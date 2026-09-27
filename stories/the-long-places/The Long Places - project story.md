@@ -15,14 +15,17 @@ As with the other story, every stage and every revision is kept.
 
 ## Where things stand
 
-- **Finished:** *The Long Places*, 14 chapters, about 49,000 words (file 10). GLM 5.3 wrote it at maximum thinking, then revised it once after three critiques of the whole draft.
-- **Kept alongside it:**
-  - every stage: the designs, the blueprints, the critiques and the logs;
-  - the first draft (07);
-  - the change notes for each chapter (11);
-  - GLM's own final check (12).
-- **GLM's own check** says all seven of your rules pass, with quotations as evidence. It is GLM marking its own work.
-- **Read so far:** chapters I, VII and XIV in full by me; all fourteen by an independent reader (13), whose main findings I spot-checked.
+- **Two finished versions, both kept:**
+  - GLM 5.3's own, revised once by GLM (file 10);
+  - the same book revised by three Claude agents from an independent reading (file 19, about 49,150 words).
+- **The Claude revision:**
+  - Halden is now dangerous on the page from chapter IV.
+  - Nilay makes one real move toward her brother in the middle.
+  - The time-travel clues are thinner, and the parallel-reality thread is stronger.
+  - The far-future visitors are stranger.
+  - Emre's line about them is only a guess.
+  - The slips are fixed.
+- **How it was checked:** a fresh reader checked the Claude revision and found 11 small problems (2 must-fix). All were fixed, and its verdict is "the book reads as one; with these edits it is ready".
 
 ## How the pieces fit
 
@@ -39,6 +42,11 @@ As with the other story, every stage and every revision is kept.
 | The finished story (10) | All fourteen revised chapters in one file | You |
 | Change notes (11) | Each chapter reviser's own list of what it changed, and what it could not | You |
 | Final check (12) | GLM checks the finished story against your seven rules, with quotations | You |
+| Independent reading (13) | A fresh Claude reader's honest view of GLM's version | The Claude revision plan |
+| Claude revision plan (16) | One shared plan for the three Claude revisers, chapter by chapter | The revisers |
+| Revised, before the check (17) | The three revisers' chapters as first finished, and their change logs | The continuity check |
+| Continuity check (18) | A fresh reader on the revised book: seams, rules, slips | The final fixes |
+| Revised by Claude, final (19) | The book after every check finding was applied | You |
 | Pipeline program (`tools/`) | Runs GLM through the stages. It reads your key from a private file outside the repository, and the key is in no file here | Everything above |
 
 ## Words used here
@@ -126,6 +134,21 @@ As with the other story, every stage and every revision is kept.
     - Three agents then each revise a block of chapters (I-V, VI-IX, X-XIV), keeping GLM's voice and length. A fresh reader checks the seams and the rules, and each block fixes what the reader finds.
     - Never more than three at once. Every change is logged.
 
+16. **The Claude revision plan** (file 16). About 13,000 words, settling each question once for the whole book:
+    - **Halden's aim:** the sites kept by one keeper at a time, unknown, and the people this costs never recorded.
+    - **His chosen harm:** in 1999 he answered the police in a way that was literally true, "The Trust holds no survey of any chamber below the fourth door", and it quietly ended the search for Nilay's brother.
+    - **Nilay's move:** in chapter VII she picks the drill site over the room she searched in 1999.
+    - **The clues:** only three "dated before its cause" moments are kept. Márton's gravity readings now match Yusuf's 41-room mornings, and the visitors are stranger.
+17. **Three Claude revisers** (files 17). Each revised one block: chapters I-V, VI-IX and X-XIV. Every change is logged in plain words: done, done differently or not done, and why.
+18. **A fresh continuity check** (file 18).
+    - It found 11 small problems. The 2 must-fix: a log entry timed at the very minute another character was awake at the same spot, and "nobody had knocked" where someone had.
+    - All were fixed, and the earlier chapter versions are kept in file 17.
+    - Verdict: "the book reads as one; with these edits it is ready."
+19. **The revised book** (file 19). About 49,150 words, against GLM's 48,980.
+    - **My own check:** I read the new Halden scene in chapter IV; it lands as a real, chosen harm done through paperwork and courtesy.
+    - **Not read by me:** the rest of the revision.
+    - **Correction to entry 14:** I said chapter XIV's "Friday" was a slip. It isn't. That chapter is set in 2026, a year after the dig, and 4 September 2026 was a Friday. The planner caught it. A note is added to file 13.
+
 ## Next step
 
-When the Claude revision finishes, add the plan, the revised story, the change logs and the continuity check here, and compare the two versions for you.
+You choose which version to keep as the book: GLM's own (10) or the Claude revision (19).
