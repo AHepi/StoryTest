@@ -10,12 +10,12 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
 
 ## Where things stand
 
-- **The first attempt, Caraway, is dropped.** You said it was too close to *The Catch*, presented religion in a stock way, referred to the theory of explanation, named ideas outright and was a dystopia. Its files are kept as history (01 to 06). Why it was dropped is in 07.
-- **The second attempt produced three pitches and three independent reviews** (08 to 11).
-- **You chose the first pitch, *Seconds*,** an Essex family of thieves who step through walls. You asked for every invented law of *The Fourth Direction* to be true in it (12).
-- **The *Seconds* plan is on version 3** (16 to 20), after two rounds of three critics each. Round 1 raised 49 findings and round 2 raised 52; none was thrown out entirely. I checked version 3 myself (21), and it passes your rules.
-- **All ten episodes are written** (episodes 1 to 3 by Claude's writers, 4 to 10 by GLM), with GLM's whole-season check applied (file 32). Now: Fable's single review and GLM's revision rounds, with me ruling on what gets fixed.
-- **Separate job, finished:** the workshop reorganised to work like the paper you sent. It is reviewed, committed through your commit gate, and pushed to its own branch, with its own draft pull request: https://github.com/AHepi/StoryTest/pull/3.
+- ***Seconds* is finished as a season** (file 49): ten episodes, written as scriptments. It went through seven rounds of critics, a checker, Fable's review and my ruling, until only quibbles were left.
+- **The audience test is done** (file 51). Five simulated viewers, played by Claude, averaged **8.4 out of 10**. All five would recommend it, and all five understood your core message without any character saying it. *(The file has spoilers.)*
+- **The last mends are being made** (file 52). There are 16 small fixes: 6 from Fable's single review of the finished season (file 50), and 10 slips that the viewers caught and every critic missed. GLM is making them now. After that, I check them word by word, and Fable gives the mended season its single review.
+- **For you to read:** a copy without spoilers (file 49, "to read, without notes"). A fresh one will be made after the mends.
+- **Earlier history, kept:** the first attempt, *Caraway*, was dropped (01 to 07). The second attempt's three pitches (08 to 11) led to *Seconds* (12), whose plan went through three versions (16 to 21).
+- **Separate job, finished:** the workshop reorganised to work like the paper you sent, on its own branch with its own draft pull request: https://github.com/AHepi/StoryTest/pull/3.
 
 ## How the pieces fit
 
@@ -402,6 +402,37 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
       - to read, without the summaries and notes. I checked that none are left. It is about 62,000 words.
     - Fable is now giving the finished season its single review. The audience test, with Claude readers, runs after *The Long Places*' readers finish, to stay within three Claude helpers at once.
 
+50. **Fable's single review of the finished season** (file 50). *(Spoilers in the file.)* Its verdict: "finished and ready to hand on", with 2 substantive findings and 7 quibbles.
+    - I checked both substantive findings on the page, and both are real: a logic seam in episode 4, and a moment in the epilogue that the story never earns.
+
+51. **The audience test, with Claude viewers** (files 51). *(Spoilers in the files.)* These were the same five people as for *The Long Places* (Ana, Tom, Priya, Joe, Lena), with the same seven questions, reading the copy without notes. I checked that all five read to the end: every report discusses episode 10.
+    - **Scores:** Ana 8, Tom 9, Priya 8, Joe 8, Lena 9, an average of 8.4. *The Long Places* scored 7.0 with the same panel.
+    - **Your core message came through for all five,** and none of them heard a character say it. Each wrote it back in their own words.
+    - **Nobody found a cheat.** The engineer checked every weight, second and date: "the sums hold."
+    - **What held them:** the family scenes. **Where they drifted:** wherever the show stopped to explain something. One explanation near the end lost all five.
+    - **Slips every critic missed, which the viewers caught and I confirmed on the page:**
+      - a northern "Aye" in southern mouths, 11 times;
+      - a birthday line in the wrong month;
+      - a boy's uncle called his dad, twice;
+      - a wrong number of years;
+      - a prop that is used more times than the story says;
+      - a rule used before it was ever taught;
+      - a name used before it was ever said;
+      - lines of narration that tell the reader what to feel.
+    - **Two viewers added a caution unprompted:** the show depicts young people starving themselves, accurately and at length. They would warn anyone who has lived with an eating disorder.
+
+52. **The last mends** (file 52). *(Spoilers in the file.)* There are 16 fixes, each a word, a line or a cut.
+    - **From Fable:**
+      - one line that closes the episode 4 logic seam;
+      - three small touches that earn the epilogue's moment;
+      - four more quibbles I settled because they cost a clause.
+    - **From the viewers:**
+      - the slips above;
+      - one line in episode 2 and one line in episode 10, so the explanation that lost all five can be followed.
+    - **One mistake of my own:** in round 7 I ordered a line changed "wherever it repeats", and GLM missed one repeat. I checked that the changes GLM made were correct, but not that every ordered change had been made. From now on I check both.
+    - **Left for you, because they are choices, not slips:** the viewers' bigger suggestions for the last episode's pacing, and a few smaller ones. They are in file 51, which has spoilers, so they can wait until you have read it.
+    - GLM is making the mends now.
+
 ## Next step
 
-Check GLM's final mends word by word, have Fable give the finished season its single review, make a fresh spoiler-free copy for you to read, and run the audience test with Claude readers.
+Check GLM's 16 mends word by word, including that every ordered change was made. Then Fable gives the mended season its single review, and I make you a fresh copy to read, without spoilers.
