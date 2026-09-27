@@ -59,7 +59,7 @@ def ask_glm(label, prompt, output_name):
                                           {"role": "user", "content": prompt}],
             "thinking": {"type": "enabled"}, "reasoning_effort": "max",
             "max_tokens": 128000, "stream": True}
-    for attempt in range(1, 7):
+    for attempt in range(1, 13):
         started = time.time()
         answer, thinking, usage = [], [], {}
         try:
@@ -97,7 +97,7 @@ def ask_glm(label, prompt, output_name):
             wait = min(60 * attempt, 300)
             print(f"[{label}] attempt {attempt} failed: {problem}; waiting {wait}s", flush=True)
             time.sleep(wait)
-    raise RuntimeError(f"[{label}] gave up")
+    raise RuntimeError(f"[{label}] gave up after 12 attempts")
 
 
 def rules():

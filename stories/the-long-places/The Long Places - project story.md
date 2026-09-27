@@ -149,6 +149,15 @@ As with the other story, every stage and every revision is kept.
     - **Not read by me:** the rest of the revision.
     - **Correction to entry 14:** I said chapter XIV's "Friday" was a slip. It isn't. That chapter is set in 2026, a year after the dig, and 4 September 2026 was a Friday. The planner caught it. A note is added to file 13.
 
+20. **Revision rounds until only quibbles are left** (files to come).
+    - You said: "Do more revision passes on both until the only critiques are just word placements or quibbles over the exact timing of events."
+    - The rounds start from the Claude revision (19), with Claude agents as you set: three critics, one verifier and, if real problems remain, one planner and three revisers. Never more than three at once.
+    - A finding is **substantive** if a careful reader or viewer would notice it and it weakens the story: a plot hole, a contradiction, a broken rule of yours, a character acting without cause, a scene with no job, sagging pace, confusion that serves nothing, a theme stated instead of shown.
+    - A finding is a **quibble** if only an audience test could settle it: word choice or placement, sentence rhythm, the exact minute or day of an event when nothing depends on it, taste.
+    - A separate verifier confirms each substantive finding, marks it a quibble, or rejects it. Only confirmed ones are fixed, and the rounds stop when a round confirms none.
+    - Quibbles are recorded, not fixed.
+    - At most six rounds. If the cap is reached, I'll say so.
+
 ## Next step
 
-You choose which version to keep as the book: GLM's own (10) or the Claude revision (19).
+When the rounds finish, add every round's critiques, verification, plan, logs and the final book here, and tell you how many rounds it took.

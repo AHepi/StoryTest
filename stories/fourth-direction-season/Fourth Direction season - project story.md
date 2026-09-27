@@ -158,6 +158,19 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - The Claude run on *Seconds* was stopped to keep to three Claude agents at once.
     - GLM gets the same brief, your rules, the notes on *The Catch* and plan version 3. It does not get the theory of explanation.
 
+28. **GLM's servers failed, and the run was made sturdier** (programs in `tools/`).
+    - GLM finished episodes 4, 5 and 6 (revised, each with a log).
+    - Then its servers kept answering "internal network failure" on episode 7.
+    - I raised the program's retries from 6 to 12 and wrapped it in a runner that restarts after a failure, skipping anything already finished. No finished work was lost.
+29. **Revision rounds until only quibbles are left** (files to come).
+    - You said: "Do more revision passes on both until the only critiques are just word placements or quibbles over the exact timing of events. You know, stuff that is better left to an audience analysis."
+    - When GLM has finished all ten episodes and its season check, it runs rounds on the whole season: three GLM critics, a GLM verifier and, if real problems remain, a GLM plan and GLM revisers.
+    - A finding is **substantive** if a careful reader or viewer would notice it and it weakens the story: a plot hole, a contradiction, a broken rule of yours, a character acting without cause, a scene with no job, sagging pace, confusion that serves nothing, a theme stated instead of shown.
+    - A finding is a **quibble** if only an audience test could settle it: word choice or placement, sentence rhythm, the exact minute or day of an event when nothing depends on it, taste.
+    - A separate verifier confirms each substantive finding, marks it a quibble, or rejects it. Only confirmed ones are fixed, and the rounds stop when a round confirms none.
+    - Quibbles are recorded, not fixed.
+    - At most six rounds. If the cap is reached, I'll say so.
+
 ## Next step
 
-When GLM finishes episodes 4 to 10 and its season check, add them here with their critiques and logs, and read the seam between Claude's episode 3 and GLM's episode 4.
+When GLM's rounds finish, add every episode, critique, verification, plan and log here, and read the seam between episodes 3 and 4.
