@@ -67,6 +67,7 @@ def ask_mimo(label, prompt, output_file):
     key = read(KEY_FILE).strip()
     body = {"model": MODEL, "messages": [{"role": "user", "content": prompt}],
             "thinking": {"type": "enabled"}, "max_tokens": 128000, "stream": True}
+    refusals = 0
     for attempt in range(1, 9):
         started = time.time()
         answer, thinking, usage = [], [], {}
@@ -93,6 +94,12 @@ def ask_mimo(label, prompt, output_file):
             text = "".join(answer).strip()
             if not text:
                 raise RuntimeError("empty answer")
+            if "considered high risk" in text and len(text) < 400:
+                refusals += 1
+                if refusals >= 3:
+                    write(output_file + ".refused.txt", "MiMo's safety filter refused this answer three times.\n")
+                    raise SystemExit(f"[{label}] MiMo's safety filter refused three times")
+                raise RuntimeError("MiMo's safety filter refused the answer")
             write(output_file, text + "\n")
             write(output_file + ".thinking.txt", "".join(thinking))
             with open(LOG_FILE, "a", encoding="utf-8") as log:

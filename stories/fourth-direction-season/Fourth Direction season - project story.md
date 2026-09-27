@@ -217,6 +217,33 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - At the same time, GLM's first revision round has started on its own: three GLM critics, a MiMo critic and MiMo's advice. It will stop and wait for my ruling.
     - **Not yet read by me:** the new episodes themselves. I'll read the passages at stake in each finding when I rule, as I have for *The Long Places*.
 
+33. **Fable's single review of the finished season** (file 33): "a complete, well-built season that keeps every one of the owner's rules and needs only a continuity pass, not a rewrite", with 7 substantive findings, all at the level of a line or a number, and 11 quibbles.
+
+34. **Round 1: four critiques, MiMo's advice, and my ruling** (files 34).
+    - **The critics:** three GLM critics, each through one lens, and MiMo with fresh eyes.
+    - **A setback, fixed:** MiMo's first try at advice was blocked by its maker's safety filter. The answer read "The request was rejected because it was considered high risk", probably because the season is about a family of thieves. The program wrongly took that sentence for real advice.
+      - I changed both programs so a blocked answer counts as a failure.
+      - MiMo now gets up to three tries, with a note that this is fiction under editorial review. If it still refuses, GLM gives the advice instead, and a note records that.
+      - I tested this with a stand-in MiMo that always refuses.
+      - The second real try went through first time: MiMo's advice was 11 real problems.
+    - **I checked every finding I ruled on against the script myself**, quotation by quotation.
+    - **My ruling: fix 18, and correct 3 slips of wording.** Every fix is a line, a clause or one short exchange; no new scenes. The groups:
+      - *Breaches of the plan's rules* (4):
+        - A "cylinder" behind the TV scientist; the plan bans oxygen cylinders as an echo of *The Catch*.
+        - The weighbridge printer chattering live as Ray vanishes; the plan bans any instrument reacting live to an unseen crosser.
+        - Terry crossing in the finale with no rig on him.
+        - Rosie holding a breath she never took.
+      - *Who knows what* (3): Tess quoting a boast of Danny's she never heard, Rosie telling the family what only Maggie told Tess, and Tess quoting a line Maggie never said.
+      - *The season's own numbers* (3): Lee's weights breaking the kilos-to-seconds rule; Tess offering a ten-second cure to two people who can't stay in the black ten seconds; and an investigator misdescribing the raid we watched.
+      - *Rules said and then broken without a word* (3): Shaun's second trip against "never go back twice"; Rosie skipped when Peg tests everyone who crossed; and the twenty-year law for stepping out, never charged.
+      - *Plants and payoffs* (5): why Rosie can't fire her field in the sea, now planted in episode 1; Tess's 61.7 reading, now used; Rosie's secret that she taught Liam to starve, now said; the unmarked two-week gap, now captioned; and a line about a step five hours in the future, now put in the future.
+    - **Where I overruled:**
+      - *People 1, Aoife "fridged":* the brief's craft notes do say "no fridging", but Aoife is built as a person through her absence, and her death drives her mother's story, not a man's.
+      - *Fable's "tingle came early" point* (Fable 6): left, because the plan intends that clue.
+      - *Most of the people critic's other points:* left, because they would add material rather than mend a fault.
+    - **One change I made myself, to the plan:** the episodes lean on the tingle starting about two seconds before a crosser's time runs out, and the plan never declared it. Your rule is that every invented rule is declared once, so I added those words in two places (file 34, before and after).
+    - **Now:** GLM is planning and revising to my ruling. When it finishes, Fable reviews the revised season once, and round 2's critics start.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
