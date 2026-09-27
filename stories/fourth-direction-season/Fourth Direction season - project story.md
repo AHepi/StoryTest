@@ -278,6 +278,15 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - **Left for the audience test:** Peg and Tess never speak after Tess is put out. Their reconciliation is shown in what they do at the station. Whether it also needs words is a matter of taste.
     - **The trend:** round 1 had 18 fixes, round 2 has 9. GLM is making them now.
 
+37. **Round 2's fixes made by GLM** (files 37).
+    - GLM revised the five episodes my ruling touched (3, 5, 6, 7, 10).
+    - **I checked every change word by word.** All 9 fixes were made as ordered. For example, Lee's weights now run from 67 down to 55 kilos, which gives exactly nine seconds by the rule.
+    - **GLM made two changes I did not order:**
+      - One word of tense in a stage direction ("arrived" became "arrive"). Harmless, left.
+      - It moved the heading "Act three: The graph" one scene later in episode 7, which put the scene where the two women draw the graph into act two. The plan puts the drawing in act three, so I moved the heading back myself, with its separator line.
+    - I then checked that episode 7's scene and act layout matches round 1 exactly, and that every remaining change is one I ordered. GLM's version is kept as a backup.
+    - **Now:** Fable is reviewing the season after round 2, once, and GLM's round-3 critics are reading it.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
