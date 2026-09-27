@@ -318,6 +318,26 @@ As with the other story, every stage and every revision is kept.
       - Fixes per round: 11, 8, 4, 5, 4, 4, then copyedits only.
       - Findings the checker confirmed per round: 7, 6, 3, 2, 2, 1, 0.
 
+36. **The final copyedits, checked** (files 36). I checked all four word by word, and they are exactly as ordered. The finished book is about 49,680 words.
+    - Fable's final single review first failed: my account hit its session limit for Claude helpers, which reset at 8:20pm UTC. I re-ran it after the reset, reusing the finished copyedits; it is running now.
+
+37. **The audience test** (files 37). Five simulated readers, each played by MiMo, read the finished book at the same time. MiMo then wrote the analysis. I confirmed each reader received the whole book, about 62,500 tokens.
+    - **Scores:** Ana (nurse) 8, Tom (engineer) 8.5, Priya (film student) 8, Joe (retired driver, reads thrillers) 6, Lena (philosophy teacher) 9. The average is 7.9.
+    - **What all five agreed on:**
+      - Melek is the best thing in the book.
+      - Chapter II, the 1999 night, is its engine.
+      - The fingerprint reveal surprised every one of them.
+      - Márton's death lands.
+      - The reunion works.
+    - **What they guessed early:** that Emre is alive below. Most felt the book meant them to.
+    - **Where attention drifted, the most common complaint:** the science and measurement passages, which make the same point three times.
+    - **What the panel most supports:**
+      - trim the science passages by 20 to 30 per cent;
+      - compress repeated passages ("I never do" appears about eight times);
+      - rebalance Yusuf's internet subplot against Halime and Seher.
+    - **Fable's worry about the shared wise voice** did not come up in that form. The readers flagged repeated phrases, not a uniform voice.
+    - **One reader-noticed number, 1,142.6 against 1,142.5, is deliberate:** the book plants it as a figure "spoken twice" so the world cannot quietly amend it, and then the world does.
+
 ## Next step
 
-Check the final copyedits word by word, read Fable's single review of the finished book, then run MiMo's audience test (five simulated readers) on it and report what they make of it, especially the shared, aphoristic voice that Fable raised three times.
+Read Fable's final review. Then you decide whether to act on the panel's three suggestions, which are creative choices rather than fixes: trimming the science passages, compressing the repeats, and rebalancing the minor characters.
