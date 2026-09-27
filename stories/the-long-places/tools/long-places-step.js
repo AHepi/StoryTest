@@ -67,6 +67,13 @@ if (A.revise_round) {
   first = false
 }
 
+if (A.final_only) {
+  // The last copyedit revision: Fable gives its single review of the finished book, and no further critic round runs.
+  const fdir = `${ROUNDS}/round-${A.revise_round}`
+  out.fable = await agent(fablePrompt(fableDoc, `${fdir}/fable-review-of-final.md`), {label: `final-fable-review`, phase: 'Fable review', model: 'fable', effort: 'xhigh'})
+  out.final_folder = source
+  return out
+}
 const r = A.review_round
 const rdir = `${ROUNDS}/round-${r}`
 const list = chapterFiles(source, first).join(', ')

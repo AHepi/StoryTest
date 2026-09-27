@@ -300,6 +300,24 @@ As with the other story, every stage and every revision is kept.
     - **The cap.** This is round 6, the last under the cap I set in entry 20. After these fixes I am running one more review with the same critics, checker and Fable, only to confirm. If it confirms nothing substantive, the book is done, and the audience test comes next.
     - **The trend:** fixes per round have gone 11, 8, 4, 5, 4, 4. The checker's confirmed findings have gone 7, 6, 3, 2, 2, 1.
 
+34. **Round 6's fixes made** (files 34). I checked all six changes word by word, and all were made as ordered. The planner changed one detail of my wording: Melek tells "the gendarmes", not someone "at the step", because the book already quotes what she said at the step. I accept it. The book is now about 49,670 words.
+
+35. **Round 7, the confirmation round: nothing substantive left** (files 35).
+    - **The critics:** the story and people critics found no substantive problem at all. The continuity critic marked two, and the checker judged both quibbles. MiMo's ten findings were eight wrong and two quibbles.
+    - **The checker confirmed none.**
+    - **Fable's review of the round-6 version:** "finished as a story and keeping every one of the owner's rules, with only copyedit-level work left", with one small point and 10 quibbles.
+    - **My verdict: the rounds are finished.** Only quibbles and copyedits remain, which is where you asked the rounds to stop.
+    - **Final copyedits:**
+      - One clause settles Fable's point: the phone's upload app kept its own copy of the footage after the memory card died.
+      - Three words of fact:
+        - the air plan had worked "a season", not "a year";
+        - Seher is the youngest "on the mats", not simply "there", since Nilay is present;
+        - a photograph is taken "from above and to one side", not "above and behind", so it can show three-quarters of a face.
+    - The revisers are making these now, and then Fable gives the finished book its single review, with no further critic round.
+    - **The whole record:**
+      - Fixes per round: 11, 8, 4, 5, 4, 4, then copyedits only.
+      - Findings the checker confirmed per round: 7, 6, 3, 2, 2, 1, 0.
+
 ## Next step
 
-After each round's review, rule on the findings myself, then have the fixes I order made. When I rule that only quibbles remain, run MiMo's audience test on the final book, add every round's critiques (MiMo's included), verification, plan and logs here with the final book and the audience analysis, and tell you how many rounds it took.
+Check the final copyedits word by word, read Fable's single review of the finished book, then run MiMo's audience test (five simulated readers) on it and report what they make of it, especially the shared, aphoristic voice that Fable raised three times.
