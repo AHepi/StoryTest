@@ -218,6 +218,25 @@ As with the other story, every stage and every revision is kept.
     - **Everything I overruled is listed in the ruling, with the reason.** All quibbles are recorded and left for the audience test.
     - **A timing note:** the first run was stopped the moment the checker finished. Its planner had just started and was stopped before writing anything, so no plan was made from the checker's count alone.
 
+24. **Round 1's fixes made** (files 24).
+    - A planner turned my ruling into exact changes, and three revisers made them, one block of chapters each. Every change is logged in plain words.
+    - **I checked every change against my ruling, word by word.** All were made as ordered. The one piece of new wording I had to check was the reviser's sentence on Priska's air: its figures (4.0 percent at the fourth door; 15 events in 22 nights, 2 in 26) are all figures chapter V already gives.
+    - **The new moment for Nilay's mother** (141 words): she finds the ribbon on the table by the bread oven, asks nothing, folds it on its old creases, and keeps smoothing the top fold "long after there was nothing left to smooth". At dusk she watches her daughter go out with the oil can, "the way she had once watched a boy go out in house slippers, and did not call anything after her."
+    - The book is now about 49,330 words.
+
+25. **Round 2: reviews and my ruling** (files 25).
+    - **Fable's review of the round-1 version:** "a finished, tightly built literary mystery that keeps every one of the owner's rules and has a villain worthy of the brief; it needs a short polish pass, not a rewrite", with 4 substantive problems and 10 quibbles.
+    - **The checker advised 6 real problems.** MiMo's three substantive findings were all judged wrong; two of them repeat points already settled in round 1.
+    - **My ruling: fix 8.**
+      - I upheld the checker's 6. Among them:
+        - When Nilay wakes, the wax reads as the lid of the tin box, though the ritual seals only the letter.
+        - The sheet from tomorrow is dated "tomorrow" on the very morning it describes.
+        - Priska, who made everyone wear her air meter, lets Nilay sit a still-air night below without one.
+      - I added 2 of Fable's: Nilay writes an accusation against the Registrar and strikes it through, so accepting the keepership from him visibly costs her something; and a plain slip where the oil can is handed to Nilay twice.
+      - I left 4 of Fable's as quibbles, with reasons. One example: "the whole hour" on the meter strip is the book's own name for the event, not sixty minutes.
+    - **Protected on purpose:** Fable warned that the sealed-box proof has a deliberate hole: Nilay breaks the seal alone, below. My ruling forbids anyone from "strengthening" it.
+    - **The trend:** round 1 had 11 fixes, several of them real plot problems. Round 2 has 8, all small (a clause or a sentence each). The problems are getting smaller.
+
 ## Next step
 
 After each round's review, rule on the findings myself, then have the fixes I order made. When I rule that only quibbles remain, run MiMo's audience test on the final book, add every round's critiques (MiMo's included), verification, plan and logs here with the final book and the audience analysis, and tell you how many rounds it took.
