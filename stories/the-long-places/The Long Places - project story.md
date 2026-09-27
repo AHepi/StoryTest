@@ -56,6 +56,9 @@ As with the other story, every stage and every revision is kept.
 - **Clue ledger:** the blueprint's table of every clue, where it appears, what it seems to support, and what it really is.
 - **Keeper interlude:** the short, undated passage that opens each chapter, in the voice of someone tending the lamps.
 - **Pipeline:** the program that runs the stages in order, several at once where parts are independent.
+- **MiMo v2.6 Pro:** an AI model from Xiaomi. Here it is a fresh-eyes critic in the revision rounds and runs the audience test at the end.
+- **Substantive finding / quibble:** a problem a careful reader would notice and that weakens the story, versus a point only an audience test could settle (word choice, rhythm, the exact timing of an event when nothing depends on it).
+- **Audience test:** five simulated readers with different tastes read the finished story and report how it played for them.
 
 ## Log
 
@@ -158,6 +161,28 @@ As with the other story, every stage and every revision is kept.
     - Quibbles are recorded, not fixed.
     - At most six rounds. If the cap is reached, I'll say so.
 
+21. **MiMo joins as a third opinion, and how many helpers can run at once** (programs in `tools/`).
+    - You asked me to find a use for MiMo (MiMo v2.6 Pro, Xiaomi's AI model), and how many agents I can run at once, since MiMo and GLM can each run 5.
+    - **How many at once:**
+      - *My own Claude helpers:* you set a limit of three. In practice my workflow tool runs at most two at a time on this machine: it allows two fewer than the machine's four processors.
+      - *GLM and MiMo:* they run on their makers' computers, not this one. This machine only sends the question and waits, so five of each at once costs it almost nothing. The programs use up to five.
+    - **What MiMo does now:**
+      1. *A fourth critic in every round, on both stories.* It is a different model from the ones that wrote and revise each story, so it reads with genuinely fresh eyes. Its findings are weighed exactly like the others.
+      2. *The verifier for GLM's rounds on* Seconds, *so GLM's work is never cleared by GLM alone.*
+      3. *The audience test at the end.* Five simulated readers, each with different tastes, read each finished story at the same time and say where they were gripped, lost, bored or moved. MiMo then writes the audience analysis. The five: a nurse who reads literary fiction, an engineer who checks every rule, a film student, a retired bus driver who reads a thriller a week, and a philosophy teacher who goes to church.
+    - **What I tested:**
+      - *Finding the right door.* Only MiMo's Singapore address accepts your key; the two others refuse it.
+      - *Thinking depth.* Its deep-thinking mode works; its "max" setting is refused, so "high" is used.
+      - *A whole book at once.* One critique of the entire Claude revision took 9 minutes 37 seconds. MiMo read all 62,000 tokens (a token is roughly three-quarters of a word) and thought through about 18,000 more before writing.
+    - **What MiMo found in round 1:** 15 findings; it marked 4 substantive:
+      - Halden reads as elegant rather than frightening.
+      - Márton's last descent alone has no visible moment of decision.
+      - The parallel-reality theory has no adult champion.
+      - The far-future visitors are too faint to be read as people from very far away.
+      A Claude verifier will now check these alongside the three Claude critics.
+    - **A slip, caught and fixed:** MiMo's first critique came back with garbled accented letters ("MÃ¡rton" for "Márton"). Its server doesn't say which alphabet it uses, and the program guessed wrong. I set it explicitly, repaired the file (nothing was lost; it was a display error only), and tested again: "Márton — Kırk Oda — café" now comes back intact. GLM's files were checked and never had the problem.
+    - **Because a MiMo critique takes almost ten minutes,** it is started in the background at the start of each round, while the three Claude critics read. The verifier waits for it.
+
 ## Next step
 
-When the rounds finish, add every round's critiques, verification, plan, logs and the final book here, and tell you how many rounds it took.
+When the rounds finish, run MiMo's audience test on the final book, add every round's critiques (MiMo's included), verification, plan and logs here with the final book and the audience analysis, and tell you how many rounds it took.

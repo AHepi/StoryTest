@@ -6,3 +6,7 @@ sources/raw/
 # OS and editor clutter
 .DS_Store
 *.swp
+
+# Private AI service keys: never committed
+.glm_key
+.mimo_key

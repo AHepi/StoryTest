@@ -2,22 +2,82 @@
 """Revise the whole Seconds season with GLM 5.3, round after round, until only quibbles are left.
 
 What it does, each round:
-  1. Three GLM critics read the whole season, each through one lens, and mark every
+  1. Three GLM critics read the whole season, each through one lens, and a MiMo critic
+     (a different model, MiMo v2.6 Pro) reads it with fresh eyes. Each marks every
      finding SUBSTANTIVE (a real problem a viewer would notice) or QUIBBLE (word
      placement, the exact timing of an event, taste: better left to an audience test).
-  2. A GLM verifier checks every SUBSTANTIVE finding and keeps only the real ones.
+  2. A MiMo verifier checks every SUBSTANTIVE finding and keeps only the real ones, so
+     GLM's work is never cleared by GLM alone.
   3. If none are confirmed, the rounds stop.
   4. Otherwise GLM writes a revision plan by episode, and GLM revisers rewrite each
-     episode that needs changes, three at a time, each with a plain log.
+     episode that needs changes, five at a time, each with a plain log.
 At most MAX_ROUNDS rounds. Every file of every round is kept in round-N folders.
 
 Usage: python3 glm_seconds_rounds.py   (run after glm_seconds_pipeline.py has finished)
 """
 import concurrent.futures
+import json
 import os
 import re
+import time
 
-from glm_seconds_pipeline import ask_glm, claude_final, path, read, rules, write
+import requests
+
+from glm_seconds_pipeline import LOG_FILE, ask_glm, claude_final, path, read, rules, write
+
+MIMO_ENDPOINT = "https://token-plan-sgp.xiaomimimo.com/v1/chat/completions"
+MIMO_MODEL = "mimo-v2.6-pro"
+MIMO_KEY_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".mimo_key")
+
+
+def ask_mimo(label, prompt, output_name):
+    """Send one prompt to MiMo with deep thinking and streaming; save answer and thinking; return the answer."""
+    if os.path.exists(path(output_name)):
+        print(f"[{label}] already done", flush=True)
+        return read(path(output_name))
+    key = read(MIMO_KEY_FILE).strip()
+    body = {"model": MIMO_MODEL, "messages": [{"role": "user", "content": prompt}],
+            "thinking": {"type": "enabled"}, "max_tokens": 128000, "stream": True}
+    for attempt in range(1, 13):
+        started = time.time()
+        answer, thinking, usage = [], [], {}
+        try:
+            with requests.post(MIMO_ENDPOINT, json=body, stream=True, timeout=(30, 900),
+                               headers={"Authorization": f"Bearer {key}"}) as response:
+                if response.status_code != 200:
+                    raise RuntimeError(f"status {response.status_code}: {response.text[:300]}")
+                response.encoding = "utf-8"  # MiMo's server does not name its alphabet, so accented letters came out garbled
+                for line in response.iter_lines(decode_unicode=True):
+                    if not line or not line.startswith("data:"):
+                        continue
+                    data = line[5:].strip()
+                    if data == "[DONE]":
+                        break
+                    chunk = json.loads(data)
+                    if chunk.get("error"):
+                        raise RuntimeError(str(chunk["error"])[:300])
+                    usage = chunk.get("usage") or usage
+                    for choice in chunk.get("choices", []):
+                        delta = choice.get("delta", {})
+                        if delta.get("reasoning_content"):
+                            thinking.append(delta["reasoning_content"])
+                        if delta.get("content"):
+                            answer.append(delta["content"])
+            text = "".join(answer).strip()
+            if not text:
+                raise RuntimeError("empty answer")
+            write(path(output_name), text + "\n")
+            write(path(os.path.join("thinking", output_name)), "".join(thinking))
+            with open(LOG_FILE, "a", encoding="utf-8") as log:
+                log.write(json.dumps({"label": label, "model": MIMO_MODEL, "output": output_name, "attempt": attempt,
+                                      "seconds": round(time.time() - started), "usage": usage}) + "\n")
+            print(f"[{label}] done in {round(time.time() - started)}s", flush=True)
+            return text
+        except Exception as problem:
+            wait = min(60 * attempt, 300)
+            print(f"[{label}] attempt {attempt} failed: {problem}; waiting {wait}s", flush=True)
+            time.sleep(wait)
+    raise RuntimeError(f"[{label}] gave up after 12 attempts")
 
 MAX_ROUNDS = 6
 SEVERITY = """HOW TO MARK EACH FINDING:
@@ -64,17 +124,28 @@ THE WHOLE SEASON AS IT STANDS:
 YOUR TASK: you did not write this season. Criticise it through one lens only: {lens}
 {SEVERITY}
 Write a numbered list of findings, most serious first, at most 20. For each: the episode and scene, the problem, why it matters, a concrete fix, and the mark SUBSTANTIVE or QUIBBLE. Only real findings."""
-        jobs.append((f"r{number}-critique-{name}", prompt, f"{folder}/critique-{name}.md"))
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
-        critiques = list(pool.map(lambda job: ask_glm(*job), jobs))
-    all_critiques = "\n\n".join(f"=== CRITIQUE: {name} ===\n{text}" for name, text in zip(LENSES, critiques))
-    verification = ask_glm(f"r{number}-verify", f"""{rules()}
+        jobs.append((ask_glm, f"r{number}-critique-{name}", prompt, f"{folder}/critique-{name}.md"))
+    fresh_prompt = f"""{rules()}
+
+THE WHOLE SEASON AS IT STANDS:
+
+{season}
+
+YOUR TASK: you did not write this season, and you come to it fresh. Criticise it as a whole: story and rules, people and feeling, continuity and voice.
+{SEVERITY}
+Write a numbered list of findings, most serious first, at most 20. For each: the episode and scene, the problem, why it matters, a concrete fix, and the mark SUBSTANTIVE or QUIBBLE. Only real findings."""
+    jobs.append((ask_mimo, f"r{number}-critique-mimo", fresh_prompt, f"{folder}/critique-mimo.md"))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+        critiques = list(pool.map(lambda job: job[0](*job[1:]), jobs))
+    names = list(LENSES) + ["mimo (fresh eyes, a different model)"]
+    all_critiques = "\n\n".join(f"=== CRITIQUE: {name} ===\n{text}" for name, text in zip(names, critiques))
+    verification = ask_mimo(f"r{number}-verify", f"""{rules()}
 
 THE WHOLE SEASON:
 
 {season}
 
-THREE CRITIQUES OF IT:
+FOUR CRITIQUES OF IT:
 
 {all_critiques}
 
@@ -119,7 +190,7 @@ YOUR TASK: rewrite episode {episode_number} in full, making every change the pla
         write(path(f"{folder}/episode-{episode_number:02d}-log.md"), log.strip() + "\n")
         return episode_number, text.strip() + "\n"
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
         for episode_number, text in pool.map(revise, range(1, 11)):
             revised[episode_number] = text
     return revised, count

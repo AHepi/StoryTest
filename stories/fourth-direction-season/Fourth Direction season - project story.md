@@ -42,6 +42,10 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
 - **Twist:** a reveal that makes you see what came before differently.
 - **Plant:** an earlier detail that makes a later twist fair.
 - **Helper agent:** a separate copy of Claude given one job. Never more than three work at once, as you asked.
+- **GLM 5.3:** an AI model from Z.ai. It is finishing *Seconds* from episode 4 on.
+- **MiMo v2.6 Pro:** an AI model from Xiaomi. Here it is a fresh-eyes critic and the verifier in GLM's revision rounds, and it runs the audience test at the end.
+- **Substantive finding / quibble:** a problem a careful viewer would notice and that weakens the season, versus a point only an audience test could settle (word choice, rhythm, the exact timing of an event when nothing depends on it).
+- **Audience test:** five simulated viewers with different tastes read the finished season and report how it played for them.
 
 ## Log
 
@@ -171,6 +175,17 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - Quibbles are recorded, not fixed.
     - At most six rounds. If the cap is reached, I'll say so.
 
+30. **MiMo joins as a third opinion, and how many helpers can run at once** (programs in `tools/`).
+    - You asked me to find a use for MiMo (MiMo v2.6 Pro, Xiaomi's AI model), and how many agents I can run at once, since MiMo and GLM can each run 5.
+    - **How many at once:** my own Claude helpers stay within your limit of three (my workflow tool runs at most two at a time on this machine). GLM and MiMo run on their makers' computers, so five of each at once costs this machine almost nothing, and the programs use up to five.
+    - **What changed in GLM's rounds on *Seconds*** (entry 29):
+      - *The critics:* the three GLM critics are joined by a fourth, MiMo, reading the whole season with fresh eyes.
+      - *The verifier:* it is now MiMo, not GLM, so GLM's work is never cleared by GLM alone.
+      - *The revisers:* GLM revises up to five episodes at once instead of one at a time.
+    - **The audience test at the end:** five simulated viewers with different tastes watch the finished season on paper, all at once, and MiMo writes the audience analysis. This is where the quibbles the rounds leave alone get settled.
+    - **Tested:** MiMo's working address, its deep thinking, and a full-book critique of *The Long Places* (9 minutes 37 seconds). A garbled-letters slip in MiMo's replies was found and fixed (details in *The Long Places* project story, entry 21).
+    - **Not yet tested on *Seconds*:** the rounds program with MiMo in it. It starts only after GLM finishes episodes 7 to 10, and GLM's servers are still failing on episode 7.
+
 ## Next step
 
-When GLM's rounds finish, add every episode, critique, verification, plan and log here, and read the seam between episodes 3 and 4.
+When GLM's rounds finish, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
