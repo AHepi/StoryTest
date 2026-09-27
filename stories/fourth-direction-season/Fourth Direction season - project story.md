@@ -383,6 +383,11 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
       - A Claude checker is now weighing GLM's three confirmation-round critiques of *Seconds*. GLM's three critics had finished; MiMo's critique was stuck behind its safety filter.
       - Both audience tests are now run by Claude readers: the same five people and the same questions. MiMo's readers of *The Long Places* thought only briefly before answering, so that test is being re-run.
 
+47. **A copy for reading, without spoilers** (file 47). You asked to read *Seconds* "not knowing what it's about or what will happen".
+    - This copy of the season after round 6 leaves out each episode's one-line summary and its closing "Plants and payoffs" notes, which list every setup and twist.
+    - I scanned it for anything else that talks to the reader about the story from outside, and found none. It is about 62,000 words.
+    - The confirmation round may still change a handful of lines. If it does, I will make a fresh copy the same way.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
