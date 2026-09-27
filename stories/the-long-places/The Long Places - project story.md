@@ -22,7 +22,7 @@ As with the other story, every stage and every revision is kept.
   - the change notes for each chapter (11);
   - GLM's own final check (12).
 - **GLM's own check** says all seven of your rules pass, with quotations as evidence. It is GLM marking its own work.
-- **My own reading so far:** chapters I, VII and XIV in full, and GLM's final check. I have not read chapters II to VI or VIII to XIII closely.
+- **Read so far:** chapters I, VII and XIV in full by me; all fourteen by an independent reader (13), whose main findings I spot-checked.
 
 ## How the pieces fit
 
@@ -95,6 +95,22 @@ As with the other story, every stage and every revision is kept.
       - I haven't checked the middle chapters to see whether the villain feels like a real threat or only an unsettling presence.
       - The eighteen, nineteen and twenty minutes may be a continuity slip that GLM has called deliberate.
 
+14. **An independent reading** (file 13).
+    - A fresh Claude reader that wrote none of the story read all fourteen chapters as a first-time reader.
+    - **Best:** the keeper-letter frame; chapters V, XI and XIV; and evidence that stays honestly balanced between the explanations. The questions about belief are the book's strongest area.
+    - **Weakest:**
+      - Halden is an unsettling presence rather than a formidable threat. The harm he causes is large when added up (a death, the women's vigils ended, the keeper removed the day before she collapses), but it all comes wrapped as kindness, and the book half shares his view.
+      - The middle chapters are all one tone, with a passive heroine and repeated words.
+      - Time travel is heavily signalled, so a genre-savvy reader may guess "time" by chapter IX, though the exact twist still surprises.
+      - The far-future visitors speak a worn-down Turkish, so they never feel astronomically far off.
+    - **Its three suggested changes:** make Halden dangerous on the page early; cut the repetition and give Nilay one active move; rebalance the clues.
+    - **Slips found:**
+      - two wrong weekdays: 4 September 1999 was a Saturday, not a Sunday, and 4 September 2025 was a Thursday, not a Friday (the second is my own find);
+      - "tourches";
+      - a fan-repair log dated before the breakdown;
+      - Márton's years given as both 27 and 28.
+    - **Checked by me:** the weekday slips, the typo, the breathing times (18, 20, 19, 20, 20, 18, which looks deliberate) and the repeated words. The reader's judgements on the villain and pacing rest on its reading, not mine.
+
 ## Next step
 
-Read chapters II to VI and VIII to XIII, to judge the villain and the middle of the story as a whole before calling it finished.
+Let GLM do one more revision round against the independent reader's findings, so the experiment stays GLM's work: a more dangerous Halden, a more active middle, rebalanced clues, and the slips fixed. It draws on your coding plan again, so it waits for your go-ahead.
