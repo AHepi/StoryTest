@@ -388,6 +388,12 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - I scanned it for anything else that talks to the reader about the story from outside, and found none. It is about 62,000 words.
     - The confirmation round may still change a handful of lines. If it does, I will make a fresh copy the same way.
 
+48. **Round 7, the confirmation round** (files 48). *(Spoilers in the files.)*
+    - **The Claude checker** upheld 1 of the 14 findings GLM's critics had marked substantive. Most of GLM's labels were taste or small details.
+    - **Fable's single review of the season after round 6:** "finished as a draft — complete, rule-tight, its reversals fairly planted and its message never spoken", with 4 substantive findings.
+    - **My verdict: the rounds are finished.** Five one-line mends and one wrong word remain. Two of the mends undo my own earlier wording.
+    - GLM is making them. Then Fable gives the finished season its single review, and the audience test runs, with Claude readers.
+
 ## Next step
 
-When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
+Check GLM's final mends word by word, have Fable give the finished season its single review, make a fresh spoiler-free copy for you to read, and run the audience test with Claude readers.
