@@ -338,6 +338,10 @@ As with the other story, every stage and every revision is kept.
     - **Fable's worry about the shared wise voice** did not come up in that form. The readers flagged repeated phrases, not a uniform voice.
     - **One reader-noticed number, 1,142.6 against 1,142.5, is deliberate:** the book plants it as a figure "spoken twice" so the world cannot quietly amend it, and then the world does.
 
+38. **Fable's single review of the finished book** (file 38): "finished as a story and keeping every one of the owner's rules, needing only a short polish pass", with 2 substantive findings and 6 quibbles.
+    - **Upheld: Márton's witness statement had lost its noun.** It read "None deployed by me." This was my own slip: my rewording in rounds 4 and 5 dropped the word "Instruments". I restored it myself ("Instruments: none deployed by me."), since restoring one lost word is not a new revision. The book file is updated.
+    - **Overruled: "the two solstice nights disagree".** On the first night one watch of three drifts, which leaves open a faulty-watch explanation. The second night was set up with a control watch above ground to close it. That is an experiment progressing, not a contradiction; the round-7 checker read it the same way. Fable offered a one-line alternative for Marques if you ever want the untidiness on the record.
+
 ## Next step
 
-Read Fable's final review. Then you decide whether to act on the panel's three suggestions, which are creative choices rather than fixes: trimming the science passages, compressing the repeats, and rebalancing the minor characters.
+The rounds are done. Your decision: whether to act on the audience panel's three suggestions, which are creative choices rather than fixes. They are to trim the science passages by 20 to 30 per cent, compress the repeated passages, and rebalance Yusuf's subplot against Halime and Seher.

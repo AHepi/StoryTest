@@ -1,6 +1,6 @@
 # 36 The Long Places - finished
 
-*The finished book: file 19 after seven rounds of review, six rulings and the final copyedits (files 23 to 35). About 49,680 words. Fable 5.1's single review of this version follows in its own file when it arrives.*
+*The finished book: file 19 after seven rounds of review, six rulings, the final copyedits (files 23 to 36), and one lost word restored by me after Fable's final review (log entry 38). About 49,680 words.*
 
 # I. The Lamps Are Old
 
@@ -681,7 +681,7 @@ Nilay compiled the annexes herself, because she was the registrar of her own dig
 >
 > Language: none I know. I understood it. I record both.
 >
-> None deployed by me. Lamp at the stair head: not moved at any time.
+> Instruments: none deployed by me. Lamp at the stair head: not moved at any time.
 >
 > Samples: ash, cold (bag 1). Item: coin, white metal, diam. 21 mm, stamp illegible; found on my person after ascent; unable to account; surrendered herewith.
 >
