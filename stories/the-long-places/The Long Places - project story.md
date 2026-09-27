@@ -255,6 +255,21 @@ As with the other story, every stage and every revision is kept.
       These are matters of taste and pace, the voice is the book's own, and a "voice pass" over 49,000 words would be a rewrite. The five simulated readers can tell us whether they tire of it, and then it becomes your call.
     - **The trend:** fixes per round have gone 11, 8, 4, and each is now a word or a sentence.
 
+28. **Round 3's fixes made** (files 28). I checked all five changes word by word against my ruling, and all were made as ordered. The book is now about 49,470 words.
+
+29. **Round 4: reviews and my ruling** (files 29).
+    - **Fable's review of the round-3 version:** "finished in structure and nearly finished in text — it keeps every one of the owner's rules, with a Johan-quality villain and a genuinely earned last reveal; four small sentence-level fixes stand between it and done."
+    - **The checker confirmed 2.** It judged seven of MiMo's eight substantive findings wrong and the eighth a quibble.
+    - **My ruling: fix 5, each a clause or a sentence, and correct 3 slips of wording.**
+      - Nothing on the page stops anyone going back to the polished chamber for four months. One clause now says the Ministry has sealed it.
+      - The second handprint Nilay presses at the climax is never accounted for when she studies the wall that winter. One sentence now says there is one print, and she cannot tell which of the two it is.
+      - The fingerprint match, the book's one hard proof, now shows how the 1924 photograph reached the technician: the Trust sent it, "as a courtesy".
+      - Priska's air meter ticks six times a minute, so its paper strip is also a clock. One sentence now reads its length: it agrees with the watches, three hours and thirty-seven minutes. The lost time was the party's alone.
+      - "The two dates side by side" now says plainly which two Julys it means.
+    - **Four of these reverse my own earlier calls.** I had left the chamber, the fingerprint's route, the meter strip and the two Julys as quibbles or "inferable". Each came back from a different reviewer with a better argument, and each costs a clause. The lesson I've written into the ruling: when a point keeps coming back and costs a clause to settle, settle it the first time.
+    - **Where I overruled Fable:** it said a keeper's letter in chapter XI contradicts Melek, "forty years" against "sixty". The book's own text answers it. Melek was chosen for the keepership sixty years ago and kept the niche for forty winters; she says both in the same chapter.
+    - **The trend:** fixes per round have gone 11, 8, 4, 5. The last two rounds are all single sentences, and Fable now calls the book nearly done.
+
 ## Next step
 
 After each round's review, rule on the findings myself, then have the fixes I order made. When I rule that only quibbles remain, run MiMo's audience test on the final book, add every round's critiques (MiMo's included), verification, plan and logs here with the final book and the audience analysis, and tell you how many rounds it took.
