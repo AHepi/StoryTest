@@ -342,6 +342,15 @@ As with the other story, every stage and every revision is kept.
     - **Upheld: Márton's witness statement had lost its noun.** It read "None deployed by me." This was my own slip: my rewording in rounds 4 and 5 dropped the word "Instruments". I restored it myself ("Instruments: none deployed by me."), since restoring one lost word is not a new revision. The book file is updated.
     - **Overruled: "the two solstice nights disagree".** On the first night one watch of three drifts, which leaves open a faulty-watch explanation. The second night was set up with a control watch above ground to close it. That is an experiment progressing, not a contradiction; the round-7 checker read it the same way. Fable offered a one-line alternative for Marques if you ever want the untidiness on the record.
 
+39. **MiMo retired, at your prompt.** You asked: "Does MiMo discover anything substantive? If not, it's just wasting time. Your subagents are much smarter anyway."
+    - **The record, round by round:**
+      - *The Long Places.* Across seven rounds, one of MiMo's findings survived checking and made it into a ruling: that the far-future visitors read as ancient. A Claude critic had found that too. About forty of its findings were judged wrong. It repeated "Halden isn't menacing" six rounds running, and was wrong every time.
+      - *Seconds.* MiMo earned its place early. Its round-1 critique caught the two worst breaches of your rules, which no other critic found: the banned "cylinder", an echo of *The Catch*, and Terry crossing with no rig. As the checker, most of its confirmations held up, and it caught two of my own mistakes: the plan's "three bodies", and my line "I never felt a thing". Its safety filter blocked it three times.
+    - **The cost:** it was the slowest step, about 30 minutes to critique and 15 to 28 minutes to check, each round.
+    - **Decision:** with only confirmation reviews and audience tests left, it costs more than it adds, so it is dropped from here on.
+      - A Claude checker is now weighing GLM's three confirmation-round critiques of *Seconds*. GLM's three critics had finished; MiMo's critique was stuck behind its safety filter.
+      - Both audience tests are now run by Claude readers: the same five people and the same questions. MiMo's readers of *The Long Places* thought only briefly before answering, so that test is being re-run.
+
 ## Next step
 
 The rounds are done. Your decision: whether to act on the audience panel's three suggestions, which are creative choices rather than fixes. They are to trim the science passages by 20 to 30 per cent, compress the repeated passages, and rebalance Yusuf's subplot against Halime and Seher.

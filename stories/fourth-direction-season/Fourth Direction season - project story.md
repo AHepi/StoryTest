@@ -374,6 +374,15 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
       - Tess tells Kieran at last which week she meant: "The week your grandad went. Nan stood me on that plate and everybody clapped, and I was hungry."
     - **Now: the confirmation review**, with the same three GLM critics, MiMo's critique and advice, and Fable's single review of this version. I raised the program's limit from six rounds to seven for this review only.
 
+46. **MiMo retired, at your prompt.** You asked: "Does MiMo discover anything substantive? If not, it's just wasting time. Your subagents are much smarter anyway."
+    - **The record, round by round:**
+      - *The Long Places.* Across seven rounds, one of MiMo's findings survived checking and made it into a ruling: that the far-future visitors read as ancient. A Claude critic had found that too. About forty of its findings were judged wrong. It repeated "Halden isn't menacing" six rounds running, and was wrong every time.
+      - *Seconds.* MiMo earned its place early. Its round-1 critique caught the two worst breaches of your rules, which no other critic found: the banned "cylinder", an echo of *The Catch*, and Terry crossing with no rig. As the checker, most of its confirmations held up, and it caught two of my own mistakes: the plan's "three bodies", and my line "I never felt a thing". Its safety filter blocked it three times.
+    - **The cost:** it was the slowest step, about 30 minutes to critique and 15 to 28 minutes to check, each round.
+    - **Decision:** with only confirmation reviews and audience tests left, it costs more than it adds, so it is dropped from here on.
+      - A Claude checker is now weighing GLM's three confirmation-round critiques of *Seconds*. GLM's three critics had finished; MiMo's critique was stuck behind its safety filter.
+      - Both audience tests are now run by Claude readers: the same five people and the same questions. MiMo's readers of *The Long Places* thought only briefly before answering, so that test is being re-run.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
