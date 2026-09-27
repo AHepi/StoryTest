@@ -15,9 +15,14 @@ As with the other story, every stage and every revision is kept.
 
 ## Where things stand
 
-- **Written:** GLM's three designs, its judgement and merged blueprint, three critiques of the blueprint, the revised blueprint with its log, and the complete first draft (14 chapters, about 48,500 words).
-- **Under way:** GLM's three critics are reading the whole draft. Next come a revision plan, the revised chapters and a final check against your rules.
-- **The title GLM chose:** *The Long Places*.
+- **Finished:** *The Long Places*, 14 chapters, about 49,000 words (file 10). GLM 5.3 wrote it at maximum thinking, then revised it once after three critiques of the whole draft.
+- **Kept alongside it:**
+  - every stage: the designs, the blueprints, the critiques and the logs;
+  - the first draft (07);
+  - the change notes for each chapter (11);
+  - GLM's own final check (12).
+- **GLM's own check** says all seven of your rules pass, with quotations as evidence. It is GLM marking its own work.
+- **My own reading so far:** chapters I, VII and XIV in full, and GLM's final check. I have not read chapters II to VI or VIII to XIII closely.
 
 ## How the pieces fit
 
@@ -29,6 +34,11 @@ As with the other story, every stage and every revision is kept.
 | Blueprint critiques (05) | Three GLM critics: the mystery's discipline, the questions and theme, craft and the villain | The reviser |
 | Revised blueprint and log (06) | Every finding: accepted or not, and what changed | The chapter writers |
 | First draft (07) | Fourteen chapters, written in order, each writer seeing everything before it | The draft critics |
+| Draft critiques (08) | Three GLM critics on the whole draft: the mystery, the questions, prose and continuity | The revision plan |
+| Revision plan and log (09) | Every finding, accepted or not, and exact changes, chapter by chapter | The chapter revisers |
+| The finished story (10) | All fourteen revised chapters in one file | You |
+| Change notes (11) | Each chapter reviser's own list of what it changed, and what it could not | You |
+| Final check (12) | GLM checks the finished story against your seven rules, with quotations | You |
 | Pipeline program (`tools/`) | Runs GLM through the stages. It reads your key from a private file outside the repository, and the key is in no file here | Everything above |
 
 ## Words used here
@@ -63,6 +73,28 @@ As with the other story, every stage and every revision is kept.
    - Fourteen chapters, written in order at maximum thinking. Each writer saw the blueprint and every earlier chapter.
    - Each chapter took between about 5 and 11 minutes. Most of each answer is GLM thinking before it writes: 17,000 to 46,000 thinking tokens per chapter, against 3,700 to 5,300 tokens of prose. The thinking grew as the story did: chapter 1 took the least, chapter 14 the most.
 
+8. **The draft criticised** (files 08). Three GLM critics each read the whole draft:
+   - the mystery's discipline;
+   - the questions about belief;
+   - prose, continuity and the villain on the page.
+9. **The revision plan and log** (file 09). GLM listed every finding, accepted or not, and wrote exact changes for each chapter.
+10. **The revised story** (file 10).
+    - Fourteen revisers worked three at a time. Each saw the whole draft and the plan and revised one chapter.
+    - Each took between 1.5 and 6.5 minutes. The story ended at about 49,000 words, close to the draft's length.
+11. **The change notes** (file 11): each reviser's own list of what it changed.
+12. **GLM's final check** (file 12).
+    - All seven rules pass, with quotations: time travel last; four theories hinted but none confirmed; the dead never said outright; the ending ties the mysteries together; the far-future encounter left unprovable; sharp questions about belief; the villain passive but formidable.
+    - It lists the loose ends it left on purpose, among them what the Trust and Halden really are, a vanished school party, and a cave breath timed at eighteen, then nineteen, then twenty minutes in different chapters.
+13. **My own reading** (no file).
+    - **Read:** chapter I, chapter VII and the whole of chapter XIV. **Not read closely:** the other eleven chapters.
+    - **Chapter I** is strong literary writing: the keeper's lamp lesson, a count of rooms that won't stay at forty, a letter from the villain thanking Nilay "in advance", and a warmth against her shoulder that could be a cat, a draught or someone she lost.
+    - **Chapter VII** is the encounter below. The strangers have perfect prosthetic-like teeth but have never been near a clinic. They carry grain from a wheat that no longer grows anywhere. One asks "Is the fire mountain awake?". Every camera file comes back empty, which keeps it impossible to say whether they came from the deep past or the far future.
+    - **Chapter XIV** lands the reveal cleanly and very late. Nilay wakes somewhere else holding a letter in her own hand dated tomorrow. Her brother, lost in 1999, has been keeping the lamps "along the road" ever since. The oldest handprint on the wall, over 10,000 years old, is her own.
+    - **Doubts:**
+      - The prose is dense and oblique, and some readers may find it hard going.
+      - I haven't checked the middle chapters to see whether the villain feels like a real threat or only an unsettling presence.
+      - The eighteen, nineteen and twenty minutes may be a continuity slip that GLM has called deliberate.
+
 ## Next step
 
-When the draft critiques, revision and final check are finished, I'll add them here, read the finished story myself, and tell you what GLM made of your concept.
+Read chapters II to VI and VIII to XIII, to judge the villain and the middle of the story as a whole before calling it finished.
