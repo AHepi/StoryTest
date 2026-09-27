@@ -244,6 +244,21 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - **One change I made myself, to the plan:** the episodes lean on the tingle starting about two seconds before a crosser's time runs out, and the plan never declared it. Your rule is that every invented rule is declared once, so I added those words in two places (file 34, before and after).
     - **Now:** GLM is planning and revising to my ruling. When it finishes, Fable reviews the revised season once, and round 2's critics start.
 
+35. **Round 1's fixes made by GLM** (files 35).
+    - GLM wrote a plan from my ruling and revised the seven episodes it touched (1, 2, 6, 7, 8, 9, 10), five at a time. Each took it between about 1 and 6 minutes.
+    - **I checked every change word by word against the earlier season.** All 18 fixes and the 3 corrections were made as ordered. Among them:
+      - Lee's weights now run from 64 down to 52 kilos in February, which gives him 9.6 seconds by the rule.
+      - Danny's boast now happens at the family table, with Tess there.
+      - Terry is buckled into his rig at the fence.
+      - The cylinder and the live printer are gone.
+      - Rosie says, at last: "Nan put the plate in front of him. I'm the one taught him to be hungry for it."
+    - **GLM also changed three small things I did not order,** all harmless: "set into the lino" became "set flush in the lino", "draws out the painting" became "draws the painting out", and "he is falling" became "he's falling".
+    - **GLM added two small things to make the fixes work:**
+      - In episode 7, a history for Aoife's six-second vault ("October '19. The Mynors run. Six and a quarter"), so Tess's "you said" is true.
+      - In episode 10, a two-line lead-in to Rosie's confession.
+      Both fit the season.
+    - **Now:** Fable is giving the revised season its single review, and GLM's round 2 critics are reading it.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
