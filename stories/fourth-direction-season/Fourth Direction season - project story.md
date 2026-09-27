@@ -394,6 +394,14 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - **My verdict: the rounds are finished.** Five one-line mends and one wrong word remain. Two of the mends undo my own earlier wording.
     - GLM is making them. Then Fable gives the finished season its single review, and the audience test runs, with Claude readers.
 
+49. **Seconds is finished** (files 49).
+    - GLM made the five final mends and corrected the wrong word. I checked every change word by word; every episode's layout is intact.
+    - One change I did not order is harmless and in the writers' notes only: "her coat" became "Rosie's coat", to make clear whose coat it is.
+    - **Two versions are saved:**
+      - with the writers' notes, which contain spoilers;
+      - to read, without the summaries and notes. I checked that none are left. It is about 62,000 words.
+    - Fable is now giving the finished season its single review. The audience test, with Claude readers, runs after *The Long Places*' readers finish, to stay within three Claude helpers at once.
+
 ## Next step
 
 Check GLM's final mends word by word, have Fable give the finished season its single review, make a fresh spoiler-free copy for you to read, and run the audience test with Claude readers.
