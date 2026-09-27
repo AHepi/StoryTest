@@ -13,10 +13,8 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
 - **The first attempt, Caraway, is dropped.** You said it was too close to *The Catch*, presented religion in a stock way, referred to the theory of explanation, named ideas outright and was a dystopia. Its files are kept as history (01 to 06). Why it was dropped is in 07.
 - **The second attempt produced three pitches and three independent reviews** (08 to 11).
 - **You chose the first pitch, *Seconds*,** an Essex family of thieves who step through walls. You asked for every invented law of *The Fourth Direction* to be true in it (12).
-- **Under way now:**
-  1. A writer is rebuilding *Seconds* into a full season plan, with a table showing where each law does its work.
-  2. Critics will then go over it twice, each round revised and logged.
-- **Not started yet:** the episodes themselves.
+- **The *Seconds* plan is on version 3** (16 to 20), after two rounds of three critics each. Round 1 raised 49 findings and round 2 raised 52; none was thrown out entirely. I checked version 3 myself (21), and it passes your rules.
+- **Under way now:** the ten episodes, each drafted, critiqued by someone else and revised, with a log.
 - **Separate job, finished:** the workshop reorganised to work like the paper you sent. It is reviewed, committed through your commit gate, and pushed to its own branch, with its own draft pull request: https://github.com/AHepi/StoryTest/pull/3.
 
 ## How the pieces fit
@@ -121,6 +119,24 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
       - one checks craft;
       - one checks the message and originality.
 
+17. ***Seconds* critique round 1** (files 17). The three critics raised 49 findings between them. The biggest:
+    - two turned people holding hands could cure one of them for free;
+    - Liam was "fridged": he appeared only to die;
+    - the finale quietly borrowed the second pitch's ending.
+18. **Round 1 revision: version 2 and its log** (files 18). 39 findings were accepted as proposed and 10 in part; none was rejected outright.
+    - Holding hands now costs the hand that held on.
+    - Liam is on screen from episode 1.
+    - Rosie owns her lie.
+    - Smell and taste proofs were swapped for meters, so nothing echoes the mint.
+    - Nine points were left open.
+19. ***Seconds* critique round 2** (files 19). 52 findings, among them:
+    - a live scale reading of an unseen visitor, which copied *The Catch*'s needle;
+    - a taste test in disguise (Terry's marmalade);
+    - a "spare" that looked like *The Catch*'s reserve bar;
+    - a spot where the physics ran backwards: digging out the Hill should make the scales read heavier, not lighter.
+20. **Round 2 revision: version 3 and its log** (files 20). All 52 were accepted, some in part or with a different fix, and every *Catch* echo was removed. The "spare" became "the bite", a brass tab with no light or gauge. The lying scale now comes from the neighbours digging under Grays. Ten choices are left for you, each with a default.
+21. **My own check of version 3** (file 21). I searched it for banned words, *Catch* echoes and dystopia signs, and found none that reach the screen. I read all ten episodes, checked the sums for Liam's and Frank's deaths by hand, and listed the ten open choices plainly. It goes to the episode writers on its defaults.
+
 ## Next step
 
-When the rebuilt *Seconds* plan has been through both rounds of criticism, I'll check it myself against your rules and the list of laws. Then the ten episodes get written, each drafted, critiqued and revised, with every change logged.
+Write the ten episodes of *Seconds*, each drafted, critiqued by another writer and revised, with its changes logged. Tell me if you want any of the ten open choices in file 21 changed.
