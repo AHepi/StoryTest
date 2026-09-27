@@ -12,8 +12,8 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
 
 - ***Seconds* is finished as a season** (file 49): ten episodes, written as scriptments. It went through seven rounds of critics, a checker, Fable's review and my ruling, until only quibbles were left.
 - **The audience test is done** (file 51). Five simulated viewers, played by Claude, averaged **8.4 out of 10**. All five would recommend it, and all five understood your core message without any character saying it. *(The file has spoilers.)*
-- **The last mends are being made** (file 52). There are 16 small fixes: 6 from Fable's single review of the finished season (file 50), and 10 slips that the viewers caught and every critic missed. GLM is making them now. After that, I check them word by word, and Fable gives the mended season its single review.
-- **For you to read:** a copy without spoilers (file 49, "to read, without notes"). A fresh one will be made after the mends.
+- **The last mends are made and checked** (files 52 and 53). There were 16 small fixes: 6 from Fable's single review of the finished season (file 50), and 10 slips that the viewers caught and every critic missed. Fable is now giving the mended season its single review.
+- **For you to read:** *"53 Seconds - mended, to read, without notes"*, about 62,000 words, with no spoilers. It replaces file 49's copy.
 - **Earlier history, kept:** the first attempt, *Caraway*, was dropped (01 to 07). The second attempt's three pitches (08 to 11) led to *Seconds* (12), whose plan went through three versions (16 to 21).
 - **Separate job, finished:** the workshop reorganised to work like the paper you sent, on its own branch with its own draft pull request: https://github.com/AHepi/StoryTest/pull/3.
 
@@ -433,6 +433,16 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - **Left for you, because they are choices, not slips:** the viewers' bigger suggestions for the last episode's pacing, and a few smaller ones. They are in file 51, which has spoilers, so they can wait until you have read it.
     - GLM is making the mends now.
 
+53. **The last mends, checked** (files 53). *(Spoilers in the files, except the copy to read.)*
+    - **All 16 ordered changes were made.** I compared the whole season word by word before and after, and checked each change against the ruling, including that every ordered change is there. The layout of every episode is intact.
+    - **GLM also made five changes nobody ordered, and I undid them:**
+      - it left a working note ("NO_CHANGES_PLACEHOLDER") at the end of episode 9;
+      - it flattened one line of dialogue into a plain "Yes";
+      - it made three tiny edits, two of them in the writers' notes.
+    - **What stays from GLM beyond the order:** "He is already on the plate" in place of repeating the boy's name. I accept it. Two notes lines record the new plants.
+    - **A new copy to read, without spoilers:** file 53, made the same way as file 49's copy. I checked that no summary or writers' note is left in it.
+    - Fable is now giving the mended season its single review. After it, I fix myself only what the mends broke or a plain contradiction; there is no further round.
+
 ## Next step
 
-Check GLM's 16 mends word by word, including that every ordered change was made. Then Fable gives the mended season its single review, and I make you a fresh copy to read, without spoilers.
+When Fable's single review of the mended season arrives, I rule on it: I fix only what the mends broke or a plain contradiction, myself, and update the copy to read if anything changes. After that, *Seconds* is done unless you want the viewers' bigger suggestions, which you can weigh after reading it.
