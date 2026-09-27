@@ -333,6 +333,20 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - **GLM introduced one typo I did not order:** "in his own hand" became "in his's own hand" in episode 8. I corrected it myself.
     - **Now:** Fable is reviewing the season after round 4, once, and GLM's round-5 critics are reading it.
 
+42. **Round 5: Fable's review, four critiques, MiMo's advice and my ruling** (files 42).
+    - **Fable's single review of the season after round 4:** "finished as a scriptment season and ready for a writers' room once five small fixes are made". A scriptment is an episode written out scene by scene, with the key dialogue.
+    - **MiMo's advice:** 5 real problems.
+    - **My ruling: fix 8**, each a line or a short exchange. I upheld all five of Fable's and three of MiMo's. For example:
+      - Terry now weighs staying and taking the cheaper cure against leaving for good, out loud, before he chooses to go.
+      - Maggie now owns the bullet she sent to a boy's bedroom.
+      - Kieran no longer predicts a tide the season says no table can.
+      - A photograph now answers where Rosie and Liam's mother is.
+    - **Two of my own mistakes, corrected:**
+      - *The "three bodies".* In round 2 I told you the plan never said the depot's walls logged "three bodies". It does, in its episode 10 outline; my search missed it. MiMo was right. The episode rightly says two, and I have corrected the plan to match.
+      - *The "early tingle".* I overruled Fable in round 1 on Danny's "early tingle" clue. Fable has now shown it proves nothing: the tingle comes at once whether he has 2.2 seconds or 2.4. My own "six nights" fix made it worse, since he would have felt it every night. The lines are cut, and I removed the clue from the plan.
+    - **The trend:** fixes per round on *Seconds* have gone 18, 9, 11, 4, 8. Fable keeps finding finer points, but every fix is now a line.
+    - **Round 6 is the last revision under the cap.** After it comes one confirmation round, as with *The Long Places*.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
