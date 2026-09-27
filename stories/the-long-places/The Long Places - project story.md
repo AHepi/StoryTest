@@ -237,6 +237,24 @@ As with the other story, every stage and every revision is kept.
     - **Protected on purpose:** Fable warned that the sealed-box proof has a deliberate hole: Nilay breaks the seal alone, below. My ruling forbids anyone from "strengthening" it.
     - **The trend:** round 1 had 11 fixes, several of them real plot problems. Round 2 has 8, all small (a clause or a sentence each). The problems are getting smaller.
 
+26. **Round 2's fixes made** (files 26). I checked all eleven changes word by word against my ruling, and all were made as ordered. The book is now about 49,440 words.
+
+27. **Round 3: reviews and my ruling** (files 27).
+    - **The critics found far less.** Substantive findings fell to 1 (story), 1 (people), 3 (continuity) and 4 (MiMo). The checker confirmed 3; it judged three of MiMo's four wrong and the fourth a quibble.
+    - **Fable's review of the round-2 version:** "a finished, rule-keeping novella that needs one polish pass … not re-plotting", with 3 substantive problems and 12 quibbles.
+    - **My ruling: fix 4, and correct one garbled phrase.**
+      - *The masks.* In real chemistry, dust masks and filter cartridges don't stop carbon dioxide. Only a chemical scrubber (soda lime) or piped air does. Yet the book's air scientist prescribed dust masks against it. That handed an informed reader a reason to throw out the fumes theory, which your rule says must stay almost canon. The masks are now named once as soda-lime scrubber masks.
+      - *The ribbon.* The letter from the next day says "I did not cry until the ribbon", and the book never shows her crying. One sentence now shows it.
+      - *Two plain errors:* a summary that misquotes one of the four statements, and Priska's father's cough lasting twelve years and then thirty.
+    - **Two of my own earlier calls, corrected:**
+      - In round 1 I left the ribbon line alone, calling it restraint. Fable's argument changed my mind: it is the one prediction on the sheet, so it must come true on the page.
+      - In round 1 I also filed the cough slip among the quibbles, which was wrong. It is a plain error.
+    - **Left for the audience test:** Fable's two bigger points.
+      - *Voice:* every character talks in the same wise, aphoristic voice.
+      - *Pace:* chapter XIII is dense just before the climax.
+      These are matters of taste and pace, the voice is the book's own, and a "voice pass" over 49,000 words would be a rewrite. The five simulated readers can tell us whether they tire of it, and then it becomes your call.
+    - **The trend:** fixes per round have gone 11, 8, 4, and each is now a word or a sentence.
+
 ## Next step
 
 After each round's review, rule on the findings myself, then have the fixes I order made. When I rule that only quibbles remain, run MiMo's audience test on the final book, add every round's critiques (MiMo's included), verification, plan and logs here with the final book and the audience analysis, and tell you how many rounds it took.
