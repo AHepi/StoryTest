@@ -15,17 +15,16 @@ As with the other story, every stage and every revision is kept.
 
 ## Where things stand
 
-- **Two finished versions, both kept:**
-  - GLM 5.3's own, revised once by GLM (file 10);
-  - the same book revised by three Claude agents from an independent reading (file 19, about 49,150 words).
-- **The Claude revision:**
-  - Halden is now dangerous on the page from chapter IV.
-  - Nilay makes one real move toward her brother in the middle.
-  - The time-travel clues are thinner, and the parallel-reality thread is stronger.
-  - The far-future visitors are stranger.
-  - Emre's line about them is only a guess.
-  - The slips are fixed.
-- **How it was checked:** a fresh reader checked the Claude revision and found 11 small problems (2 must-fix). All were fixed, and its verdict is "the book reads as one; with these edits it is ready".
+- **The book is finished** (file 36, about 49,680 words). It went through seven rounds of critics, a checker, a Fable review and my ruling, until only quibbles were left. Fable's single review of the finished book found one lost word, which I restored (entry 38).
+- **Two audience tests are done:**
+  - five readers played by MiMo averaged 7.9 (file 37);
+  - five readers played by Claude averaged 7.0 (file 40). This panel read more carefully, and I trust it more.
+- **What both panels agree on:**
+  - The book's heart is the 1999 night, Melek, and the mother with the ribbon.
+  - The measuring passages drag.
+  - The same phrases come round too often.
+- **Waiting on you:** whether to act on the Claude panel's three suggestions. They are creative choices, not fixes (see "Next step").
+- **Earlier versions, all kept:** GLM's own (file 10), and the first Claude revision (file 19), from which the rounds started.
 
 ## How the pieces fit
 
@@ -47,6 +46,10 @@ As with the other story, every stage and every revision is kept.
 | Revised, before the check (17) | The three revisers' chapters as first finished, and their change logs | The continuity check |
 | Continuity check (18) | A fresh reader on the revised book: seams, rules, slips | The final fixes |
 | Revised by Claude, final (19) | The book after every check finding was applied | You |
+| Revision rounds (23 to 35) | Each round: four critics, a checker, Fable's single review, my ruling, a plan, three revisers | The next round |
+| The finished book (36) | The book after round 7's copyedits, with the one lost word restored (entry 38) | The audience tests and you |
+| Audience tests (37, 40) | Five simulated readers each, then an analysis: MiMo's panel (37) and Claude's panel (40) | Your decision on what, if anything, to change |
+| Fable's final review (38) | One review of the finished book, at extra-high effort | My ruling in entry 38 |
 | Pipeline program (`tools/`) | Runs GLM through the stages. It reads your key from a private file outside the repository, and the key is in no file here | Everything above |
 
 ## Words used here
@@ -56,7 +59,8 @@ As with the other story, every stage and every revision is kept.
 - **Clue ledger:** the blueprint's table of every clue, where it appears, what it seems to support, and what it really is.
 - **Keeper interlude:** the short, undated passage that opens each chapter, in the voice of someone tending the lamps.
 - **Pipeline:** the program that runs the stages in order, several at once where parts are independent.
-- **MiMo v2.6 Pro:** an AI model from Xiaomi. Here it is a fresh-eyes critic in the revision rounds and runs the audience test at the end.
+- **MiMo v2.6 Pro:** an AI model from Xiaomi. It was a fresh-eyes critic and checker in the revision rounds and ran the first audience test. It was retired in entry 39.
+- **Claude helper:** a separate Claude agent given one job, such as reading the book as one simulated reader. Never more than three run at once.
 - **Substantive finding / quibble:** a problem a careful reader would notice and that weakens the story, versus a point only an audience test could settle (word choice, rhythm, the exact timing of an event when nothing depends on it).
 - **Audience test:** five simulated readers with different tastes read the finished story and report how it played for them.
 - **Ruling:** my written decision at the end of each round's review: which findings are real and must be fixed, which are overruled, and why. Nothing is changed without one.
@@ -351,6 +355,30 @@ As with the other story, every stage and every revision is kept.
       - A Claude checker is now weighing GLM's three confirmation-round critiques of *Seconds*. GLM's three critics had finished; MiMo's critique was stuck behind its safety filter.
       - Both audience tests are now run by Claude readers: the same five people and the same questions. MiMo's readers of *The Long Places* thought only briefly before answering, so that test is being re-run.
 
+40. **The audience test again, with Claude readers** (files 40). The same five people as before (Ana, Tom, Priya, Joe, Lena) and the same seven questions. Each was played by a Claude helper that read the whole book, then a sixth helper wrote the analysis. I checked that all five read to the end: every report quotes chapter XIV. The analyst checked 40 of their quotations against the book, and all are there.
+    - **Scores:** Ana 7, Tom 7, Priya 7, Joe 6, Lena 8. The average is 7.0, against 7.9 from MiMo's readers. Nobody disliked it, and nobody thought it finished as it stands.
+    - **What all five agreed on:**
+      - The mother folding the ribbon is the moment they will remember.
+      - The 1999 night, Priska hearing her father's cough, the breach and Melek's confession all land.
+      - Halden frightens them. All five quoted "The transfer was the least I could do." This settles six rounds of MiMo saying he wasn't menacing.
+      - The same phrases come round too often ("the whole of" appears 31 times; "I did not follow past the lamp. I never do" 7 times), and too many characters speak in the same polished voice. This is Fable's point that I left for the audience in rounds 5, 6 and 7, now confirmed by every reader.
+      - All five drifted in chapters XII and XIII, just before the ending.
+    - **Four of five want one person to say to Halden's face what he did.** Not a trial, and no punishment; one spoken sentence.
+    - **What this panel found that no critic did:**
+      - *The grandmother's clock.* In Melek's story, the wall clock at home is "an hour behind" every time her grandmother comes up from a night below. The clock stayed at home, so it should not lose time. I checked it on the page: Tom is right. It is a real slip, and a clause would mend it (make it a watch she carried down).
+      - *The sealed box.* A found sheet in Nilay's hand has no source, since she writes it again and both go into a drawer. I checked it: the book notices this itself ("one problem laid on another, which was how that drawer kept things"). It is a deliberate loop, not a slip. I leave it.
+    - **Small points the readers raised, which I checked:**
+      - Melek's lamp was "hers for forty years" in a chapter XI letter, and she says "It chose me sixty years ago" in the same chapter. It is a real contradiction, and one word would fix it. Two critics raised it in round 4, and I let it through.
+      - "Nobody counted twice" appears twice in one paragraph.
+      - "Nine" (grandmother) is never explained.
+      - The "two nights" letter against Yusuf's one morning, the present tense in chapter II, and the repeated chapter titles look deliberate. I leave them.
+    - **Nobody noticed** any of the small leftovers the last round left for this test. What readers noticed was repetition, pacing and voice, not fine arithmetic.
+
 ## Next step
 
-The rounds are done. Your decision: whether to act on the audience panel's three suggestions, which are creative choices rather than fixes. They are to trim the science passages by 20 to 30 per cent, compress the repeated passages, and rebalance Yusuf's subplot against Halime and Seher.
+Your decision: whether to make the Claude panel's three changes. They are creative choices, not fixes:
+1. say the repeated phrases less often, and let the characters who aren't keepers sound like themselves;
+2. shorten the side-trips in chapters XII and XIII (and a little of XI) to get back to Emre sooner;
+3. let one person say to Halden's face what he did.
+
+Whatever you decide, the three real slips from entry 40 (the clock, forty against sixty years, the doubled "Nobody counted twice") get fixed, with "Nine" explained once. Then Fable gives the result its single review.
