@@ -195,6 +195,29 @@ As with the other story, every stage and every revision is kept.
       - After that, each round's revision is joined into one document as soon as all fourteen chapters are done, and Fable reviews it while the next round's critics read.
     - **Round 1's first run** was allowed to finish its critiques and verification. It is stopped the moment the verifier is done, before any planning, so nothing in the book changes until I have ruled.
 
+23. **Round 1: four critics, Fable's review, the checker's advice and my ruling** (files 23).
+    - **What read the book (file 19):**
+      - three Claude critics, each through one lens;
+      - MiMo with fresh eyes;
+      - Fable 5.1, once.
+    - **Fable's verdict:** "finished as a story and keeps every owner's rule", with 3 substantive problems and 9 quibbles. Its three problems:
+      - Nilay's mother never appears after the reunion.
+      - Nilay's printed statement in chapter VIII says "two" figures, while the narration says her filed statement says "three".
+      - Chapters VI and VII give the same Monday evening two different pictures.
+    - **The checker** (a Claude agent) weighed the four critiques and advised that 7 findings were real. It did not see Fable's review. It judged MiMo's three other substantive findings wrong, and Fable agrees on two of them.
+    - **My checks:** I checked each disputed point against the book myself. For example:
+      - The "two/three" slip goes back to GLM's first draft. GLM's master plan never meant the file to change by itself, so it is a slip, not a planted clue.
+      - The weekdays in VI and VII really do collide: 1 September 2025 was a Monday.
+    - **My ruling: fix 11, correct 6 small errors of fact.**
+      - I upheld the checker's 7.
+      - I overruled it 4 times: on the "two/three" statement (it had called it deliberate), on Priska's meter on the night Márton died, and on chapter XII explaining its own meaning. I also added Fable's VI/VII finding, which the checker had never seen.
+      - The 6 small errors include a spring that should be summer, a fence mentioned before it is built, and a watch stopped at twenty past nine on a descent made "before dark".
+    - **Two fixes are there because the book broke your rules:**
+      - One sentence in XIV confirmed the fumes theory.
+      - Another said time travel did *not* account for three mysteries, though your rule is that it ties them all together.
+    - **Everything I overruled is listed in the ruling, with the reason.** All quibbles are recorded and left for the audience test.
+    - **A timing note:** the first run was stopped the moment the checker finished. Its planner had just started and was stopped before writing anything, so no plan was made from the checker's count alone.
+
 ## Next step
 
 After each round's review, rule on the findings myself, then have the fixes I order made. When I rule that only quibbles remain, run MiMo's audience test on the final book, add every round's critiques (MiMo's included), verification, plan and logs here with the final book and the audience analysis, and tell you how many rounds it took.
