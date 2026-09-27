@@ -111,6 +111,21 @@ As with the other story, every stage and every revision is kept.
       - Márton's years given as both 27 and 28.
     - **Checked by me:** the weekday slips, the typo, the breathing times (18, 20, 19, 20, 20, 18, which looks deliberate) and the repeated words. The reader's judgements on the villain and pacing rest on its reading, not mine.
 
+15. **Three Claude agents revise it** (files to come).
+    - You said: "Set 3 if your own agents on the revision. And let GLM continue work on the other story."
+    - So this revision is by Claude, not GLM, working from the independent reading.
+    - One agent writes a shared plan covering:
+      - Halden as a visible threat by chapter IV;
+      - one active move by Nilay toward Emre in the middle;
+      - fewer "dated before its cause" clues, so time can't be guessed by chapter IX;
+      - a stronger parallel-reality thread;
+      - stranger far-future visitors;
+      - Emre's line about them softened to a guess, while time travel is still confirmed at the end;
+      - less repetition, and loose threads tied or cut;
+      - every slip fixed.
+    - Three agents then each revise a block of chapters (I-V, VI-IX, X-XIV), keeping GLM's voice and length. A fresh reader checks the seams and the rules, and each block fixes what the reader finds.
+    - Never more than three at once. Every change is logged.
+
 ## Next step
 
-Let GLM do one more revision round against the independent reader's findings, so the experiment stays GLM's work: a more dangerous Halden, a more active middle, rebalanced clues, and the slips fixed. It draws on your coding plan again, so it waits for your go-ahead.
+When the Claude revision finishes, add the plan, the revised story, the change logs and the continuity check here, and compare the two versions for you.

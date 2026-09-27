@@ -145,6 +145,19 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - I restarted the run from that record, so finished steps are reused rather than redone.
     - The three finished episodes were copied here straight away, so another restart can't lose them.
 
+26. **A second run of episodes 1 to 3, and Claude's last drafts** (files 26).
+    - **My mistake:** in entry 25 I wrote that restarting the run would reuse finished steps rather than redo them. It didn't, because the three writing lanes don't keep the same order on a restart, so the saved record no longer matched.
+    - So the run revised episodes 1 and 2 a second time (same drafts and critiques), critiqued and revised episode 3 a second time, and drafted episode 4 afresh.
+    - Both versions of each are kept: the first run in files 22 to 24, the second in files 26.
+    - The second-run versions are the ones later episodes build on, because they are what the next writers see.
+    - Also kept: Claude's draft and critique of episode 4, and Claude's draft of episode 5.
+27. **GLM takes over *Seconds*** (no file yet; its program is in `tools/`).
+    - You said: "Set 3 of your own agents on the revision. And let GLM continue work on the other story."
+    - I took that as a swap: three Claude agents now revise *The Long Places*, and GLM 5.3, at maximum thinking, continues *Seconds* from wherever each episode had reached.
+    - GLM will revise Claude's episode 4 draft using Claude's critique; critique and revise Claude's episode 5 draft; draft, critique and revise episodes 6 to 10 itself; then check the whole season and fix what it finds, logging every change.
+    - The Claude run on *Seconds* was stopped to keep to three Claude agents at once.
+    - GLM gets the same brief, your rules, the notes on *The Catch* and plan version 3. It does not get the theory of explanation.
+
 ## Next step
 
-Write the ten episodes of *Seconds*, each drafted, critiqued by another writer and revised, with its changes logged. Tell me if you want any of the ten open choices in file 21 changed.
+When GLM finishes episodes 4 to 10 and its season check, add them here with their critiques and logs, and read the seam between Claude's episode 3 and GLM's episode 4.
