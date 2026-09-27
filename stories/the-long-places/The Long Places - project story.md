@@ -286,6 +286,20 @@ As with the other story, every stage and every revision is kept.
       - *The handprint.* At the climax she now presses her hand *over* the old print, not beside it, so the wall shows one print, as it always has. My round-4 fix had caused this.
     - **The trend:** fixes per round have gone 11, 8, 4, 5, 4, and all are now phrases or single sentences. Round 6 is the last round under the cap I set in entry 20.
 
+32. **Round 5's fixes made** (files 32). I checked all seven changes word by word, and all were made as ordered. The planner rightly wrote "seven years" of summers on the drowned chapel where my example said six: 1955 to 1961 is seven. The book is now about 49,630 words.
+
+33. **Round 6: reviews and my ruling** (files 33).
+    - **The critics are nearly done finding things.** They marked 1, 1, 4 and 1 findings substantive, and the checker confirmed only 1.
+    - **Fable's review of the round-5 version:** "a strong, finished-in-logic novella that keeps every one of the owner's rules", with 3 substantive findings and 9 quibbles.
+    - **My ruling: fix 4, and correct 2 slips from round 5.**
+      - *The boy at the first dawn.* Why didn't he follow the grey man up? Chapter II shows the stone opens at grey even in that corridor. Now: "in the morning, while I slept, he went up and took the light with him." This reverses my round-1 call, which had rested on a reading chapter II contradicts.
+      - *Márton and Melek's rule.* Did he break her "not one past the first cloud"? One sentence now says his sky held when he went down.
+      - *The tall woman.* She no longer "bends to" a doorway that is in the chamber's ceiling; she rises until it is at her shoulder. My own round-1 fix had caused this.
+      - *Marques.* She no longer speaks Márton's private joke as her own; she quotes what he once wrote to her.
+    - **Left for the audience test, again:** Fable's point about the shared wise voice, now raised three times, and its point about chapter XIII's density. Both would mean a pass over the book's voice or cutting its texture, not a clause. The five-reader panel is the right judge.
+    - **The cap.** This is round 6, the last under the cap I set in entry 20. After these fixes I am running one more review with the same critics, checker and Fable, only to confirm. If it confirms nothing substantive, the book is done, and the audience test comes next.
+    - **The trend:** fixes per round have gone 11, 8, 4, 5, 4, 4. The checker's confirmed findings have gone 7, 6, 3, 2, 2, 1.
+
 ## Next step
 
 After each round's review, rule on the findings myself, then have the fixes I order made. When I rule that only quibbles remain, run MiMo's audience test on the final book, add every round's critiques (MiMo's included), verification, plan and logs here with the final book and the audience analysis, and tell you how many rounds it took.
