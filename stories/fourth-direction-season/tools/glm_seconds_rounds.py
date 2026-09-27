@@ -1,19 +1,24 @@
 #!/usr/bin/env python3
-"""Revise the whole Seconds season with GLM 5.3, round after round, until only quibbles are left.
+"""Revise the whole Seconds season with GLM 5.3, round after round, until only quibbles are left,
+with Claude (the main session) as the final authority on what gets fixed.
 
-What it does, each round:
-  1. Three GLM critics read the whole season, each through one lens, and a MiMo critic
-     (a different model, MiMo v2.6 Pro) reads it with fresh eyes. Each marks every
-     finding SUBSTANTIVE (a real problem a viewer would notice) or QUIBBLE (word
-     placement, the exact timing of an event, taste: better left to an audience test).
-  2. A MiMo verifier checks every SUBSTANTIVE finding and keeps only the real ones, so
-     GLM's work is never cleared by GLM alone.
-  3. If none are confirmed, the rounds stop.
-  4. Otherwise GLM writes a revision plan by episode, and GLM revisers rewrite each
-     episode that needs changes, five at a time, each with a plain log.
-At most MAX_ROUNDS rounds. Every file of every round is kept in round-N folders.
+Each time it runs, it does the next step and stops:
+  review   Three GLM critics read the whole season, each through one lens, and a MiMo critic
+           (a different model, MiMo v2.6 Pro) reads it with fresh eyes. Each marks every
+           finding SUBSTANTIVE (a real problem a viewer would notice) or QUIBBLE (word
+           placement, the exact timing of an event, taste: better left to an audience test).
+           A MiMo verifier checks every SUBSTANTIVE finding and gives its advice.
+           The season as reviewed is saved as one document. Then it stops.
+  (wait)   Claude reads the critiques, the advice and Fable's review, checks them against the
+           season, and writes round-N/ruling.md: which findings are real and must be fixed,
+           ending with "RULING: FIX <n>" or "RULING: DONE". Nothing is changed without it.
+  revise   GLM writes a plan for exactly what the ruling orders, and GLM revisers rewrite each
+           episode that needs changes, five at a time, each with a plain log. The full revised
+           season is saved as one document (for Fable 5.1's single review). Then it stops.
+When a ruling says DONE, the final season is written to final/. At most MAX_ROUNDS rounds.
+Every file of every round is kept in round-N folders.
 
-Usage: python3 glm_seconds_rounds.py   (run after glm_seconds_pipeline.py has finished)
+Usage: python3 glm_seconds_rounds.py   (run after glm_seconds_pipeline.py has finished; run again after each step)
 """
 import concurrent.futures
 import json
@@ -103,6 +108,17 @@ def season_text(episodes):
     return "\n\n".join(episodes[n] for n in range(1, 11))
 
 
+def version(number):
+    """The season after round `number` (version 0 is the season before any round)."""
+    episodes = {n: starting_episode(n) for n in range(1, 11)}
+    for done in range(1, number + 1):
+        for n in range(1, 11):
+            revised = path(f"round-{done}/episode-{n:02d}.md")
+            if os.path.exists(revised):
+                episodes[n] = read(revised)
+    return episodes
+
+
 def confirmed_count(verification):
     match = re.search(r"CONFIRMED SUBSTANTIVE FINDINGS:\s*(\d+)", verification)
     if not match:
@@ -110,9 +126,10 @@ def confirmed_count(verification):
     return int(match.group(1))
 
 
-def run_round(number, episodes):
+def review(number, episodes):
     folder = f"round-{number}"
     season = season_text(episodes)
+    write(path(f"{folder}/season-as-reviewed.md"), season + "\n")
     jobs = []
     for name, lens in LENSES.items():
         prompt = f"""{rules()}
@@ -149,24 +166,27 @@ FOUR CRITIQUES OF IT:
 
 {all_critiques}
 
-YOUR TASK: you are the verifier. For every finding marked SUBSTANTIVE, check it against the season and the plan, and decide: CONFIRMED (a real problem, and substantive by the definition below), QUIBBLE (real but only a quibble), or WRONG (not true of the season). Merge duplicates. Be strict in both directions: do not let a matter of taste pass as substantive, and do not wave away a real problem.
+YOUR TASK: you are the verifier. Your verdicts are advice to Claude, who makes the final ruling. For every finding marked SUBSTANTIVE, check it against the season and the plan, and decide: CONFIRMED (a real problem, and substantive by the definition below), QUIBBLE (real but only a quibble), or WRONG (not true of the season). Merge duplicates. Be strict in both directions: do not let a matter of taste pass as substantive, and do not wave away a real problem. Quote the words from the season that decide each verdict.
 {SEVERITY}
 Write a table: the finding in plain words, which critic, your verdict, and why. Then list the CONFIRMED findings again, numbered, each with the episode(s) it touches. End with exactly one line: CONFIRMED SUBSTANTIVE FINDINGS: <number>""", f"{folder}/verification.md")
-    count = confirmed_count(verification)
-    if count == 0:
-        return episodes, 0
+    print(f"Round {number} reviewed: the verifier advises {confirmed_count(verification)} confirmed substantive findings. "
+          f"Waiting for Claude's ruling in {folder}/ruling.md", flush=True)
+
+
+def revise_to_ruling(number, episodes, ruling):
+    folder = f"round-{number}"
+    season = season_text(episodes)
     plan = ask_glm(f"r{number}-plan", f"""{rules()}
 
 THE WHOLE SEASON:
 
 {season}
 
-THE VERIFIED FINDINGS:
+THE FINAL RULING, BY CLAUDE, WHO HAS THE LAST WORD ON WHAT GETS FIXED:
 
-{verification}
+{ruling}
 
-YOUR TASK: write the revision plan for the CONFIRMED findings only (leave quibbles alone; they are for an audience test). Part 1, a table: each confirmed finding, and exactly what will change in which episode and scene. Part 2: for every episode from 1 to 10, a heading "Episode N" and a numbered list of exact changes, or "No changes". Keep each change as small as the problem allows.""", f"{folder}/plan.md")
-    revised = dict(episodes)
+YOUR TASK: write the revision plan for exactly the findings the ruling orders fixed, and nothing else (never plan a change for a finding the ruling overruled or left as a quibble; quibbles are for an audience test). Where the ruling gives wording or constraints, keep them. Part 1, a table: each ordered finding, and exactly what will change in which episode and scene. Part 2: for every episode from 1 to 10, a heading "Episode N" and a numbered list of exact changes, or "No changes". Keep each change as small as the problem allows.""", f"{folder}/plan.md")
 
     def revise(episode_number):
         section = re.search(rf"(?ims)^#+\s*Episode {episode_number}\b(.*?)(?=^#+\s*Episode \d+\b|\Z)", plan)
@@ -178,7 +198,7 @@ THE WHOLE SEASON:
 
 {season}
 
-THE REVISION PLAN:
+THE REVISION PLAN (it carries out Claude's final ruling):
 
 {plan}
 
@@ -190,27 +210,40 @@ YOUR TASK: rewrite episode {episode_number} in full, making every change the pla
         write(path(f"{folder}/episode-{episode_number:02d}-log.md"), log.strip() + "\n")
         return episode_number, text.strip() + "\n"
 
+    revised = dict(episodes)
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
         for episode_number, text in pool.map(revise, range(1, 11)):
             revised[episode_number] = text
-    return revised, count
+    write(path(f"{folder}/full-season.md"), season_text(revised) + "\n")
+    write(path(f"{folder}/revision-complete.txt"), "The full revision for this round is finished.\n")
+    print(f"Round {number} revision complete: {folder}/full-season.md is ready for Fable's review and the next round.", flush=True)
 
 
 def main():
-    episodes = {n: starting_episode(n) for n in range(1, 11)}
-    history = []
+    """Do the next step of the rounds, then stop."""
     for number in range(1, MAX_ROUNDS + 1):
-        episodes, count = run_round(number, episodes)
-        history.append(f"Round {number}: {count} confirmed substantive findings")
-        print(history[-1], flush=True)
-        if count == 0:
-            break
-    else:
-        history.append(f"Stopped at the cap of {MAX_ROUNDS} rounds with substantive findings still open.")
-    for n in range(1, 11):
-        write(path(f"final/episode-{n:02d}.md"), episodes[n])
-    write(path("final/rounds-summary.md"), "# Revision rounds\n\n" + "\n".join(f"- {line}" for line in history) + "\n")
-    print("=== finished ===", flush=True)
+        folder = f"round-{number}"
+        if not os.path.exists(path(f"{folder}/verification.md")):
+            review(number, version(number - 1))
+            return
+        if not os.path.exists(path(f"{folder}/ruling.md")):
+            print(f"Waiting for Claude's ruling in {folder}/ruling.md", flush=True)
+            return
+        ruling = read(path(f"{folder}/ruling.md"))
+        if re.search(r"RULING:\s*DONE", ruling):
+            final = version(number - 1)
+            for n in range(1, 11):
+                write(path(f"final/episode-{n:02d}.md"), final[n])
+            write(path("final/full-season.md"), season_text(final) + "\n")
+            write(path("final/rounds-summary.md"), f"# Revision rounds\n\nClaude ruled the season finished after round {number}'s review: only quibbles remain.\n")
+            print("=== finished: Claude ruled only quibbles remain ===", flush=True)
+            return
+        if not re.search(r"RULING:\s*FIX\s*\d+", ruling):
+            raise SystemExit(f"{folder}/ruling.md does not end with RULING: FIX <n> or RULING: DONE")
+        if not os.path.exists(path(f"{folder}/revision-complete.txt")):
+            revise_to_ruling(number, version(number - 1), ruling)
+            return
+    print(f"Reached the cap of {MAX_ROUNDS} rounds; Claude decides what happens next.", flush=True)
 
 
 if __name__ == "__main__":

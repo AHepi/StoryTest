@@ -59,6 +59,8 @@ As with the other story, every stage and every revision is kept.
 - **MiMo v2.6 Pro:** an AI model from Xiaomi. Here it is a fresh-eyes critic in the revision rounds and runs the audience test at the end.
 - **Substantive finding / quibble:** a problem a careful reader would notice and that weakens the story, versus a point only an audience test could settle (word choice, rhythm, the exact timing of an event when nothing depends on it).
 - **Audience test:** five simulated readers with different tastes read the finished story and report how it played for them.
+- **Ruling:** my written decision at the end of each round's review: which findings are real and must be fixed, which are overruled, and why. Nothing is changed without one.
+- **Fable 5.1:** Anthropic's Fable model. It gives one review of each finished revision, at extra-high effort, and does nothing else.
 
 ## Log
 
@@ -183,6 +185,16 @@ As with the other story, every stage and every revision is kept.
     - **A slip, caught and fixed:** MiMo's first critique came back with garbled accented letters ("MÃ¡rton" for "Márton"). Its server doesn't say which alphabet it uses, and the program guessed wrong. I set it explicitly, repaired the file (nothing was lost; it was a display error only), and tested again: "Márton — Kırk Oda — café" now comes back intact. GLM's files were checked and never had the problem.
     - **Because a MiMo critique takes almost ten minutes,** it is started in the background at the start of each round, while the three Claude critics read. The verifier waits for it.
 
+22. **I am the final authority, and Fable 5.1 reviews each finished revision once** (programs in `tools/`).
+    - You said: "You are the final authority. Not any of the agents." And: "When a full revision has been written, get Fable 5.1 on Xhigh effort to do a single review on that one document. Nothing else. And only when a revision has been completed."
+    - **What changed:**
+      - *Before:* the verifier's count decided on its own what was fixed, and the rounds ran unattended.
+      - *Now:* each round stops after the verifier. Its verdicts are only advice. I read the four critiques, the verifier's advice and Fable's review, and check the disputed points against the book myself. Then I write a ruling (`ruling.md` in each round's folder): which findings are real and must be fixed, which I overrule, and why. The planner and revisers work only from my ruling. Only I can declare the book finished.
+    - **Fable 5.1:** Anthropic's Fable model at "extra-high" effort, meaning it thinks longer and harder than usual before answering. It gives one review of each finished full revision, joined into one document, and does nothing else: it doesn't critique mid-round, verify, plan or revise. It runs only once a revision is complete.
+      - The first finished revision is file 19, the version round 1 is reading, so Fable is reviewing it now.
+      - After that, each round's revision is joined into one document as soon as all fourteen chapters are done, and Fable reviews it while the next round's critics read.
+    - **Round 1's first run** was allowed to finish its critiques and verification. It is stopped the moment the verifier is done, before any planning, so nothing in the book changes until I have ruled.
+
 ## Next step
 
-When the rounds finish, run MiMo's audience test on the final book, add every round's critiques (MiMo's included), verification, plan and logs here with the final book and the audience analysis, and tell you how many rounds it took.
+After each round's review, rule on the findings myself, then have the fixes I order made. When I rule that only quibbles remain, run MiMo's audience test on the final book, add every round's critiques (MiMo's included), verification, plan and logs here with the final book and the audience analysis, and tell you how many rounds it took.

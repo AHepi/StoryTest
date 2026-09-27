@@ -46,6 +46,8 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
 - **MiMo v2.6 Pro:** an AI model from Xiaomi. Here it is a fresh-eyes critic and the verifier in GLM's revision rounds, and it runs the audience test at the end.
 - **Substantive finding / quibble:** a problem a careful viewer would notice and that weakens the season, versus a point only an audience test could settle (word choice, rhythm, the exact timing of an event when nothing depends on it).
 - **Audience test:** five simulated viewers with different tastes read the finished season and report how it played for them.
+- **Ruling:** my written decision at the end of each round's review: which findings are real and must be fixed, which are overruled, and why. Nothing is changed without one.
+- **Fable 5.1:** Anthropic's Fable model. It gives one review of each finished revision, at extra-high effort, and does nothing else.
 
 ## Log
 
@@ -186,6 +188,21 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - **Tested:** MiMo's working address, its deep thinking, and a full-book critique of *The Long Places* (9 minutes 37 seconds). A garbled-letters slip in MiMo's replies was found and fixed (details in *The Long Places* project story, entry 21).
     - **Not yet tested on *Seconds*:** the rounds program with MiMo in it. It starts only after GLM finishes episodes 7 to 10, and GLM's servers are still failing on episode 7.
 
+31. **I am the final authority, and Fable 5.1 reviews each finished revision once** (programs in `tools/`).
+    - You said: "You are the final authority. Not any of the agents." And: "When a full revision has been written, get Fable 5.1 on Xhigh effort to do a single review on that one document. Nothing else. And only when a revision has been completed."
+    - **What changed in GLM's rounds:**
+      - *Before:* MiMo's verifier decided on its own what GLM fixed, and the rounds ran unattended.
+      - *Now:* the program does one step and stops.
+        1. *Review:* four critics read the season, and MiMo's verifier gives advice.
+        2. *Ruling:* I check the findings against the season and write a ruling: what is real and must be fixed, and what is overruled.
+        3. *Revision:* GLM plans and revises exactly what the ruling orders.
+      - Only I can declare the season finished.
+    - **Fable 5.1:** it gives one review, at extra-high effort, of each finished full version of the season, joined into one document, and does nothing else.
+      - The first will be GLM's completed season, once all ten episodes and the whole-season check are done. A watcher tells me the moment that document exists.
+      - After that, Fable reviews each round's revision once it is complete.
+    - **Tested:** a practice run of the new step-by-step program, with stand-in answers instead of real GLM and MiMo calls. It reviewed, waited for my ruling, changed only the episode my ruling named, reviewed the result, and stopped when I ruled it done.
+    - **Not yet run for real:** GLM's servers are still failing on episode 7.
+
 ## Next step
 
-When GLM's rounds finish, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
+When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
