@@ -259,6 +259,25 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
       Both fit the season.
     - **Now:** Fable is giving the revised season its single review, and GLM's round 2 critics are reading it.
 
+36. **Round 2: Fable's review, four critiques, MiMo's advice and my ruling** (files 36).
+    - **Fable's single review of the season after round 1:** "nearly finished — a complete, coherent, well-made season that keeps every owner rule", with 4 substantive findings and 18 quibbles.
+    - **MiMo's advice:** 9 real problems. This time it went through first try.
+    - **My checks:** I tested each claim against the script and the plan. Six of MiMo's nine held up, and three did not:
+      - *Ray's "59.0" page "never fires":* it does. The audience sees the same weight on Joe's ticket in episode 6, and again in episode 9.
+      - *Kieran's graph is "incoherent":* it isn't. The wobble starts after the April quake chips the check weight, and episode 9 names its cause.
+      - *The plan says "three bodies" at the depot:* it never does.
+    - **My ruling: fix 9**, each a line, a clause or a short exchange. For example:
+      - "It's still printing" becomes "It printed all night". Your plan bans any instrument reacting live to an unseen body, as an echo of *The Catch*.
+      - Joe no longer "hears" something land from inside the black, where no sound crosses.
+      - Maggie's graph no longer marks "nothing happened" with the same tick as "came back straight".
+      - The ferry timetable is no longer in Maggie's bag and Tess's coat at once.
+      - Maggie now says why she sent her invitation through the Marlows' safe: she rang the house once and got a dial tone.
+      - Rosie now owns what her lie cost: "Something took hold of me. That's Con."
+    - **A mistake of mine, corrected:** my round-1 ruling kept Lee's job at "nine and a half seconds". That beats Rosie's 9.4, which the season toasts as "the longest job a Marlow's ever done". Fable caught it, and Lee's job is now a nine, with his weights adjusted to match the rule.
+    - **One change I made myself, to the plan:** the plan said a weigh-wall feels a body within four metres, but it also has the Mayfair wall log Joe, six metres away. That contradiction was in the plan itself. I corrected it to ten metres, and episode 3's line will match.
+    - **Left for the audience test:** Peg and Tess never speak after Tess is put out. Their reconciliation is shown in what they do at the station. Whether it also needs words is a matter of taste.
+    - **The trend:** round 1 had 18 fixes, round 2 has 9. GLM is making them now.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
