@@ -14,7 +14,7 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
 - **The second attempt produced three pitches and three independent reviews** (08 to 11).
 - **You chose the first pitch, *Seconds*,** an Essex family of thieves who step through walls. You asked for every invented law of *The Fourth Direction* to be true in it (12).
 - **The *Seconds* plan is on version 3** (16 to 20), after two rounds of three critics each. Round 1 raised 49 findings and round 2 raised 52; none was thrown out entirely. I checked version 3 myself (21), and it passes your rules.
-- **Under way now:** the ten episodes, each drafted, critiqued by someone else and revised, with a log.
+- **All ten episodes are written** (episodes 1 to 3 by Claude's writers, 4 to 10 by GLM), with GLM's whole-season check applied (file 32). Now: Fable's single review and GLM's revision rounds, with me ruling on what gets fixed.
 - **Separate job, finished:** the workshop reorganised to work like the paper you sent. It is reviewed, committed through your commit gate, and pushed to its own branch, with its own draft pull request: https://github.com/AHepi/StoryTest/pull/3.
 
 ## How the pieces fit
@@ -202,6 +202,20 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
       - After that, Fable reviews each round's revision once it is complete.
     - **Tested:** a practice run of the new step-by-step program, with stand-in answers instead of real GLM and MiMo calls. It reviewed, waited for my ruling, changed only the episode my ruling named, reviewed the result, and stopped when I ruled it done.
     - **Not yet run for real:** GLM's servers are still failing on episode 7.
+
+32. **GLM finished the season** (files 32).
+    - GLM's servers recovered after about 40 minutes of failures on episode 7. The run picked up where it stopped, and no finished work was lost.
+    - **What GLM did:**
+      - revised Claude's episode 4 draft;
+      - critiqued and revised Claude's episode 5 draft;
+      - drafted, critiqued and revised episodes 6 to 10, each critique a separate call that had not written the draft;
+      - read all ten episodes as one season.
+      Each episode took GLM about 30 to 40 minutes of thinking and writing.
+    - **GLM's whole-season check found 18 problems.** One example: in episode 4 we see Danny take about ten tubs of food, and the next morning Maggie says "twenty-odd". It gave each problem the smallest fix. Episodes 1 to 3 needed none. Episodes 4 to 10 were fixed, and every change is logged.
+    - **I checked that nothing was cut short.** Every fixed episode is within a few dozen words of its earlier length and ends with its "Plants and payoffs" list.
+    - **The whole season is about 74,000 words**, saved as one document (file 32). This is the first finished full version, so Fable 5.1 is now giving it its single review.
+    - At the same time, GLM's first revision round has started on its own: three GLM critics, a MiMo critic and MiMo's advice. It will stop and wait for my ruling.
+    - **Not yet read by me:** the new episodes themselves. I'll read the passages at stake in each finding when I rule, as I have for *The Long Places*.
 
 ## Next step
 
