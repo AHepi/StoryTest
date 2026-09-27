@@ -137,6 +137,14 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
 20. **Round 2 revision: version 3 and its log** (files 20). All 52 were accepted, some in part or with a different fix, and every *Catch* echo was removed. The "spare" became "the bite", a brass tab with no light or gauge. The lying scale now comes from the neighbours digging under Grays. Ten choices are left for you, each with a default.
 21. **My own check of version 3** (file 21). I searched it for banned words, *Catch* echoes and dystopia signs, and found none that reach the screen. I read all ten episodes, checked the sums for Liam's and Frank's deaths by hand, and listed the ten open choices plainly. It goes to the episode writers on its defaults.
 
+22. **Episode 1, "Straight"** (files 22): draft, critique by another writer, final version and revision log. About 8,200 words.
+23. **Episode 2, "The Assayer's Wife"** (files 23): the same four files. About 7,900 words.
+24. **Episode 3, "Making Weight"** (files 24): the same four files. About 7,100 words.
+25. **The machine restarted mid-run** (no file).
+    - The restart stopped the episode run while episode 4 was being revised and episode 5 critiqued. Nothing already written was lost: the drafts and critiques were on disk, and the run's own record of its finished steps survived.
+    - I restarted the run from that record, so finished steps are reused rather than redone.
+    - The three finished episodes were copied here straight away, so another restart can't lose them.
+
 ## Next step
 
 Write the ten episodes of *Seconds*, each drafted, critiqued by another writer and revised, with its changes logged. Tell me if you want any of the ten open choices in file 21 changed.
