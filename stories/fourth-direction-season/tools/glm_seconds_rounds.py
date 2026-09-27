@@ -231,6 +231,11 @@ YOUR TASK: rewrite episode {episode_number} in full, making every change the pla
         if raw.strip().startswith("NO CHANGES"):
             return episode_number, episodes[episode_number]
         text, _, log = raw.partition("===LOG===")
+        if not log:
+            # GLM sometimes marks its notes with a bare line of "===" instead; never let notes leak into an episode.
+            loose = re.search(r"(?m)^={3,}\s*$", raw)
+            if loose:
+                text, log = raw[:loose.start()], raw[loose.end():]
         write(path(f"{folder}/episode-{episode_number:02d}.md"), text.strip() + "\n")
         write(path(f"{folder}/episode-{episode_number:02d}-log.md"), log.strip() + "\n")
         return episode_number, text.strip() + "\n"

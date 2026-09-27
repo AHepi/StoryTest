@@ -300,6 +300,23 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - **One thing I changed in Fable's advice:** it had Rosie read a sign to learn whether she came back turned. Your plan bans that as an echo of *The Catch*, since in this show the turned simply know. My ruling has her just say "Still me."
     - **The trend:** fixes per round on *Seconds* have gone 18, 9, 11. Round 3 rose because Fable found six new small gaps and I settled three recurring ones. Every fix is now a single line or phrase.
 
+39. **Round 3's fixes made by GLM** (files 39).
+    - GLM revised the seven episodes my ruling touched. One call was cut off mid-answer and retried on its own.
+    - **I checked every change word by word.** All 11 fixes were made as ordered. Examples:
+      - Danny's "Seventh night".
+      - The investigator's reason for coming.
+      - Danny's "And I said yes. Write that first."
+      - Ray's "There's no such person. There never was."
+      - Rosie's "Still me."
+    - **Episode 8 needed two repairs from me:**
+      - GLM had dropped its "Act four" heading. I put it back.
+      - GLM's own change notes had ended up pasted at the end of the episode, because it marked where its notes began with a bare "===" instead of the agreed marker. I moved them into the change-log file where they belong.
+
+      Episode 8's layout now matches round 2 exactly, and its only changes are the five I ordered. GLM's version is kept as a backup.
+    - **I changed the program** so that marker can never leak notes into an episode again, and tested the change.
+    - **One tiny change I did not order,** left as harmless: "chin on her fists" became "chin on fists" in episode 6.
+    - **Now:** Fable is reviewing the season after round 3, once, and GLM's round-4 critics are reading it.
+
 ## Next step
 
 When GLM finishes the season, have Fable review it and rule on round 1's findings myself. After each round, rule again. When I rule that only quibbles remain, run MiMo's audience test on the final season, add every episode, critique, verification, plan and log here with the audience analysis, and read the seam between episodes 3 and 4.
