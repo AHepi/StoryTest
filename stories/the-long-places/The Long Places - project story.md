@@ -430,6 +430,24 @@ As with the other story, every stage and every revision is kept.
       - new contradictions;
       - any breach of your concept.
 
+44. **The checker's reading, and my fixes** (files 44).
+    - **The checker confirmed every order was carried out:**
+      - every phrase limit;
+      - the four slips;
+      - the lines to Halden;
+      - the changes in XIV;
+      - all 20 protected clues.
+      It also found that nothing now gives away time travel early, and that Halden is as quiet and untouchable as before.
+    - **It found one real error, and it was mine.** Nilay's new line said her mother "has waited twenty-six years". The book counts the years since 1999 by calendar year: the 2025 chapters say twenty-six, and XIII is a year later, two days before XIV's "twenty-seven". My ruling had said twenty-six, and the planner defended it as exact to the day. A careful reader would still read it as a slip in the round's key line. It is now "twenty-seven".
+    - **It found seven small leftovers of the cuts. I fixed them all myself, adding 18 words in all:**
+      - *A lost clue.* Cutting the aside at the recognition in XIV also cut the only echo tying the room's name to the tall woman's word in VII, "three syllables, the middle one long". I put that phrase back as one line of narration after Emre speaks, so the recognition moment itself stays clean. My first try put it in Emre's mouth; I moved it, because a boy does not count syllables.
+      - *A lost hint.* "He was grayer by nothing" in XIII was cut as a repeat, but it is the only sign that Halden has not aged in a year, a page before the 1949 photograph. It is back.
+      - *Words left pointing at cut passages.* "those mornings" is now "the forty-one mornings"; "the list" is now "the price list"; "the explanations" is now "the ordinary explanations"; "his beam" is now "his laser".
+      - *A pinch with no wick.* In XII, "He pinched the wick;" now comes before "the second pinch".
+      - *A missing comma* in X.
+    - **The book is now 45,971 words,** and every limit still holds.
+    - **Fable is giving the completed revision its single review.**
+
 ## Next step
 
-Compare the revisers' fourteen chapters with my expected copy word for word, and read their logs. Then a Claude checker reads the whole revised book for anything the cuts broke, and Fable gives it its single review.
+Rule on Fable's single review of the revised book: fix only what the revision broke or a plain contradiction.
