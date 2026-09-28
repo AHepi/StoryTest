@@ -23,7 +23,7 @@ As with the other story, every stage and every revision is kept.
   - The book's heart is the 1999 night, Melek, and the mother with the ribbon.
   - The measuring passages drag.
   - The same phrases come round too often.
-- **Waiting on you:** whether to act on the Claude panel's three suggestions. They are creative choices, not fixes (see "Next step").
+- **Round 8, your three changes, is under way** (file 41). You answered "All three." A planner is turning my ruling into exact changes; then three revisers, my word-by-word check, a Claude checker, and Fable's single review.
 - **Earlier versions, all kept:** GLM's own (file 10), and the first Claude revision (file 19), from which the rounds started.
 
 ## How the pieces fit
@@ -374,11 +374,34 @@ As with the other story, every stage and every revision is kept.
       - The "two nights" letter against Yusuf's one morning, the present tense in chapter II, and the repeated chapter titles look deliberate. I leave them.
     - **Nobody noticed** any of the small leftovers the last round left for this test. What readers noticed was repetition, pacing and voice, not fine arithmetic.
 
+41. **Your decision: "All three."** (file 41). You chose all three of the Claude panel's changes:
+    - **Say the repeated things less often, and let people sound different.**
+      - The keepers' letters, Melek and Halden keep their voices.
+      - Every limited phrase gets a ceiling. For example, "the whole of" goes from 31 uses to at most 12, and "two breaths" from 19 to at most 8.
+      - Kaya Bey, Dr. Marques, Márton's banter, Priska, Seher and the villagers get plainer speech.
+      - Two too-pleased lines go.
+      - The "three ordinary explanations" routine stays in four places at most.
+    - **Shorten the side-trips.** The book comes out about a tenth shorter, 44,500 to 46,000 words from 50,094. Most of the cut is in XII, XIII and XI, with some in the measuring passages of III, VIII and IX. I listed 20 plants that no cut may remove.
+    - **One person says it to Halden's face.** Nilay speaks in XIII, in his office, plainly, for the only time in the book. She names only what the book has shown: he kept the hours on that hill on the night of 4 to 5 September 1999, he advised that nobody go below the fourth door, and her mother has waited twenty-six years. He answers with the line already in the book, "You have kept excellent records," and nothing else. He is not punished, and nothing about him changes.
+    - **Four slips go in too:**
+      - the grandmother's clock becomes a watch she carried down;
+      - forty years becomes sixty;
+      - the handprint is confirmed once, not three times;
+      - "Nine" is explained once.
+    - **In XIV:**
+      - Emre's explanation speech is cut by about half, keeping the confirmation of time travel;
+      - he gets one or two lines as the boy he was;
+      - the bracketed aside at the recognition goes;
+      - the doubled "Nobody counted twice" goes.
+    - **The order of work:**
+      - the planner lists every instance and every cut;
+      - I check the plan;
+      - three revisers carry it out;
+      - I check every change word by word;
+      - a Claude checker reads for anything the cuts broke;
+      - Fable gives the completed revision its single review.
+    - The revisers wait until Fable finishes its *Seconds* review, so that no more than three Claude helpers run at once.
+
 ## Next step
 
-Your decision: whether to make the Claude panel's three changes. They are creative choices, not fixes:
-1. say the repeated phrases less often, and let the characters who aren't keepers sound like themselves;
-2. shorten the side-trips in chapters XII and XIII (and a little of XI) to get back to Emre sooner;
-3. let one person say to Halden's face what he did.
-
-Whatever you decide, the three real slips from entry 40 (the clock, forty against sixty years, the doubled "Nobody counted twice") get fixed, with "Nine" explained once. Then Fable gives the result its single review.
+Check the planner's plan against the ruling (every phrase count, every cut, the plant check), then start the three revisers.
