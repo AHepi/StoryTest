@@ -12,7 +12,7 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
 
 - ***Seconds* is finished as a season** (file 49): ten episodes, written as scriptments. It went through seven rounds of critics, a checker, Fable's review and my ruling, until only quibbles were left.
 - **The audience test is done** (file 51). Five simulated viewers, played by Claude, averaged **8.4 out of 10**. All five would recommend it, and all five understood your core message without any character saying it. *(The file has spoilers.)*
-- **The last mends are made and checked** (files 52 and 53). There were 16 small fixes: 6 from Fable's single review of the finished season (file 50), and 10 slips that the viewers caught and every critic missed. Fable is now giving the mended season its single review.
+- ***Seconds* is done** (file 53). The last mends (16 small fixes) are made and checked. Fable's single review of the mended season (file 54) calls it "finished and strong". I fixed its one plain contradiction myself, and the rest is left for you, after you have read it.
 - **For you to read:** *"53 Seconds - mended, to read, without notes"*, about 62,000 words, with no spoilers. It replaces file 49's copy.
 - **Earlier history, kept:** the first attempt, *Caraway*, was dropped (01 to 07). The second attempt's three pitches (08 to 11) led to *Seconds* (12), whose plan went through three versions (16 to 21).
 - **Separate job, finished:** the workshop reorganised to work like the paper you sent, on its own branch with its own draft pull request: https://github.com/AHepi/StoryTest/pull/3.
@@ -443,6 +443,18 @@ Write a full TV season, about ten episodes, built from your document "The Fourth
     - **A new copy to read, without spoilers:** file 53, made the same way as file 49's copy. I checked that no summary or writers' note is left in it.
     - Fable is now giving the mended season its single review. After it, I fix myself only what the mends broke or a plain contradiction; there is no further round.
 
+54. **Fable's single review of the mended season** (file 54). *(Spoilers in the file.)*
+    - **The first attempt failed** when I hit my usage limit for Claude helpers. The limit reset at 1:30am UTC, and I restarted the review a minute later.
+    - **Its verdict:** "finished and strong". It says the season keeps every one of your rules: the message is shown and never said, the twists are planted, every law is used and none broken, there is no echo of *The Catch*, no banned word, and it is not a dystopia. It gave 2 substantive findings and 8 quibbles.
+    - **Nothing the mends broke.** Of the explanation near the end that lost all five viewers, it now says: "On the page it is clear."
+    - **My ruling,** under the rule I set before this review (after it, I fix only what the mends broke or a plain contradiction, and there is no further round):
+      - **Fixed, by me:** one plain contradiction. A character is spoken of as dead in one scene and alive in another, in the same episode. Two words in one line now make it the right relative. I made the change in both copies of file 53 and checked that the copy to read still matches the season exactly.
+      - **Left for you:** Fable's other substantive finding. The family goes two weeks without asking about something it would ask about. It is real, but none of the five viewers noticed it, and the fix adds new dialogue, which is a choice rather than a correction. It joins the viewers' bigger suggestions, for you to weigh after reading.
+      - **Left:** the 8 quibbles.
+    - ***Seconds* is finished.** The whole record:
+      - Findings the checker confirmed per round: 11, 9, 6, 0, 5, 8, 1.
+      - Then two single reviews by Fable, each with 2 substantive findings, and an audience test at 8.4 out of 10.
+
 ## Next step
 
-When Fable's single review of the mended season arrives, I rule on it: I fix only what the mends broke or a plain contradiction, myself, and update the copy to read if anything changes. After that, *Seconds* is done unless you want the viewers' bigger suggestions, which you can weigh after reading it.
+Read *Seconds*: "53 Seconds - mended, to read, without notes". Then, if you want, look at the viewers' bigger suggestions and Fable's one open finding (files 51 and 54, which have spoilers), and say which, if any, you want made.

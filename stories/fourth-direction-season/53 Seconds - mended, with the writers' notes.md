@@ -5200,7 +5200,7 @@ MAGGIE: Aoife did her first nine at nineteen, on the Dunkirk run, and come home 
 
 TESS: Nobody counted her?
 
-MAGGIE: Who? Her dad? Her dad thinks facing home is a charm. She went in alone, in the dark, hungry, with her own sums. *(beat)* Nobody counted her, Tess. That's what I've come to say. Whatever else tonight — nobody counted my girl.
+MAGGIE: Who? Her grandad? Her grandad thinks facing home is a charm. She went in alone, in the dark, hungry, with her own sums. *(beat)* Nobody counted her, Tess. That's what I've come to say. Whatever else tonight — nobody counted my girl.
 
 The saloon ticks. The flask sits between them. Tess reaches across and turns the newest tide book around to face herself, and looks down the columns of seconds, and her lips start moving, and this time Maggie watches her do it and recognizes it, because she does it too.
 
