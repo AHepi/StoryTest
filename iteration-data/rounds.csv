@@ -1,0 +1,20 @@
+story,round,what_was_reviewed,checker,checker_confirmed_as_logged,fixes_ordered,fable_substantive,fable_quibbles,source_on_story_branch
+The Long Places,1,file 19 (the first Claude revision),Claude checker,7,11,3,9,stories/the-long-places/23 Round 1 - *
+The Long Places,2,round-1 version,Claude checker,6,8,4,10,stories/the-long-places/25 Round 2 - *
+The Long Places,3,round-2 version,Claude checker,3,4,3,12,stories/the-long-places/27 Round 3 - *
+The Long Places,4,round-3 version,Claude checker,2,5,4,11,stories/the-long-places/29 Round 4 - *
+The Long Places,5,round-4 version,Claude checker,2,4,2,10,stories/the-long-places/31 Round 5 - *
+The Long Places,6,round-5 version,Claude checker,1,4,3,9,stories/the-long-places/33 Round 6 - *
+The Long Places,7 (confirmation),round-6 version,Claude checker,0,4 copyedits,1,10,stories/the-long-places/35 Round 7 (confirmation) - *
+The Long Places,finished,file 36 (after the copyedits),none,,1 word restored by the main session,2,6,stories/the-long-places/38 Fable's single review of the finished book.md
+The Long Places,8 (owner's three changes),file 44 before the main session's last fixes,Claude checker (must-fix form),1 must-fix and 7 leftovers,254 planned edits and 3 decisions; then 9 and 2 small fixes,1,11,stories/the-long-places/41 to 45
+The Long Places,9 (owner's focused revision),file 48 before the main session's last fixes,none (main session alone),,16 edits; then 5,1,8,stories/the-long-places/46 to 49
+Seconds,1,the whole season as GLM finished it,MiMo,11,18,7,11,stories/fourth-direction-season/33 and 34 Round 1 - *
+Seconds,2,round-1 season,MiMo,9,9,4,18,stories/fourth-direction-season/36 Round 2 - *
+Seconds,3,round-2 season,MiMo,6,11,6,16,stories/fourth-direction-season/38 Round 3 - *
+Seconds,4,round-3 season,MiMo,0,4,4,10,stories/fourth-direction-season/40 Round 4 - *
+Seconds,5,round-4 season,MiMo,5,8,5,11,stories/fourth-direction-season/42 Round 5 - *
+Seconds,6,round-5 season,MiMo,8 (its numbered list; its table shows 7),9,2,7,stories/fourth-direction-season/44 Round 6 - *
+Seconds,7 (confirmation),round-6 season,Claude checker,1,5 and 1 wrong word,4,11,stories/fourth-direction-season/48 Round 7 (confirmation) - *
+Seconds,finished,round-7 season (file 49),none,,16 (6 from Fable; 10 slips from the audience test),2,7,stories/fourth-direction-season/50 and 52
+Seconds,mended,round-8 season (file 53),none,,1 (two words),2,8,stories/fourth-direction-season/54 Fable's single review of the mended season.md
