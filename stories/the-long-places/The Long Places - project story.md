@@ -23,7 +23,7 @@ As with the other story, every stage and every revision is kept.
   - The book's heart is the 1999 night, Melek, and the mother with the ribbon.
   - The measuring passages drag.
   - The same phrases come round too often.
-- **Round 9, one focused revision from your own critique, is made** (files 46 to 48). The book is file 48, 46,091 words. Fable is giving it its single review.
+- **Round 9, one focused revision from your own critique, is done** (files 46 to 49). The book is file 48, 46,049 words. Fable's single review, using your skill: "finished as a story".
 - **Round 8, your three changes, is done** (files 41 to 45). The book is now file 44: 45,981 words, 8 per cent shorter. It has fewer repeated phrases and plainer voices for the non-keepers, shorter side-trips, Nilay's words to Halden, and the four slips fixed. Fable's single review of it: "finished as a book and keeping every one of the owner's rules".
 - **Earlier versions, all kept:** GLM's own (file 10), and the first Claude revision (file 19), from which the rounds started.
 
@@ -517,6 +517,26 @@ As with the other story, every stage and every revision is kept.
       - the protected lines are all present.
     - **Words:** 45,981 before, 46,091 after.
 
+49. **Fable's single review of round 9, and my last fixes** (file 49). Fable used your story-critique skill for the first time.
+    - **Its verdict:** "Yes, as a story. It needs one short trimming pass, not another revision." It confirmed all three of your aims are on the page. On the reunion: "The reunion does the job you asked for." On the documents: "The proof is something she chooses to accept, with its provenance in view. That is recognition, not certainty." It found no wrong fact to correct, and said: "I have not invented faults to fill a list."
+    - **Its one substantive finding was my miss.** Four sentences in XII and XIV still told the reader what an image had already shown, which is the very habit this round was cutting. I cut all four:
+      - the label "— comfort, or knowledge —" at the water;
+      - the caption after the margin "*4–5.ix*", which Nilay had already said to Halden's face;
+      - the sentence after Book Zero that repeated what the entry shows;
+      - Yusuf's closing "the first thing he had ever kept that could not be viewed".
+    - **One quibble fixed, because it was a seam from round 8's own addition.** Emre's "Did the kid ever come in?" was followed straight away by another speech of his, which read like a dropped reply. It is now answered in narration: "She did not know. Nobody had counted the flock that week."
+    - **Left, because they are decisions and not repairs:**
+      - how the mother knows the ribbon. Fable suggests a clause in II; that is inside your protected opening, so I did not touch it;
+      - Leyla Hanım's silence;
+      - two keepers' letters that end alike;
+      - some keeper cadence left in the scientists' speech;
+      - a maxim in XI;
+      - Priska's declined proof;
+      - one line of Emre's that leans toward the far future.
+
+      They are recorded in file 49.
+    - **The book is 46,049 words** (file 48, updated). This round used one Claude helper in all, Fable, as you asked.
+
 ## Next step
 
-Rule on Fable's single review of round 9: fix only what the round broke, or a plain contradiction. If your usage limit stops Fable, restart it after the reset.
+Read the last chapter of file 48 once, as Fable suggests, to make sure nothing now feels unsaid. If nothing does, the book is done.

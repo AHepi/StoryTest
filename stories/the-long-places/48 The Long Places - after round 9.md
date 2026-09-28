@@ -1,6 +1,6 @@
 # 48 The Long Places - after round 9
 
-*The book after your one focused revision (file 46): the reunion, the narration pass and the documents. 46,091 words. Fable is giving it its single review.*
+*The book after your one focused revision (file 46): the reunion, the narration pass, the documents, and my five fixes after Fable's review (log entries 48 and 49). 46,049 words.*
 
 # I. The Lamps Are Old
 
@@ -1145,7 +1145,7 @@ He had bought a tin lamp of the kind the co-op sells for power cuts, and he carr
 
 He gave his name at the stair-head, aloud, to the kitchen, and his aunt went on drying the bowl. He knocked twice on the frame, and waited, and nothing answered. The oil went to the joint of his own thumb and no further — his thumb, the only one the rule had now. He pinched the wick; the second pinch stood true. The flame he carried cupped and low, and the wick came to it.
 
-There was a niche at the stair's turn where his grandmother had kept a lamp once, before his time. He set it there, burning, and sat on the second tread with his back to the wall, in the smell of oil and cool stone and old onions, being nobody's content. The flame stood its light straight. Nobody was coming. The lamp did not mind — being an errand, and not a show — and he stayed until the wick wanted pinching, and pinched it, and went up to bed with the light burning below him in the house: the first thing he had ever kept that could not be viewed.
+There was a niche at the stair's turn where his grandmother had kept a lamp once, before his time. He set it there, burning, and sat on the second tread with his back to the wall, in the smell of oil and cool stone and old onions, being nobody's content. The flame stood its light straight. Nobody was coming. The lamp did not mind — being an errand, and not a show — and he stayed until the wick wanted pinching, and pinched it, and went up to bed with the light burning below him in the house.
 
 
 # XIII. The Measure
@@ -1312,13 +1312,15 @@ She said, "Emre," once — she had said it once into another dark, and the hummi
 
 "Nilay."
 
-He set out water for her, in a small jar, cool, and she drank, and it was the best water she had ever drunk, being carried water, and neither of them said so, and the argument she had owed Priska since August arrived with it, whole — comfort, or knowledge — and she let it stay unfinished, and drank. He told it plainly, in the office's grammar, with the boy surfacing in it. He had gone after the kid; it would not come in with the evening flock; he followed it past the thorn, and it went up the hill and he went down. He had his slippers on. He meant to be ten minutes. He went in far enough to be brave, and then one door more; the land cleared its throat, as it did all that year, and a stone he had not marked came home in its socket, and the brave was finished.
+He set out water for her, in a small jar, cool, and she drank, and it was the best water she had ever drunk, being carried water, and neither of them said so, and the argument she had owed Priska since August arrived with it, whole, and she let it stay unfinished, and drank. He told it plainly, in the office's grammar, with the boy surfacing in it. He had gone after the kid; it would not come in with the evening flock; he followed it past the thorn, and it went up the hill and he went down. He had his slippers on. He meant to be ten minutes. He went in far enough to be brave, and then one door more; the land cleared its throat, as it did all that year, and a stone he had not marked came home in its socket, and the brave was finished.
 
 "The first night a man sat with me," he said. "Grey. At the good distance. He had a light that didn't flicker, and he wrote something down by it, and asked me nothing, and in the morning, while I slept, he went up and took the light with him. I thought he was a keeper." He turned the can in his hands. "Keepers leave you the lamp." She did not say the name. It was in a margin in Valletta, with the date.
 
 "Somebody came with a lamp on the third day," he said. "Or the third year. I had it settled for a while, and then I stopped settling things." He looked at his feet, in woven things, boot-shaped, none of them his. "I have never once had shoes, in all of it. The house never minded."
 
 Then he grinned, and for a moment the grin was thirteen. "Mother's going to kill me about the slippers. Did the kid ever come in?"
+
+She did not know. Nobody had counted the flock that week.
 
 "I went up the first winter," he said. "The mouth opened on a morning I couldn't read. Strangers' smoke. A dog I didn't know." He weighed the oil can in his hands. "I came back down, and that was the last time I asked the year. A man ought to ask the year now and then. I say that now." The sentence had been Melek's, at the wicks, the June before.
 
@@ -1406,13 +1408,13 @@ The second was a copy of the inquest memo of January, and pinned to it a chit in
 
 Ten thousand seven hundred and twenty years, give or take ninety, before the present: her hand, at the head of the counting, older than the counting. It was the one measurement all year she did not try to fork, though it had come to her, like every other, through his hands; and she held it the way you hold a lit thing: cupped, and low.
 
-She sent the certificate's copy to Valletta with two sentences: *The print is mine. The Trust will know what to do with nothing.* She wrote a third, with two dates in it, the fourth and the fifth of September 1999, and struck it through, because she had said it once, to his face, and paper would only give him something to file. The keepership sheet went in the same post, its date filled in; whatever keeping weighed, and whatever it had cost the ones who stopped, was hers now to carry up the hill with the oil. The reply came by return post, in the slope: *Received. Filed. The Trust's line for the year stands as cut: Nothing to record. — A. Halden, Registrar.* And under the evenness of the slope she thought she could see the last image the man would give anybody: the pen set down at rest, on a desk that kept nothing it had not read, one floor above a pharmacy, beside a cloth that had kept a ring from happening for thirty years, and a margin in a green volume, *4–5.ix*, that had kept a boy off every record for twenty-seven.
+She sent the certificate's copy to Valletta with two sentences: *The print is mine. The Trust will know what to do with nothing.* She wrote a third, with two dates in it, the fourth and the fifth of September 1999, and struck it through, because she had said it once, to his face, and paper would only give him something to file. The keepership sheet went in the same post, its date filled in; whatever keeping weighed, and whatever it had cost the ones who stopped, was hers now to carry up the hill with the oil. The reply came by return post, in the slope: *Received. Filed. The Trust's line for the year stands as cut: Nothing to record. — A. Halden, Registrar.* And under the evenness of the slope she thought she could see the last image the man would give anybody: the pen set down at rest, on a desk that kept nothing it had not read, one floor above a pharmacy, beside a cloth that had kept a ring from happening for thirty years, and a margin in a green volume, *4–5.ix*.
 
 On the fourteenth of September, at first light, she opened Book Zero at the first blank leaf behind the bound-in annual lines, scored it once with the little knife from Melek's oilcloth, one line, low, and under the line wrote:
 
 *To the one who keeps the lamps after me: the fourteenth of September. Emre Arat kept here, from the fourth of September 1999. The keeper wrote this before she lived it.*
 
-No name at the foot, after the formula; there never is. The seat belongs to whoever is sitting in it, and someone always is. She had written one true line where he would have written none, and a name in it, in a book that did not record the recorders, and closed the volume, and walked up through the mulberries with the oil can for the evening's round.
+No name at the foot, after the formula; there never is. The seat belongs to whoever is sitting in it, and someone always is. She closed the volume and walked up through the mulberries with the oil can for the evening's round.
 
 At the mouth of Kırk Oda the air shaft breathed. The breath went out for a long while, mild, carrying stone and cold water and something like the inside of a pocket; then a pause long enough to be mistaken for stillness; then in again, the same length, the same patience — a tide with no sea. Anyone with a watch and an hour to waste could time it, and anyone who timed it came away with the same figure: eighteen minutes, and eighteen again, obedient to nothing anyone had ever identified, keeping its own time the way the sea keeps the moon's.
 
