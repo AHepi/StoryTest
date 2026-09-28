@@ -23,7 +23,7 @@ As with the other story, every stage and every revision is kept.
   - The book's heart is the 1999 night, Melek, and the mother with the ribbon.
   - The measuring passages drag.
   - The same phrases come round too often.
-- **Round 8, your three changes, is under way** (file 41). You answered "All three." A planner is turning my ruling into exact changes; then three revisers, my word-by-word check, a Claude checker, and Fable's single review.
+- **Round 8, your three changes, is done** (files 41 to 45). The book is now file 44: 45,981 words, 8 per cent shorter. It has fewer repeated phrases and plainer voices for the non-keepers, shorter side-trips, Nilay's words to Halden, and the four slips fixed. Fable's single review of it: "finished as a book and keeping every one of the owner's rules".
 - **Earlier versions, all kept:** GLM's own (file 10), and the first Claude revision (file 19), from which the rounds started.
 
 ## How the pieces fit
@@ -448,6 +448,18 @@ As with the other story, every stage and every revision is kept.
     - **The book is now 45,971 words,** and every limit still holds.
     - **Fable is giving the completed revision its single review.**
 
+45. **Fable's single review of the revised book, and my ruling** (file 45). Its verdict: "finished as a book and keeping every one of the owner's rules, needing only a line-level pass". It gave 1 substantive finding and 11 quibbles, and it confirmed that your three changes were carried out.
+    - **I checked each finding against the book before this round,** to see which the revision had caused.
+    - **Fixed: one thing the revision broke.** A cut in XIV removed the List's "wage-line that stopped mid-column", so "whatever its ceasing had cost" no longer said what had ceased. It now reads "whatever it had cost the ones who stopped".
+    - **Fixed: Fable's one substantive finding,** although it is older than this round. In XIV, Nilay lets the mysteries go "the counts, the plans, the watches", and does not name the largest one, the Trust's letters that arrive before the things they answer. Your concept says time travel ties every mystery together. The list now reads "the counts, the plans, the watches, the letters that came before their errands". Fable's view is that this says time carried the letters without explaining how, or explaining Halden. This goes beyond my rule of fixing only what the revision broke. I made the exception because it serves one of your stated rules and costs seven words in a list. The *Seconds* finding I left for you needed new dialogue, which is a choice rather than a correction.
+    - **Left: the 11 quibbles.** They were all in the book before this round. For example, a doubled "not ambush, not accident" in VII, and some keeper-like cadence left in the narration of non-keeper chapters. Fable itself says "the book is finished; these are the last seams." They are recorded in file 45.
+    - **The book is 45,981 words** (file 44, updated with these two fixes).
+    - **The whole of round 8:**
+      - the planner's 254 edits;
+      - the revisers' independent application, which matched mine word for word;
+      - the checker's one real error, which was mine, and seven leftovers;
+      - Fable's one finding, and one thing the revision broke.
+
 ## Next step
 
-Rule on Fable's single review of the revised book: fix only what the revision broke or a plain contradiction.
+Read the revised book (file 44), if you want to see the three changes in place. If you would like to know whether readers feel the difference, I can run the same five-reader audience test on it.
