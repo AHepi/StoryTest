@@ -23,7 +23,7 @@ As with the other story, every stage and every revision is kept.
   - The book's heart is the 1999 night, Melek, and the mother with the ribbon.
   - The measuring passages drag.
   - The same phrases come round too often.
-- **Round 9, one focused revision from your own critique, is under way** (files 46 and 47).
+- **Round 9, one focused revision from your own critique, is made** (files 46 to 48). The book is file 48, 46,091 words. Fable is giving it its single review.
 - **Round 8, your three changes, is done** (files 41 to 45). The book is now file 44: 45,981 words, 8 per cent shorter. It has fewer repeated phrases and plainer voices for the non-keepers, shorter side-trips, Nilay's words to Halden, and the four slips fixed. Fable's single review of it: "finished as a book and keeping every one of the owner's rules".
 - **Earlier versions, all kept:** GLM's own (file 10), and the first Claude revision (file 19), from which the rounds started.
 
@@ -490,6 +490,33 @@ As with the other story, every stage and every revision is kept.
       - Then a fresh reader rereads the ending, a planner writes the narration ledger, three revisers apply it, I check every word, a checker reads the whole book, and Fable gives its single review.
       - Every critic in this round uses your skill.
 
+48. **Round 9 made, by me alone** (files 48). You asked me to go light on Claude helpers because your usage limit was close.
+    - **I stopped the three reunion drafters** before any of them had written a word, so nothing was lost.
+    - **I did the rest myself:** the reunion, the reread of the ending, the narration ledger, the edits and the word-by-word checks. The only helper this round is Fable's single review, which you asked for after every revision.
+    - **The reunion.** Just after "I know my road", Nilay says "Come up with me… She keeps one room. You could walk into it." His hand goes toward the ribbon and stops at the good distance. His answer:
+      - the mouth "doesn't ask which morning you want";
+      - "As it stands, she has a boy who went out for ten minutes after a kid… I won't stand in her door a stranger in woven shoes and let her call it him";
+      - "Take her that. Tell her the looking got as far as me."
+
+      She puts the ribbon inside her coat and gets up off the mat. At the parting, "of course he did not follow" is now "she did not ask again". It adds 219 words.
+    - **A slip of my own, caught before it went in.** I first placed the ask at the wall, where they are standing, so "the ribbon in her lap" and "got up off the mat" were wrong. I moved it to while they are still sitting.
+    - **The narration pass: 15 cuts, each of a clause or a sentence.** They include:
+      - "and it was the correct whole";
+      - "and the not-arguing was the breaking";
+      - "and it was enough for the village";
+      - "which was the tenderest thing anyone did for him all winter";
+      - the four lines Fable flagged in round 8 where the keepers' voice leaked into other people's chapters;
+      - the doubled "not ambush, not accident".
+
+      Every refrain and every italic letter is untouched. File 48 gives each cut with its reason, and the lines I kept on purpose.
+    - **The documents.** "the one measurement taken all year that no fork could carry" is now "the one measurement all year she did not try to fork, though it had come to her, like every other, through his hands". The certificate and the fingerprint note, including "submitted by the sponsoring institution … as a courtesy", are word for word as before.
+    - **What I checked:**
+      - each change is made exactly once;
+      - the letter at the head of I is still identical to its copy at the end of XIV;
+      - the 14 chapter headings are intact;
+      - the protected lines are all present.
+    - **Words:** 45,981 before, 46,091 after.
+
 ## Next step
 
-Read the three reunion drafts and choose one, or join the best of them.
+Rule on Fable's single review of round 9: fix only what the round broke, or a plain contradiction. If your usage limit stops Fable, restart it after the reset.
