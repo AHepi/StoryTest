@@ -418,6 +418,18 @@ As with the other story, every stage and every revision is kept.
     - **The result:** 45,953 words, 8.3 per cent shorter. I built my own copy of the expected text, so that I can compare the revisers' work against it word for word.
     - **The three revisers are working now,** one block each. They were told to apply every edit themselves from the plan and not to look at the planner's copy, so that their work is an independent check of it.
 
+43. **The three revisers' work, checked word by word** (file 43).
+    - **They made every planned edit,** plus my three decisions, applying each one themselves from the plan.
+    - **Their chapters match my own expected copy exactly,** word for word, in 13 of the 14 chapters. So two independent applications of the plan, the planner's and the revisers', agree.
+    - **The one difference is a sensible fix, which I accept.** In IV, a cut left one speaker's words as two quotations side by side ("…a noise." "It has answered me…"). The reviser joined them into one, changing two quotation marks and no word, and logged it.
+    - **The revised book is 45,953 words,** 8.3 per cent shorter than 50,094. Its chapter headings, phrase counts, slips and new lines are as planned.
+    - A Claude checker is now reading the whole revised book for anything the cuts broke. It checks for:
+      - lost clues;
+      - jumps at the seams;
+      - references to things that are no longer there;
+      - new contradictions;
+      - any breach of your concept.
+
 ## Next step
 
 Compare the revisers' fourteen chapters with my expected copy word for word, and read their logs. Then a Claude checker reads the whole revised book for anything the cuts broke, and Fable gives it its single review.
