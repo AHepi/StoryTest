@@ -402,6 +402,22 @@ As with the other story, every stage and every revision is kept.
       - Fable gives the completed revision its single review.
     - The revisers wait until Fable finishes its *Seconds* review, so that no more than three Claude helpers run at once.
 
+42. **The plan, checked** (file 42). The planner wrote 254 exact find-and-replace edits and applied them to a copy, to prove they work. I checked that copy myself before any reviser started.
+    - **It meets the ruling:**
+      - The book comes to about 45,800 words.
+      - Every phrase is at or under its ceiling. For example, "the whole of" goes from 31 uses to 12, "two breaths" from 19 to 8, and "which was" from 44 to 19.
+      - All four slips are fixed, and no protected clue is lost.
+      - Nilay's lines to Halden are in XIII, with his existing answer.
+      - In XIV, Emre gets a new line as the boy he was: "Mother's going to kill me about the slippers. Did the kid ever come in?" It calls back chapter II, where he went out in his house slippers after a young goat that had not come in with the flock.
+    - **Where it fell short of my suggestions:** it is about a thousand words above my chapter-by-chapter targets, though inside the overall range. The planner explained why: in the chapters marked for the phrase pass, most changes swap a phrase rather than cut a sentence.
+    - **My three decisions** (section 6 of the plan):
+      - **I kept one exchange it cut:** in VIII the Ministry asks "who elected the Trust?", and the Trust replies that "the record is the mandate", and the room is satisfied all the same. It is the one place the book asks Halden's institution to account for itself, and his untouchability depends on it.
+      - **I changed my own wording** in Nilay's line from "the night my brother went down" to "went missing". The planner flagged that "went down" could read as a guess about where Emre went, which only the last chapter confirms.
+      - **One extra small cut** in XIV (17 words) keeps the book inside the range.
+      - I turned down another suggested cut, the wastebasket in Uppsala "emptied into an archive", because it shows the Trust's reach into Márton's past.
+    - **The result:** 45,953 words, 8.3 per cent shorter. I built my own copy of the expected text, so that I can compare the revisers' work against it word for word.
+    - **The three revisers are working now,** one block each. They were told to apply every edit themselves from the plan and not to look at the planner's copy, so that their work is an independent check of it.
+
 ## Next step
 
-Check the planner's plan against the ruling (every phrase count, every cut, the plant check), then start the three revisers.
+Compare the revisers' fourteen chapters with my expected copy word for word, and read their logs. Then a Claude checker reads the whole revised book for anything the cuts broke, and Fable gives it its single review.
