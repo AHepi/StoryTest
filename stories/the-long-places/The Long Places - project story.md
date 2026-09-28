@@ -23,6 +23,7 @@ As with the other story, every stage and every revision is kept.
   - The book's heart is the 1999 night, Melek, and the mother with the ribbon.
   - The measuring passages drag.
   - The same phrases come round too often.
+- **Round 9, one focused revision from your own critique, is under way** (files 46 and 47).
 - **Round 8, your three changes, is done** (files 41 to 45). The book is now file 44: 45,981 words, 8 per cent shorter. It has fewer repeated phrases and plainer voices for the non-keepers, shorter side-trips, Nilay's words to Halden, and the four slips fixed. Fable's single review of it: "finished as a book and keeping every one of the owner's rules".
 - **Earlier versions, all kept:** GLM's own (file 10), and the first Claude revision (file 19), from which the rounds started.
 
@@ -61,6 +62,8 @@ As with the other story, every stage and every revision is kept.
 - **Pipeline:** the program that runs the stages in order, several at once where parts are independent.
 - **MiMo v2.6 Pro:** an AI model from Xiaomi. It was a fresh-eyes critic and checker in the revision rounds and ran the first audience test. It was retired in entry 39.
 - **Claude helper:** a separate Claude agent given one job, such as reading the book as one simulated reader. Never more than three run at once.
+- **Story-critique skill:** your critique method, installed in the project. It works scene by scene, then outward, and gives a reason held by the page for every note. From round 9, every critic and checker uses it, and so does Fable.
+- **Interpretive ending:** a closing line in which the narration tells you what a scene meant, or whether someone behaved correctly, after the action has already shown it. For example: "and it was the correct whole".
 - **Substantive finding / quibble:** a problem a careful reader would notice and that weakens the story, versus a point only an audience test could settle (word choice, rhythm, the exact timing of an event when nothing depends on it).
 - **Audience test:** five simulated readers with different tastes read the finished story and report how it played for them.
 - **Ruling:** my written decision at the end of each round's review: which findings are real and must be fixed, which are overruled, and why. Nothing is changed without one.
@@ -460,6 +463,33 @@ As with the other story, every stage and every revision is kept.
       - the checker's one real error, which was mine, and seven leftovers;
       - Fable's one finding, and one thing the revision broke.
 
+46. **Your critique, and a new way of critiquing** (file 46). You read the whole book after round 8 and asked for "one focused revision, chiefly around the reunion and the narration surrounding your strongest scenes". You named five things to protect:
+    - the opening search and the red ribbon;
+    - Priska's rescue of Havva, then her father's cough;
+    - Márton's decision to wait, then the archive;
+    - the mother folding the ribbon;
+    - Emre's name in Book Zero.
+
+    And you asked for three changes, in order:
+    - let Nilay ask Emre to come home, so his answer makes her leaving possible;
+    - cut narration that explains a scene after the action has already shown it;
+    - soften the one sentence that claims more certainty than the Trust-supplied documents can bear.
+
+    You also sent the story-critique skill. It was almost identical to the one already available in this session (one pair of quotation marks differed), but it was not in the project. I installed it as supplied at `.claude/skills/story-critique/`, the same way the hard-to-vary skill was installed. I checked every line your critique quotes against the book, as the skill asks, and all of them are there.
+
+47. **My ruling for round 9** (file 47).
+    - **Four parts, in your order:**
+      1. **The reunion.** Nilay asks Emre to come up to their mother, and his answer makes her departure possible. Built only from what the page already holds, with the road kept uncertain and 120 to 300 words added. "Of course he did not follow" must be earned or changed.
+      2. **A reread of the ending** by a fresh reader.
+      3. **A selective pass over the "interpretive endings".** It keeps the refrains that change meaning when they return, such as the good distance, the oil to the knuckle, the names of rooms and the shaft's breath, and cuts commentary where the action has already carried the meaning. It includes the lines Fable flagged in round 8.
+      4. **The documents.** I decided they complete Nilay's recognition rather than prove it beyond doubt. The paper came through Halden's hands, and the book has taught us to distrust exactly that. The sentence becomes, for example, "It was the one measurement all year she did not try to fork, though it had come to her, like every other, through his hands". The documents themselves stay word for word.
+    - **Protected:** your five scenes, and everything Fable and the checker asked to protect.
+    - **How:**
+      - Three drafters are writing the reunion independently, each starting the ask at a different moment: when she says their mother is alive, after "I know my road", and at the wall just before they part.
+      - I will choose one, or join the best of them, and say why.
+      - Then a fresh reader rereads the ending, a planner writes the narration ledger, three revisers apply it, I check every word, a checker reads the whole book, and Fable gives its single review.
+      - Every critic in this round uses your skill.
+
 ## Next step
 
-Read the revised book (file 44), if you want to see the three changes in place. If you would like to know whether readers feel the difference, I can run the same five-reader audience test on it.
+Read the three reunion drafts and choose one, or join the best of them.
