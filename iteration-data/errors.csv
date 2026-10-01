@@ -1,0 +1,35 @@
+story,log_entry_on_story_branch,made_by,what_went_wrong,caught_by,kind
+The Long Places,21,MiMo (tooling),"its first critique came back with garbled accented letters (logged again in Seconds entry 30, the same slip)",main session,tooling
+The Long Places,27,main session (round-1 ruling),filed a plain error (the cough slip) among the quibbles,"main session, round 3",severity misjudged
+The Long Places,30,main session (round-4 ruling wording),"three slips in the wording it ordered, e.g. ""None of mine deployed"" though Yusuf used Márton's heat gun","planner, while planning; put right only in the next ruling (entry 31)",ruling wording
+The Long Places,31,main session (round-4 fix),"the handprint pressed beside the old print, so the wall showed two",round-5 review,a fix made a fault
+The Long Places,33,main session (round-1 fix),"the tall woman ""bends to"" a doorway that is in the ceiling",round-6 review,a fix made a fault
+The Long Places,36,capacity,Fable's review failed: the session limit for Claude helpers was reached,,capacity
+The Long Places,38,main session (rounds 4-5 rewording),"a witness statement lost its noun (""None deployed by me"", wording the round-4 planner had suggested)",Fable's single review,a fix made a fault
+The Long Places,40,main session (round-4 ruling),"forty against sixty years, raised by two critics, let through",audience test,raised and let through
+The Long Places,40,"the book, from before the rounds",the grandmother's clock loses an hour though it stayed at home,audience test (the logic reader),"raised as a quibble (round 6), held for the audience test"
+The Long Places,40,the book,"the same phrases and one polished voice everywhere (raised by Fable from round 2 on; the rulings left it open in rounds 3, 4, 6 and 7)",audience test (all five readers),"raised, and left open for the audience test"
+The Long Places,44,main session (round-8 ruling wording),"""twenty-six years"" where the book's own count gives twenty-seven (the round-8 planner had defended it)",Claude checker,ruling wording
+The Long Places,44,round-8 cuts (plan and revisers),"seven leftovers of cuts: a lost echo, a lost hint, words pointing at cut passages, a missing comma",Claude checker,revision seams
+The Long Places,45,round-8 cuts,"""its ceasing"" left with nothing to refer to",Fable's single review,revision seams
+The Long Places,46,the book,"Nilay never asks Emre to come home, so (on the workshop's choice-test reading) his staying has only one option on the page: confirmed in round 1 (""Nilay's own coming departure ... costs her nothing on the page""), fixed then only for the mother; raised again as a quibble in round 3",the owner's own critique,"confirmed, fixed only in part, then held"
+The Long Places,48,main session (round-9 draft),"the new passage first placed where the two are standing, though it has her sitting","main session, before it went in",draft consistency
+The Long Places,49,main session (round-9 narration pass),missed four sentences of the very kind it was cutting (a pass by judgement; the sentences were never listed),Fable's single review,an incomplete pass
+Seconds,34,MiMo (tooling),"its advice blocked by its maker's safety filter (three times in all, entry 46; the call log flags one)",main session (a GLM fallback),tooling
+Seconds,35,GLM (reviser),three small changes nobody ordered,"main session, word by word",reviser discipline
+Seconds,36,main session (round-1 ruling),"Lee's job kept at ""nine and a half seconds"", beating the season's 9.4 record",Fable's review,ruling wording
+Seconds,37,GLM (reviser),two changes nobody ordered,"main session, word by word",reviser discipline
+Seconds,38,main session (round-1 fix),"""Water counts"" planted a question the season then had to answer",round-3 review,a fix made a fault
+Seconds,39,"GLM (reviser, and the program that split its answer)",working notes leaked into an episode; an act heading lost,"main session, word by word",reviser discipline
+Seconds,40,main session (round-1 ruling wording),"""I never felt a thing"" contradicted episode 1's ""a pull in her gut""",MiMo as checker,ruling wording
+Seconds,40,main session (round-3 fix),"its ""seventh night"" fix left six nights unexplained",round-4 review,a fix made a fault
+Seconds,41,GLM (reviser),"a typo nobody ordered (""his's"")","main session, word by word",reviser discipline
+Seconds,42,main session (round-2 check of a finding),"said the plan never had ""three bodies""; its search missed it",MiMo as checker,a check that looked in the wrong place
+Seconds,42,main session (round-1 overruling),"overruled Fable on the ""early tingle"" clue, which proved nothing","Fable's review, round 5",an overruling reversed
+Seconds,43,GLM (reviser),"""a man at a next desk""","main session, word by word",reviser discipline
+Seconds,48,main session (rounds 1 and 5 wording),two of its own lines needed undoing (e.g. a line that gave away a vote before the vote),"Fable's review, round 7",ruling wording
+Seconds,49,GLM (reviser),"one change nobody ordered, in the writers' notes (""her coat"" became ""Rosie's coat""), left as harmless","main session, word by word",reviser discipline
+Seconds,51,"the season, from GLM's writing","eight kinds of slip the audience named: ""Aye"" in Essex mouths (11 times; 10 already in GLM's first finished season), a June ""birthday boy"", an uncle called ""dad"" twice, two years for seven, a prop's count, a name never introduced, a rule used before it was taught, and one explanation that lost all five viewers. Five were raised during the rounds: ""Aye"" (from round 2 on) and the rule used before it was taught (rounds 2 and 6), held as quibbles; the pencil (round 2; confirmed in round 3); two years for seven (Fable, round 5); the June ""birthday boy"" (Fable, round 7). A keyword search found no earlier mention of the other three",audience test,five raised during the rounds and held; three not found raised
+Seconds,52,main session (round-7 check),"an ordered change (""wherever it repeats"") not carried through, and not caught: it checked what was changed, not that every ordered change was there","main session, reading Fable's final review",an incomplete check
+Seconds,53,GLM (reviser),"five changes nobody ordered, one a leaked placeholder line","main session, word by word",reviser discipline
+Seconds,54,capacity,Fable's review failed: the usage limit for Claude helpers was reached,,capacity
