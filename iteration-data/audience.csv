@@ -1,0 +1,16 @@
+story,panel_played_by,reader,taste,score,source_on_story_branch
+The Long Places,MiMo,Ana,nurse; character,8,stories/the-long-places/37 Audience test - the analysis.md
+The Long Places,MiMo,Tom,engineer; logic,8.5,stories/the-long-places/37 Audience test - the analysis.md
+The Long Places,MiMo,Priya,film student; structure,8,stories/the-long-places/37 Audience test - the analysis.md
+The Long Places,MiMo,Joe,retired driver; thrillers,6,stories/the-long-places/37 Audience test - the analysis.md
+The Long Places,MiMo,Lena,philosophy teacher; belief,9,stories/the-long-places/37 Audience test - the analysis.md
+The Long Places,Claude,Ana,nurse; character,7,stories/the-long-places/40 Audience test (Claude readers) - the analysis.md
+The Long Places,Claude,Tom,engineer; logic,7,stories/the-long-places/40 Audience test (Claude readers) - the analysis.md
+The Long Places,Claude,Priya,film student; structure,7,stories/the-long-places/40 Audience test (Claude readers) - the analysis.md
+The Long Places,Claude,Joe,retired driver; thrillers,6,stories/the-long-places/40 Audience test (Claude readers) - the analysis.md
+The Long Places,Claude,Lena,philosophy teacher; belief,8,stories/the-long-places/40 Audience test (Claude readers) - the analysis.md
+Seconds,Claude,Ana,nurse; character,8,stories/fourth-direction-season/51 Audience test (Claude viewers) - the analysis.md
+Seconds,Claude,Tom,engineer; logic,9,stories/fourth-direction-season/51 Audience test (Claude viewers) - the analysis.md
+Seconds,Claude,Priya,film student; structure,8,stories/fourth-direction-season/51 Audience test (Claude viewers) - the analysis.md
+Seconds,Claude,Joe,retired driver; thrillers,8,stories/fourth-direction-season/51 Audience test (Claude viewers) - the analysis.md
+Seconds,Claude,Lena,philosophy teacher; belief,9,stories/fourth-direction-season/51 Audience test (Claude viewers) - the analysis.md
