@@ -9,11 +9,12 @@ The rules every stage shares are in `stages/how-stages-work.md`, and are not rep
 | Layer | File | Which part | For |
 |---|---|---|---|
 | 4 | `stages/01-brief-and-premise/output/<project>/project-log.md` | all | where the run stands; which versions are current |
-| 4 | `stages/01-brief-and-premise/output/<project>/premise-vN.md` (highest N) | the premise card and the seven jobs | the spine |
-| 4 | `stages/02-characters/output/<project>/cast-vN.md` (highest N) | the cast sheet, the hero's change, the opponents, the moral line | who drives, who resists, the moral steps |
-| 4 | `stages/03-world-and-symbols/output/<project>/world-vN.md` (highest N) | the departures and stakes, the places, the symbols | where each turn happens, what things cost |
-| 4 | `stages/01-brief-and-premise/output/<project>/brief-vN.md` (highest N) | rules and avoid list | limits |
-| 3 | `_config/writer.md` | questions 1 and 2 | medium and length |
+| 4 | `stages/01-brief-and-premise/output/<project>/premise-vN.md` (highest N; in draft-in mode, omit if never built) | the premise card and the seven jobs | the spine |
+| 4 | `stages/02-characters/output/<project>/cast-vN.md` (highest N; in draft-in mode, omit if never built) | the cast sheet, the hero's change, the opponents, the moral line | who drives, who resists, the moral steps |
+| 4 | `stages/03-world-and-symbols/output/<project>/world-vN.md` (highest N; in draft-in mode, omit if never built) | the departures and stakes, the places, the symbols | where each turn happens, what things cost |
+| 4 | `stages/01-brief-and-premise/output/<project>/brief-vN.md` (highest N) | rules and avoid list; in draft-in mode, the voice and preservation record | limits |
+| 4 | `draft-vN` (draft-in mode only: in stage 07's output folder, or stage 06's for an action-only draft, including split files) | all, standing in for any missing earlier planning output | what the draft already establishes (`stages/how-stages-work.md`, section 2) |
+| 3 | `_config/writer.md` | questions 1, 2 and 14 | medium, length, spoiler-free mode |
 | 3 | `stages/how-stages-work.md` | all | the shared rules |
 | 3 (a record) | `stages/owner-edits.md` | rows for stage 04 | patterns in the writer's edits |
 | 3 | `stages/04-plot/references/plot-worksheet.md` | all | the order of work, the jobs table, the plan at two levels, the output's shape |
@@ -32,7 +33,7 @@ The rules every stage shares are in `stages/how-stages-work.md`, and are not rep
 
 ## Process
 
-1. **Read the project log, the premise, cast, world and brief,** and record any edits the writer made to them since they were handed over (`stages/how-stages-work.md`, section 8).
+1. **Read the project log, the premise, cast, world and brief,** and record any edits the writer made to them since they were handed over (`stages/how-stages-work.md`, section 8). In **draft-in mode**, follow `stages/how-stages-work.md`, section 2, reading `draft-vN` in place of any missing `premise-vN.md`, `cast-vN.md` or `world-vN.md` and updating only the plot layer the brief asks for.
 2. **Work through the worksheet's order** (section 1, steps 1 to 8).
 3. **Test each load-bearing choice** with `hard-to-vary` (plot skill, Building step 8).
 4. **Verify, then stop for review,** and add a project log entry.
@@ -44,7 +45,7 @@ In `stages/04-plot/output/<project>/`, each part with its marker (`[from: 04 ste
 
 ## Verify
 
-In `plot-vN.md`:
+In `plot-vN.md` (in draft-in mode, follow `stages/how-stages-work.md`, section 2):
 - **Against the premise (stage 01):** the plot tracks the designing principle; the ending answers the story's question; the settlement matches the premise card's "change or settlement" line, or says what changed and why.
 - **Against the cast (stage 02):** every step of the moral line is an event in the jobs table; the main opponent is present in the final clash, not a stand-in (the Battle row's check in `structure-and-conflict.md`, section 2).
 - **Against the world (stage 03):** each turn happens in its planned place, and the stakes are the ones the world sets (Gap principle 2).

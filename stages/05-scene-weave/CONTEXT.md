@@ -9,10 +9,12 @@ The rules every stage shares are in `stages/how-stages-work.md`, and are not rep
 | Layer | File | Which part | For |
 |---|---|---|---|
 | 4 | `stages/01-brief-and-premise/output/<project>/project-log.md` | all | where the run stands; which versions are current |
-| 4 | `stages/04-plot/output/<project>/plot-vN.md` (highest N) | the jobs table, the reveals, the knowledge positions, the genre beat map | what the scenes must do |
-| 4 | `stages/02-characters/output/<project>/cast-vN.md` (highest N) | the moral line and the care plan | where care and the moral steps fall |
-| 4 | `stages/03-world-and-symbols/output/<project>/world-vN.md` (highest N) | the places, the symbols' appearances | where scenes happen; where symbols return |
-| 3 | `_config/writer.md` | questions 1 and 2 | medium and length (episodes, running time, words) |
+| 4 | `stages/04-plot/output/<project>/plot-vN.md` (highest N; in draft-in mode, omit if never built) | the jobs table, the reveals, the knowledge positions, the genre beat map | what the scenes must do |
+| 4 | `stages/02-characters/output/<project>/cast-vN.md` (highest N; in draft-in mode, omit if never built) | the moral line and the care plan | where care and the moral steps fall |
+| 4 | `stages/03-world-and-symbols/output/<project>/world-vN.md` (highest N; in draft-in mode, omit if never built) | the places, the symbols' appearances | where scenes happen; where symbols return |
+| 4 | `stages/01-brief-and-premise/output/<project>/brief-vN.md` (highest N) | rules and avoid list; in draft-in mode, the voice and preservation record | limits on what may move or be cut |
+| 4 | `draft-vN` (draft-in mode only: in stage 07's output folder, or stage 06's for an action-only draft, including split files) | all, standing in for any missing earlier planning output | what the draft already establishes (`stages/how-stages-work.md`, section 2) |
+| 3 | `_config/writer.md` | questions 1, 2 and 14 | medium, length (episodes, running time, words), spoiler-free mode |
 | 3 | `stages/how-stages-work.md` | all | the shared rules |
 | 3 (a record) | `stages/owner-edits.md` | rows for stage 05 | patterns in the writer's edits |
 | 3 | `stages/05-scene-weave/references/scene-weave-worksheet.md` | all | the order of work, the season level, the output's shape |
@@ -24,7 +26,7 @@ The rules every stage shares are in `stages/how-stages-work.md`, and are not rep
 
 ## Process
 
-1. **Read the project log, the plot, cast and world,** and record any edits the writer made to them since they were handed over (`stages/how-stages-work.md`, section 8).
+1. **Read the project log, the plot, cast, world and brief,** and record any edits the writer made to them since they were handed over (`stages/how-stages-work.md`, section 8). In **draft-in mode**, follow `stages/how-stages-work.md`, section 2, reading `draft-vN` in place of any missing `plot-vN.md`, `cast-vN.md` or `world-vN.md` and mapping or reordering only the stretch the brief opens to revision.
 2. **Work through the worksheet's order** (section 1, steps 1 to 7).
 3. **Test the list** with `hard-to-vary`'s remove test, lightly: a scene whose removal loses no job is cut, merged, or given a job (`.claude/skills/hard-to-vary/references/by-domain.md`, section 5).
 4. **Verify, then stop for review,** and add a project log entry.
@@ -36,7 +38,7 @@ In `stages/05-scene-weave/output/<project>/`, each part with its marker (`[from:
 
 ## Verify
 
-In `scene-weave-vN.md`:
+In `scene-weave-vN.md` (in draft-in mode, follow `stages/how-stages-work.md`, section 2):
 - **Against the plot (stage 04):** every job in the jobs table is done by at least one scene; every reveal has its scene, in the order stage 04 set.
 - **Against the cast (stage 02):** each step of the moral line and each rung of the care plan has its scene, before the scene that needs it.
 - **Against the world (stage 03):** each scene is in a place stage 03 planned; a scene that needs a new place is listed at the review stop, since stage 03's output then needs a new version (`stages/how-stages-work.md`, section 7); each symbol's appearances are in the list.

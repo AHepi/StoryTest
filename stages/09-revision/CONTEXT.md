@@ -12,9 +12,10 @@ The rules every stage shares are in `stages/how-stages-work.md`, and are not rep
 | 4 | `stages/08-critique/output/<project>/critique-<target>-round-N-*.md` (this round) | all, as the writer left them at the review stop | the findings |
 | 4 | the writer's feedback, as given, with anything attached | all | the largest revision |
 | 4 | the target named in the critiques (the version they criticised) | all | what is revised |
-| 4 | the earlier outputs the findings trace to | the parts the findings name | revising at the stage the fault came from |
-| 4 | `stages/01-brief-and-premise/output/<project>/brief-vN.md` (highest N) | the rules | limits |
-| 3 | `_config/writer.md` | questions 9, 11 and 13 | helpers, rounds, what to ask first |
+| 4 | the earlier outputs the findings trace to, plus in draft-in mode any planning output built for this revision (such as `world-vN.md` or `plot-vN.md`) | the parts the findings name, or all for a draft-in planning output | revising at the stage the fault came from, or carrying a draft-in plan into the draft |
+| 4 | `stages/01-brief-and-premise/output/<project>/brief-vN.md` (highest N) | the rules; in draft-in mode, the voice and preservation record | limits |
+| 4 | `draft-v1` (draft-in mode, when revising a draft: in stage 07's output folder, or stage 06's for an action-only draft, including split files) | all | the writer's original copy, to hold to the voice and preservation record |
+| 3 | `_config/writer.md` | questions 9, 11, 13 and 14 | helpers, rounds, what to ask first, spoiler-free mode |
 | 3 | `stages/how-stages-work.md` | all | the shared rules |
 | 3 (a record) | `stages/owner-edits.md` | rows for the stages this round touches | patterns in the writer's edits |
 | 3 | `stages/09-revision/references/revision-log.md` | all | the log, the new version, where to revise, feedback, faults in the workshop |
@@ -26,7 +27,7 @@ The rules every stage shares are in `stages/how-stages-work.md`, and are not rep
 
 1. **Read the project log, and the critiques as the writer left them,** and any feedback, and record any edits the writer made to the target since it was handed over (`stages/how-stages-work.md`, section 8). For feedback, write `feedback-N.md` first (reference, section 4), and say the reading back.
 2. **Settle the clashes** between findings (reference, section 1, item 2).
-3. **Decide each finding:** accepted, accepted in part, or rejected, with the reason.
+3. **Decide each finding:** accepted, accepted in part, or rejected, with the reason. In **spoiler-free mode**, follow `stages/how-stages-work.md`, section 3, for held story choices (non-story questions are still asked as normal).
 4. **Revise at the stage each fault came from** (reference, section 3): write the next version there, with new markers, changing only what the log says.
 5. **List what is now stale** in the log and the project log.
 6. **Look for faults in the workshop** (reference, section 5).
@@ -40,11 +41,12 @@ The rules every stage shares are in `stages/how-stages-work.md`, and are not rep
 ## Verify
 
 In `revision-log-<target>-round-N.md`:
-- **Every finding answered:** each finding in each critique of the round has a row, and each row a verdict.
+- **Every finding answered:** each finding in each critique of the round has a row, and each row a verdict (or, for an initial draft-in revision run from feedback and a planning output before any critique round, every rule in the brief, feedback and planning output has a row).
 - **Only the logged changes:** the new version differs from the old only where the log says (compare the two files).
-- **Earlier stages still agree:** for each revised output, rerun its own stage's Verify against its inputs; list any later output made stale.
+- **Voice and preservation (draft-in mode, when revising a draft):** every item of `brief-vN.md`'s voice and preservation record (`stages/01-brief-and-premise/references/premise-worksheet.md`, section 2) checked against `draft-v1` — untouched boundaries, voice and rhythm, formatting, sacred lines verbatim, judgment signals where relevant, and any text counts run on story text only with the method named.
+- **Earlier stages still agree:** for each revised output, rerun its own stage's Verify against its inputs (in draft-in mode, following `stages/how-stages-work.md`, section 2); list any later output made stale.
 - **Feedback:** each rule drawn from the writer's feedback is placed in the brief or `_config/writer.md`, as the writer chose, or waits on their answer.
 
 ## Review stop
 
-The writer reads the log and the new version. Next: another critique round (at most as many as `_config/writer.md` allows before it comes to the writer), the next stage, or a rerun of a stale one.
+The writer reads the log and the new version. Next: another critique round (at most as many as `_config/writer.md` allows before it comes to the writer), the next stage, or a rerun of a stale one. In **spoiler-free mode**, follow `stages/how-stages-work.md`, section 3.

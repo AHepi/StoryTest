@@ -24,3 +24,4 @@ A writer's lasting preferences are recorded once, here, and every project draws 
 11. **Critique.** Which kinds of critic run by default (for example logic and rules; care, suspense and structure; theme and hard to vary; dialogue), and how many rounds before the result comes to you.
 12. **Committing story work.** Whether stage outputs are committed to git on this branch. Yes keeps a full history of every version; no keeps your story out of the repository (as with *The Catch*).
 13. **Asking first.** What you want to be asked about before it happens.
+14. **Spoiler-free mode.** When the workshop works on a story you have not read yet (or want to experience fresh), should reports to you leave out story content (events, lines, reveals) and let the workshop decide held story choices, logging each with its rejected alternative for you to check after reading (while still asking non-story questions such as cost, helper limits and scope)?

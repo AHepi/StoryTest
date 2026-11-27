@@ -9,9 +9,10 @@ The rules every stage shares are in `stages/how-stages-work.md`, and are not rep
 | Layer | File | Which part | For |
 |---|---|---|---|
 | 4 | `stages/01-brief-and-premise/output/<project>/project-log.md` | all | where the run stands; which versions are current |
-| 4 | `stages/01-brief-and-premise/output/<project>/premise-vN.md` (highest N), and its handed-over copy | all | the premise card and the seven jobs; the writer's edits |
-| 4 | `stages/01-brief-and-premise/output/<project>/brief-vN.md` (highest N), and its handed-over copy | rules, avoid list, open questions | limits on the cast; the writer's edits |
-| 3 | `_config/writer.md` | questions 1, 4 and 6 | medium, voice, standing rules |
+| 4 | `stages/01-brief-and-premise/output/<project>/premise-vN.md` (highest N; in draft-in mode, omit if never built), and its handed-over copy | all | the premise card and the seven jobs; the writer's edits |
+| 4 | `stages/01-brief-and-premise/output/<project>/brief-vN.md` (highest N), and its handed-over copy | rules, avoid list, open questions; in draft-in mode, the voice and preservation record | limits on the cast; the writer's edits |
+| 4 | `draft-vN` (draft-in mode only: in stage 07's output folder, or stage 06's for an action-only draft, including split files) | all, standing in for any missing earlier planning output | what the draft already establishes (`stages/how-stages-work.md`, section 2) |
+| 3 | `_config/writer.md` | questions 1, 4, 6 and 14 | medium, voice, standing rules, spoiler-free mode |
 | 3 | `stages/how-stages-work.md` | all | the shared rules |
 | 3 (a record) | `stages/owner-edits.md` | rows for stage 02 | patterns in the writer's edits |
 | 3 | `stages/02-characters/references/cast-sheet-and-moral-line.md` | all | the cast sheet, the care plan, the order of work |
@@ -30,7 +31,7 @@ The rules every stage shares are in `stages/how-stages-work.md`, and are not rep
 
 ## Process
 
-1. **Read the project log, the premise and the brief,** and record any edits the writer made to them since they were handed over (`stages/how-stages-work.md`, section 8). Note the hero, the seven jobs, the story's question, and any rule that limits the cast.
+1. **Read the project log, the premise and the brief,** and record any edits the writer made to them since they were handed over (`stages/how-stages-work.md`, section 8). Note the hero, the seven jobs, the story's question, and any rule that limits the cast. In **draft-in mode**, follow `stages/how-stages-work.md`, section 2, reading `draft-vN` in place of any missing `premise-vN.md` and updating only the character layer the brief asks for.
 2. **Fill the cast sheet** (reference, section 1): hero and main opponent first, then each other major character; a threat that is not a person follows `opponents.md`, section 9, instead of taking a row.
 3. **The hero's change,** worked from the end (reference, section 3, step 2).
 4. **The opponents,** each striking at the hero's flaw a different way.
@@ -46,7 +47,7 @@ In `stages/02-characters/output/<project>/`, each part with its marker (`[from: 
 
 ## Verify
 
-In `cast-vN.md`:
+In `cast-vN.md` (in draft-in mode, follow `stages/how-stages-work.md`, section 2):
 - **Against the premise (stage 01):** the hero's start and end match the premise card's "change or settlement" line, or the difference is marked and explained; the hero's want is the premise's desire.
 - **Against the premise's question:** every major character has an answer to it on the sheet, and no two are the same.
 - **Against the brief:** no rule broken, nothing from the avoid list.

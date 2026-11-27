@@ -14,7 +14,7 @@ Contents: 1 What a revision log holds. 2 The new version. 3 Revise at the stage 
 | # | Finding | Verdict | What changed, and where |
 |---|---|---|---|
 
-The verdict is *accepted*, *accepted in part* (say which part is rejected, and why), or *rejected* (say why). "What changed" names the section, scene or episode, so the writer can find each change in the new version. A finding the writer struck at the review stop is *rejected*, with their reason.
+The verdict is *accepted*, *accepted in part* (say which part is rejected, and why), or *rejected* (say why). "What changed" names the section, scene or episode, so the writer can find each change in the new version. A finding the writer struck at the review stop is *rejected*, with their reason. In **spoiler-free mode** (`stages/how-stages-work.md`, section 3), each held **story** choice decided by the workshop records both the chosen reading and the rejected alternative, so the writer can review or reverse it after reading.
 4. **Stale:** every later output that read the revised file (`stages/how-stages-work.md`, section 7).
 5. **Owed to the workshop:** any finding traced to a stage contract or reference (section 5).
 
@@ -34,7 +34,7 @@ The writer's feedback is the largest revision, and is recorded in full, as the s
 1. **What the writer said,** quoted word for word, with the date, and anything they attached.
 2. **How it was read:** said back as the line on taking a request from the owner in `CLAUDE.md` asks, with the nearest other reading; when that line's signs say the reading is in doubt, follow it: ask, and do nothing risky, costly or hard to undo on any reading until the writer answers.
 3. **What was checked,** and what it found.
-4. **The rules it gives,** numbered. For each, ask the writer whether it holds for this project only (it goes into the next brief, stage 01) or for every project (it goes into `_config/writer.md`).
+4. **The rules it gives,** numbered. For each, ask the writer whether it holds for this project only (it goes into the next brief, stage 01) or for every project (it goes into `_config/writer.md`). If the feedback turns on **spoiler-free mode** (`stages/how-stages-work.md`, section 3), record that rule here, write `Spoiler-free mode: on` into `project-log.md` immediately (so every later stage sees it before a new brief is written), and apply it at once to every report to the writer.
 5. **What changed:** a new version of the stage it bears on, or, when the writer rejects the direction, a new brief and a new run of stage 01, with every earlier file kept.
 
 ## 5. Faults in the workshop

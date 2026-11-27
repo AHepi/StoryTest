@@ -9,11 +9,13 @@ The rules every stage shares are in `stages/how-stages-work.md`, and are not rep
 | Layer | File | Which part | For |
 |---|---|---|---|
 | 4 | `stages/01-brief-and-premise/output/<project>/project-log.md` | all | where the run stands; which versions are current |
-| 4 | `stages/05-scene-weave/output/<project>/scene-weave-vN.md` (highest N; for a series, the episode's file) | the scene list and strands | which scenes, in what order, doing which job |
-| 4 | `stages/02-characters/output/<project>/cast-vN.md` (highest N) | the cast sheet (wants, flaws, levers, never says) and the care plan | who wants what; how care is built |
-| 4 | `stages/03-world-and-symbols/output/<project>/world-vN.md` (highest N) | the places, the surplus, what each group leaves unsaid, the symbols | where, and what the world does meanwhile |
-| 4 | `stages/04-plot/output/<project>/plot-vN.md` (highest N) | the reveals and the knowledge positions | what the audience knows in each scene |
-| 3 | `_config/writer.md` | questions 1, 2 and 4 | medium, length, voice |
+| 4 | `stages/05-scene-weave/output/<project>/scene-weave-vN.md` (highest N; for a series, the episode's file; in draft-in mode, omit if never built) | the scene list and strands | which scenes, in what order, doing which job |
+| 4 | `stages/02-characters/output/<project>/cast-vN.md` (highest N; in draft-in mode, omit if never built) | the cast sheet (wants, flaws, levers, never says) and the care plan | who wants what; how care is built |
+| 4 | `stages/03-world-and-symbols/output/<project>/world-vN.md` (highest N; in draft-in mode, omit if never built) | the places, the surplus, what each group leaves unsaid, the symbols | where, and what the world does meanwhile |
+| 4 | `stages/04-plot/output/<project>/plot-vN.md` (highest N; in draft-in mode, omit if never built) | the reveals and the knowledge positions | what the audience knows in each scene |
+| 4 | `stages/01-brief-and-premise/output/<project>/brief-vN.md` (highest N; draft-in mode only) | rules, avoid list, and the voice and preservation record | limits on what may change (`stages/how-stages-work.md`, section 2) |
+| 4 | `draft-vN` (draft-in mode only: in stage 06's or stage 07's output folder, including split files) | all, standing in for any missing earlier planning output | what the draft already establishes (`stages/how-stages-work.md`, section 2) |
+| 3 | `_config/writer.md` | questions 1, 2, 4 and 14 | medium, length, voice, spoiler-free mode |
 | 3 | `stages/how-stages-work.md` | all | the shared rules |
 | 3 (a record) | `stages/owner-edits.md` | rows for stage 06 | patterns in the writer's edits |
 | 3 | `stages/06-scenes/references/drafting-scenes.md` | all | action now and talk in stage 07; which of McKee's five steps this stage writes; the output's shape |
@@ -26,7 +28,7 @@ The rules every stage shares are in `stages/how-stages-work.md`, and are not rep
 
 ## Process
 
-1. **Read the project log, and the scene list, cast, world and plot** for the scenes being drafted (a whole work, or one act or episode at a time), and record any edits the writer made to them since they were handed over (`stages/how-stages-work.md`, section 8).
+1. **Read the project log, and the scene list, cast, world and plot** for the scenes being drafted (a whole work, or one act or episode at a time), and record any edits the writer made to them since they were handed over (`stages/how-stages-work.md`, section 8). In **draft-in mode**, follow `stages/how-stages-work.md`, section 2, reading `brief-vN.md` and `draft-vN` in place of any missing earlier planning outputs and updating only the scenes the brief opens to revision.
 2. **For each scene, fill the scene card,** with the value's charge at start and end (reference, section 2).
 3. **Draft the scene as action,** beat by beat, writing the first four of McKee's five steps for each beat, and marking each line of talk by its move (reference, sections 1 and 2).
 4. **Test each scene** with `hard-to-vary`'s remove test, lightly: what does the story lose without it? (`.claude/skills/hard-to-vary/references/by-domain.md`, section 5.)
@@ -39,7 +41,7 @@ In `stages/06-scenes/output/<project>/`, each part with its marker (`[from: 06 s
 
 ## Verify
 
-In each draft file:
+In each draft file (in draft-in mode, follow `stages/how-stages-work.md`, section 2):
 - **Against the scene list (stage 05):** each scene does the job, and changes the gap, that its row says; no scene is missing or added without a note.
 - **Against the plot (stage 04):** each scene's knowledge position is the one planned; no fact comes out before its place in the reveal order.
 - **Against the cast (stage 02):** each driver's want in the scene serves their want in the story; each character acts within their flaw, values and "never says" column, or the draft marks the surprise and why it is still them (Bond principle 7).

@@ -12,7 +12,7 @@ The workshop does three kinds of work:
 | You want to... | Go to | It reads first |
 |---|---|---|
 | start a new story, or take an idea towards a draft | stage 01 | `stages/01-brief-and-premise/CONTEXT.md` |
-| bring your own premise or draft into the stages | stage 01, which writes a short brief and takes your premise or draft in instead of writing rivals (its step 5) | `stages/01-brief-and-premise/CONTEXT.md` |
+| bring your own premise or draft into the stages | stage 01, which writes a brief (with a voice and preservation record for a draft) and takes your premise or draft in instead of writing rivals (its steps 3 and 5; draft-in mode for a draft) | `stages/01-brief-and-premise/CONTEXT.md` |
 | carry on with a project | its project log, to find where it stands, then the next stage's contract (every stage reads the log first) | `stages/01-brief-and-premise/output/<project>/project-log.md` |
 | work on one part of a project: the cast, the world and its symbols, the plot, the scene list, the scenes, the dialogue | that stage (02 to 07) | the stage's `CONTEXT.md` |
 | get notes on a project's pitches, plan or draft, including one named symptom in it ("the monster feels flat") | stage 08, with a critic for that symptom where there is one, then stage 09 | `stages/08-critique/CONTEXT.md` |
