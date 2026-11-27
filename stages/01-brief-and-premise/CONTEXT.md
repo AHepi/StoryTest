@@ -19,6 +19,7 @@ Load these, and nothing else. *Layer 3* is reference, to follow as rules; *Layer
 | 3 | `stages/how-stages-work.md` | all | the shared rules |
 | 3 (a record) | `stages/owner-edits.md` | rows for stage 01 | patterns in the writer's edits |
 | 3 | `stages/01-brief-and-premise/references/premise-worksheet.md` | all | the order of work, the brief, the card |
+| 3 | `stages/09-revision/scripts/apply_exact_edits.py` (draft-in mode, prose drafts only) | run with `--count` via python3 | measuring story-text-only paragraph counts from `draft-v1` (worksheet, section 2) |
 | 3 | `CLAUDE.md` | the line on taking a request from the owner | saying the request back |
 | 3 | `.claude/skills/plot/references/premise-and-theme.md` | sections 1 to 7 and 9 | premise line, claim, the world's question, designing principle, the final choice, who learns what, the rivals |
 | 3 | `.claude/skills/plot/references/structure-and-conflict.md` | section 2 | the seven jobs, for the chosen premise |
